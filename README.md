@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bones
 __A Lightweight Wordpress Development Theme__
 
@@ -28,3 +29,6 @@ __[WTFPL](http://sam.zoy.org/wtfpl/)__
 
 ## Meta
 * [Changelog](../../blob/master/CHANGELOG.md)
+=======
+# bauers
+>>>>>>> 30b4af2bb2dd146d9146d42203cabe7134465d4b
