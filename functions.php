@@ -175,4 +175,12 @@ function bones_wpsearch($form) {
 } // don't remove this bracket!
 
 */
+
+// Initialize Child Stylesheet
+function custom_code() {
+	wp_enqueue_style( 'child-stylesheet', get_template_directory_uri() . '/library/css/child.css', array(), '1.0.0', 'all', true );
+	wp_enqueue_script( 'combined-javascript', get_template_directory_uri() . '/library/js/min/app-min.js', array(), '1.0.0', 'all', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'custom_code', 101 );
 ?>
