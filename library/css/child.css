@@ -88,69 +88,67 @@ body {
         font-style: normal;
         font-weight: 600; }
 
-body.home {
-  background: red; }
-  body.home section {
-    padding: 4em 0; }
-    body.home section h1, body.home section h2 {
-      text-align: center; }
-    body.home section h1 {
-      margin-bottom: 2em; }
-    body.home section.light {
-      color: white !important; }
-  body.home .hero {
-    background: url("../images/hero-bg-sample.jpg") 50% 0 fixed no-repeat;
-    background-size: cover;
-    height: 560px; }
-  body.home .faq {
-    background: #f1f1f1; }
-  body.home .testimonials .thumbnail {
-    position: relative;
-    height: 150px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: 10px;
-    border-radius: 100px; }
-  body.home .testimonials h1 {
-    margin-bottom: 40px; }
-    body.home .testimonials h1 i {
-      font-size: 0.8em;
-      margin: 0 8px 0 4px; }
-  body.home .testimonials h2 {
-    font-weight: normal;
-    font-size: 18px;
-    margin: 0 0 20px; }
-  body.home .testimonials blockquote {
-    display: inline-block;
-    position: relative;
-    border-radius: 2px;
-    padding: 15px 20px;
-    font-family: Georgia, serif;
-    font-style: italic;
-    color: #212121;
-    border: none;
-    font-size: 18px;
-    line-height: 1.5;
-    margin: 0 0 20px 0;
-    clear: both; }
-    body.home .testimonials blockquote:before {
-      content: "“";
+body.home section {
+  padding: 4em 0; }
+  body.home section h1, body.home section h2 {
+    text-align: center; }
+  body.home section h1 {
+    margin-bottom: 2em; }
+  body.home section.light {
+    color: white !important; }
+body.home .hero {
+  background: url("../images/hero-bg-sample.jpg") 50% 0 fixed no-repeat;
+  background-size: cover;
+  height: 560px; }
+body.home .faq {
+  background: #f1f1f1; }
+body.home .testimonials .thumbnail {
+  position: relative;
+  height: 150px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 100px; }
+body.home .testimonials h1 {
+  margin-bottom: 40px; }
+  body.home .testimonials h1 i {
+    font-size: 0.8em;
+    margin: 0 8px 0 4px; }
+body.home .testimonials h2 {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0 0 20px; }
+body.home .testimonials blockquote {
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+  padding: 15px 20px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #212121;
+  border: none;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+  clear: both; }
+  body.home .testimonials blockquote:before {
+    content: "“";
+    display: block;
+    position: absolute;
+    font-size: 40px;
+    left: 0;
+    top: 0; }
+  body.home .testimonials blockquote small {
+    margin-top: 10px;
+    font-size: 17px;
+    white-space: nowrap;
+    font-style: normal;
+    font-family: "Proxima Nova", sans-serif;
+    color: #212121; }
+    body.home .testimonials blockquote small strong {
       display: block;
-      position: absolute;
-      font-size: 40px;
-      left: 0;
-      top: 0; }
-    body.home .testimonials blockquote small {
-      margin-top: 10px;
-      font-size: 17px;
-      white-space: nowrap;
-      font-style: normal;
-      font-family: "Proxima Nova", sans-serif;
+      white-space: normal;
       color: #212121; }
-      body.home .testimonials blockquote small strong {
-        display: block;
-        white-space: normal;
-        color: #212121; }
-    body.home .testimonials blockquote img {
-      height: 20px;
-      width: auto; }
+  body.home .testimonials blockquote img {
+    height: 20px;
+    width: auto; }
