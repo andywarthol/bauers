@@ -46,7 +46,7 @@
 				<header class="header" role="banner">
 
 					<nav role="navigation">
-						<div class="navbar navbar-inverse navbar-fixed-top">
+						<div class="navbar navbar-default navbar-fixed-top">
 							<div class="container">
 								<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 								<div class="navbar-header">
@@ -60,9 +60,16 @@
 
 								</div>
 
-								<div class="navbar-collapse collapse navbar-responsive-collapse">
-									<?php bones_main_nav(); ?>
+								<nav class="pull-right telephone">
+									<ul class="nav navbar-nav">
+										<li>
+											Call us at <em>1-800-546-6688</em>
+										</li>
+									</ul>
+								</nav>
 
+								<div class="navbar-collapse collapse navbar-responsive-collapse pull-right">
+									<?php bones_main_nav(); ?>
 								</div>
 							</div>
 						</div> 

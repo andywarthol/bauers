@@ -1,5 +1,156 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700");
+h1, h2, h3, h4, h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100; }
+
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.6; }
+
 body {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  padding-top: 108px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px; }
+
+.btn {
+  border-radius: 0; }
+  .btn i {
+    font-size: 0.65em;
+    top: 0; }
+
+.btn-primary {
+  background: #00973d; }
+
+.flat {
+  margin: 0; }
+
+.panel-group .panel {
+  border-radius: 2px;
+  margin-bottom: 1em;
+  box-shadow: none; }
+  .panel-group .panel .panel-heading {
+    background: white;
+    border: none; }
+    .panel-group .panel .panel-heading .panel-title {
+      padding: 4px 0; }
+      .panel-group .panel .panel-heading .panel-title a {
+        font-size: 1em;
+        line-height: 1.5; }
+        .panel-group .panel .panel-heading .panel-title a .glyphicon {
+          color: #666;
+          font-size: 0.75em;
+          margin-right: 10px; }
+        .panel-group .panel .panel-heading .panel-title a .glyphicon-minus {
+          display: inline-block; }
+        .panel-group .panel .panel-heading .panel-title a .glyphicon-plus {
+          display: none; }
+        .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-plus {
+          display: inline-block; }
+        .panel-group .panel .panel-heading .panel-title a.collapsed .glyphicon-minus {
+          display: none; }
+  .panel-group .panel .panel-collapse .panel-body {
+    border-top: 1px dotted #efefef;
+    background: white;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 15px 15px; }
+    .panel-group .panel .panel-collapse .panel-body p {
+      margin-bottom: 0;
+      font-weight: normal; }
+
+.navbar-default {
+  height: 108px;
+  background: white;
+  border: none; }
+  .navbar-default .navbar-header .navbar-brand {
+    text-indent: -9999px;
+    width: 180px;
+    height: 98px;
+    background: url("../images/bauers-it-logo-2x.png") center center no-repeat;
+    background-size: 150px 73px; }
+  .navbar-default .navbar-collapse {
+    margin: 48px 0 10px; }
+    .navbar-default .navbar-collapse .navbar-nav li a {
+      color: #444444;
+      padding: 15px 20px;
+      border-radius: 40px; }
+      .navbar-default .navbar-collapse .navbar-nav li a:hover {
+        background: rgba(0, 0, 0, 0.02); }
+  .navbar-default .telephone {
+    margin: 48px 0 10px; }
+    .navbar-default .telephone .navbar-nav li {
+      padding: 15px 20px;
+      color: #444444; }
+      .navbar-default .telephone .navbar-nav li em {
+        font-style: normal;
+        font-weight: 600; }
 
 body.home {
-  display: block; }
+  background: red; }
+  body.home section {
+    padding: 4em 0; }
+    body.home section h1, body.home section h2 {
+      text-align: center; }
+    body.home section h1 {
+      margin-bottom: 2em; }
+    body.home section.light {
+      color: white !important; }
+  body.home .hero {
+    background: url("../images/hero-bg-sample.jpg") 50% 0 fixed no-repeat;
+    background-size: cover;
+    height: 560px; }
+  body.home .faq {
+    background: #f1f1f1; }
+  body.home .testimonials .thumbnail {
+    position: relative;
+    height: 150px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 100px; }
+  body.home .testimonials h1 {
+    margin-bottom: 40px; }
+    body.home .testimonials h1 i {
+      font-size: 0.8em;
+      margin: 0 8px 0 4px; }
+  body.home .testimonials h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0 0 20px; }
+  body.home .testimonials blockquote {
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #212121;
+    border: none;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    clear: both; }
+    body.home .testimonials blockquote:before {
+      content: "“";
+      display: block;
+      position: absolute;
+      font-size: 40px;
+      left: 0;
+      top: 0; }
+    body.home .testimonials blockquote small {
+      margin-top: 10px;
+      font-size: 17px;
+      white-space: nowrap;
+      font-style: normal;
+      font-family: "Proxima Nova", sans-serif;
+      color: #212121; }
+      body.home .testimonials blockquote small strong {
+        display: block;
+        white-space: normal;
+        color: #212121; }
+    body.home .testimonials blockquote img {
+      height: 20px;
+      width: auto; }

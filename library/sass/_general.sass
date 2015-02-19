@@ -1,2 +1,83 @@
+// Colors
+$black: #212121
+$midGrey: #444444
+$lightGrey: #f1f1f1
+$link: #239ae5
+$green: #00973d
+
+
+// Global Variables
+$navbarHeight: 108px
+
+// Typography
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700')
+$font: 'Open Sans', sans-serif
+
+h1, h2, h3, h4, h5
+	font-family: $font
+	font-weight: 100
+p
+	font-size: 1em
+	margin-bottom: 1.5em
+	line-height: 1.6
+
 body
 	-webkit-font-smoothing: antialiased
+	padding-top: $navbarHeight
+	font-family: $font
+	font-size: 16px
+
+// Buttons
+.btn
+	border-radius: 0
+	i
+		font-size: .65em
+		top: 0
+.btn-primary
+	background: $green
+
+// Layout
+.flat
+	margin: 0
+
+// Accordions
+.panel-group
+	.panel
+		border-radius: 2px
+		margin-bottom: 1em
+		box-shadow: none
+		.panel-heading
+			background: white
+			border: none
+			.panel-title
+				padding: 4px 0
+				a
+					font-size: 1em
+					line-height: 1.5
+					.glyphicon
+						color: #666
+						font-size: .75em
+						margin-right: 10px
+					.glyphicon-minus
+						display: inline-block
+					.glyphicon-plus
+						display: none
+					&.collapsed
+						.glyphicon-plus
+							display: inline-block
+						.glyphicon-minus
+							display: none
+		.panel-collapse
+			.panel-body
+				border-top: 1px dotted #efefef
+				background: white
+				font-size: 14px
+				line-height: 1.6
+				padding: 10px 15px 15px
+				p
+					margin-bottom: 0
+					font-weight: normal
+
+			&.in
+				.panel-body
+					// border-top: 1px solid $ash

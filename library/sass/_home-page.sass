@@ -1,2 +1,68 @@
 body.home
-	display: block
+	background: red
+	section
+		padding: 4em 0
+		h1, h2
+			text-align: center
+		h1
+			margin-bottom: 2em
+		&.light
+			color: white!important
+	.hero
+		background: url('../images/hero-bg-sample.jpg') 50% 0 fixed no-repeat
+		background-size: cover
+		height: 560px
+	.faq
+		background: $lightGrey
+	.testimonials
+		.thumbnail
+			position: relative
+			height: 150px
+			width: auto
+			display: inline-block
+			margin-bottom: 10px
+			border-radius: 100px
+		h1
+			margin-bottom: 40px
+			i
+				font-size: .8em
+				margin: 0 8px 0 4px
+		h2
+			font-weight: normal
+			font-size: 18px
+			margin: 0 0 20px
+		blockquote
+			display: inline-block
+			// max-width: 90%
+			position: relative
+			border-radius: 2px
+			padding: 15px 20px
+			font-family: Georgia, serif
+			font-style: italic
+			color: $black
+			border: none
+			font-size: 18px
+			line-height: 1.5
+			margin: 0 0 20px 0
+			clear: both
+			&:before
+				content: '“'
+				display: block
+				position: absolute
+				font-size: 40px
+				left: 0
+				top: 0
+			small
+				margin-top: 10px
+				font-size: 17px
+				white-space: nowrap
+				font-style: normal
+				font-family: 'Proxima Nova', sans-serif
+				color: $black
+				strong
+					display: block
+					white-space: normal
+					color: $black
+			img
+				height: 20px
+				width: auto
