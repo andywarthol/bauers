@@ -63,7 +63,7 @@
 								<nav class="pull-right telephone">
 									<ul class="nav navbar-nav">
 										<li>
-											Call us at <em>1-800-546-6688</em>
+											Give us a call: <em>1-800-546-6688</em>
 										</li>
 									</ul>
 								</nav>

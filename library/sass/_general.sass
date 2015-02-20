@@ -7,7 +7,7 @@ $green: #00973d
 
 
 // Global Variables
-$navbarHeight: 108px
+$navbarHeight: 88px
 
 // Typography
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700')
@@ -35,6 +35,28 @@ body
 		top: 0
 .btn-primary
 	background: $green
+	border-color: $green
+	text-transform: uppercase
+	font-weight: bold
+	&.btn-lg
+		font-size: 15px
+		padding: 14px 40px
+
+
+// Forms
+form
+	.form-control
+		border-radius: 0
+		border-color: 1px solid #dadada
+		box-shadow: none
+		color: $black
+	select.form-control
+		-webkit-appearance: none
+		background: white url('../images/dd-arrow.jpg') 95% 10px no-repeat
+		background-size: 8px 12px
+		border: 1px solid #dadada
+		border-radius: 0
+		color: #999
 
 // Layout
 .flat

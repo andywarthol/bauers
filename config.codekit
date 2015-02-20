@@ -2946,6 +2946,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/bauers-it-logo-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20270,
+		"inputAbbreviatedPath": "\/library\/images\/bauers-it-logo-2x.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bauers-it-logo-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/bauers-it-logo-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2968,6 +2979,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/beautiful-road-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326086,
+		"inputAbbreviatedPath": "\/library\/images\/beautiful-road-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/beautiful-road-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/beautiful-road.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 436791,
+		"inputAbbreviatedPath": "\/library\/images\/beautiful-road.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/beautiful-road.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/blue-bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138839,
+		"inputAbbreviatedPath": "\/library\/images\/blue-bridge.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/blue-bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/coca-cola-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4882,
+		"inputAbbreviatedPath": "\/library\/images\/coca-cola-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/coca-cola-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/custom-post-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2975,6 +3030,17 @@
 		"initialSize": 462,
 		"inputAbbreviatedPath": "\/library\/images\/custom-post-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/custom-post-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/dd-arrow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1177,
+		"inputAbbreviatedPath": "\/library\/images\/dd-arrow.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/dd-arrow.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2990,6 +3056,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/hero-bg-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114873,
+		"inputAbbreviatedPath": "\/library\/images\/hero-bg-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hero-bg-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/hero-bg-sample.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3001,6 +3078,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/hero-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102840,
+		"inputAbbreviatedPath": "\/library\/images\/hero-bg.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/hp-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10331,
+		"inputAbbreviatedPath": "\/library\/images\/hp-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hp-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/linkedin-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3301,
+		"inputAbbreviatedPath": "\/library\/images\/linkedin-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/linkedin-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/live-nation-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7310,
+		"inputAbbreviatedPath": "\/library\/images\/live-nation-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/live-nation-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/login-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3008,6 +3129,61 @@
 		"initialSize": 7019,
 		"inputAbbreviatedPath": "\/library\/images\/login-logo.png",
 		"outputAbbreviatedPath": "\/library\/images\/login-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/pge-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4026,
+		"inputAbbreviatedPath": "\/library\/images\/pge-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/pge-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/pink-bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148359,
+		"inputAbbreviatedPath": "\/library\/images\/pink-bridge.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/pink-bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/twin-peaks-bend.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361682,
+		"inputAbbreviatedPath": "\/library\/images\/twin-peaks-bend.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/twin-peaks-bend.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/twin-peaks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 463560,
+		"inputAbbreviatedPath": "\/library\/images\/twin-peaks.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/twin-peaks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/twitter-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3138,
+		"inputAbbreviatedPath": "\/library\/images\/twitter-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/twitter-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4114,6 +4290,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/README.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

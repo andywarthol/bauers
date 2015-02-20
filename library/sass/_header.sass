@@ -2,31 +2,40 @@
 	height: $navbarHeight
 	background: white
 	border: none
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .25)
 	.navbar-header
 		.navbar-brand
 			text-indent: -9999px
-			width: 180px
+			width: 150px
 			height: $navbarHeight - 10px
-			background: url('../images/bauers-it-logo-2x.png') center center no-repeat
-			background-size: 150px 73px
+			background: url('../images/bauers-it-logo-2x.jpg') center center no-repeat
+			background-size: 120px auto
 	.navbar-collapse
-		margin: 48px 0 10px
+		margin: 20px 0 10px
 		.navbar-nav
 			li
 				a
 					color: $midGrey
+					font-size: 15px
 					padding: 15px 20px
 					border-radius: 40px
+					font-weight: normal
 					&:hover
 						background: rgba(0, 0, 0, .02)
 	.telephone
-		margin: 48px 0 10px
+		margin: 0
 		.navbar-nav
+			margin: 0
 			li
 				padding: 15px 20px
 				color: $midGrey
+				font-size: 13px
+				text-align: center
 				em
 					font-style: normal
-					font-weight: 600
+					font-weight: bold
+					color: $green
+					display: block
+					font-size: 19px
 
 
