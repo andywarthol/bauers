@@ -63,7 +63,7 @@
 								<nav class="pull-right telephone">
 									<ul class="nav navbar-nav">
 										<li>
-											Give us a call: <em>1-800-546-6688</em>
+											Get a Free Quote: <em>1-800-546-6688</em>
 										</li>
 									</ul>
 								</nav>

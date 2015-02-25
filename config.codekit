@@ -2836,6 +2836,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/home-page-modal.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/home-page-modal.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/home-page.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2968,6 +2977,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/bauers-it-logo-better.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122746,
+		"inputAbbreviatedPath": "\/library\/images\/bauers-it-logo-better.png",
+		"outputAbbreviatedPath": "\/library\/images\/bauers-it-logo-better.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/bauers-it-logo-new-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2997,6 +3017,17 @@
 		"initialSize": 436791,
 		"inputAbbreviatedPath": "\/library\/images\/beautiful-road.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/beautiful-road.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/blue-bridge-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200654,
+		"inputAbbreviatedPath": "\/library\/images\/blue-bridge-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/blue-bridge-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3041,6 +3072,28 @@
 		"initialSize": 1177,
 		"inputAbbreviatedPath": "\/library\/images\/dd-arrow.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/dd-arrow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/down-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1547,
+		"inputAbbreviatedPath": "\/library\/images\/down-arrow.png",
+		"outputAbbreviatedPath": "\/library\/images\/down-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/ea-games-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7769,
+		"inputAbbreviatedPath": "\/library\/images\/ea-games-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/ea-games-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3100,6 +3153,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/levis-stadium-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6484,
+		"inputAbbreviatedPath": "\/library\/images\/levis-stadium-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/levis-stadium-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/linkedin-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3129,6 +3193,17 @@
 		"initialSize": 7019,
 		"inputAbbreviatedPath": "\/library\/images\/login-logo.png",
 		"outputAbbreviatedPath": "\/library\/images\/login-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/logo-flat-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 419719,
+		"inputAbbreviatedPath": "\/library\/images\/logo-flat-2x.png",
+		"outputAbbreviatedPath": "\/library\/images\/logo-flat-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
