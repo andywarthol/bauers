@@ -9,7 +9,7 @@ Template Name: Press
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
-				<h2 class="text-center">Don't just get there, make <em>IT</em> an experience.</h2>
+				<h2 class="text-center">We make headlines.</h2>
 			</div>
 		</div>
 	</div>
@@ -17,7 +17,7 @@ Template Name: Press
 <section class="press-hits">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-11 col-md-12">
+			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-3 ">
 						<div class="widget">
@@ -61,7 +61,7 @@ Template Name: Press
 <section class="press-releases">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-11 col-md-12">
+			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-9 col-sm-offset-3">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -79,7 +79,7 @@ Template Name: Press
 							foreach( $myposts as $post ) :  setup_postdata($post);
 						?>
 						<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix row' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-							<div class="col-sm-2">
+							<div class="col-sm-2 text-center">
 								<span class="date"><?php the_field('date'); ?></span>
 							</div>
 							<div class="col-sm-10">

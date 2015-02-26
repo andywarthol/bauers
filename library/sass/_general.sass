@@ -6,6 +6,9 @@ $link: #239ae5
 $green: #00973d
 $blue: #0094d2
 
+$blueGreenGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg,#ABC283 10%,#00596E 90%)
+$blueGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#333333,#555555 90%)
+$darkGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#333333,#555555 90%)
 
 // Global Variables
 $navbarHeight: 88px
@@ -19,6 +22,10 @@ h1, h2, h3, h4, h5
 	font-weight: 100
 	line-height: 1.3
 	margin-top: 0
+	a
+		&:hover
+			text-decoration: none
+			color: darken($blue, 20%)
 p
 	font-size: 1em
 	margin-bottom: 1.5em

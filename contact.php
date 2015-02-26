@@ -31,16 +31,17 @@ Template Name: Contact
 					</div>
 					<div class="col-sm-6">
 						<div class="google-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12614.742836221516!2d-122.38716!3d37.773967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43f71d878b4ae770!2sBauer&#39;s+Intelligent+Transportation!5e0!3m2!1sen!2sus!4v1424976017685" width="600" height="450" frameborder="0" style="border:0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12614.742836221516!2d-122.38716!3d37.773967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43f71d878b4ae770!2sBauer&#39;s+Intelligent+Transportation!5e0!3m2!1sen!2sus!4v1424976017685" width="600" height="500" frameborder="0" style="border:0"></iframe>
 						</div>
 						<address class="pull-right text-right">
-							<span>Bauer's Intelligent Transportation</span>
+							<span><strong>Bauer's Intelligent Transportation</strong></span>
 							<span>50 Pier</span>
 							<span>San Francisco, CA</span>
 							<span>94158-2193</span>
 						</address>
 					</div>
 				</div>
+				<hr>
 				<div class="row">
 					<div class="col-sm-12">
 						<h3 class="text-center">Regulatory License Information</h3>
