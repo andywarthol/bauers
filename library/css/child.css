@@ -2,7 +2,9 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700");
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", sans-serif;
-  font-weight: 100; }
+  font-weight: 100;
+  line-height: 1.3;
+  margin-top: 0; }
 
 p {
   font-size: 1em;
@@ -16,20 +18,34 @@ body {
   font-size: 16px; }
 
 .btn {
-  border-radius: 0; }
+  border-radius: 0;
+  border: none; }
   .btn i {
     font-size: 0.65em;
     top: 0; }
 
-.btn-primary {
-  background: #00973d;
-  border-color: #00973d;
+.btn-lg {
+  font-size: 17px;
+  padding: 16px 40px;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: none; }
-  .btn-primary.btn-lg {
-    font-size: 17px;
-    padding: 16px 40px; }
+
+.btn-primary {
+  background: #00973d;
+  border-color: #00973d;
+  text-shadow: none; }
+  .btn-primary:hover {
+    background: #00a141; }
+
+.btn-default {
+  background: transparent;
+  border: 2px solid white;
+  color: white; }
+  .btn-default:hover {
+    background: white;
+    color: #0094d2;
+    border-color: white; }
 
 form .form-control {
   border-radius: 0;
@@ -43,6 +59,10 @@ form select.form-control {
   border: 1px solid #dadada;
   border-radius: 0;
   color: #999; }
+
+.img-thumbnail {
+  border-radius: 2px;
+  border-color: #efefef; }
 
 .flat {
   margin: 0; }
@@ -345,7 +365,7 @@ body.home .benefits hr {
 body.home .faq {
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.2)), -webkit-linear-gradient(108deg, #ABC283 10%, #00596E 90%); }
 body.home .testimonials {
-  background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #0088BA, #006b98 90%); }
+  background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
   body.home .testimonials .thumbnail {
     position: relative;
     height: 130px;
@@ -367,14 +387,14 @@ body.home .testimonials {
     display: inline-block;
     position: relative;
     border-radius: 2px;
-    padding: 15px 20px;
+    padding: 0 20px 15px;
     font-family: Georgia, serif;
     font-style: italic;
     color: white;
     border: none;
     font-size: 16px;
     line-height: 1.5;
-    margin: -20px 0 20px 0;
+    margin: 0 0 30px;
     clear: both; }
     body.home .testimonials blockquote:before {
       content: "“";
@@ -398,3 +418,75 @@ body.home .testimonials {
     body.home .testimonials blockquote img {
       height: 20px;
       width: auto; }
+
+.widget {
+  background: #f1f1f1;
+  width: 100%; }
+
+section {
+  padding: 2em 0; }
+
+.page-title {
+  margin: 0 0 30px; }
+
+.light {
+  color: white; }
+
+.microhero {
+  padding: 0;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .microhero h2, .microhero h1 {
+    font-size: 48px;
+    line-height: 300px;
+    margin: 0; }
+
+.press-hits article {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1; }
+  .press-hits article h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: normal; }
+    .press-hits article h2 small {
+      margin-left: 10px;
+      font-size: 14px; }
+  .press-hits article p {
+    font-size: 14px;
+    margin: 0; }
+  .press-hits article img {
+    border: none; }
+
+.press-releases {
+  padding-top: 0; }
+  .press-releases article {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1; }
+  .press-releases .date {
+    display: block;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #999; }
+
+.contact .google-map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px; }
+  .contact .google-map iframe {
+    background: white;
+    padding: 6px;
+    position: absolute;
+    border: 1px solid #ddd !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important; }
+.contact address span {
+  display: block;
+  margin-bottom: 5px; }

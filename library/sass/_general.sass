@@ -4,6 +4,7 @@ $midGrey: #444444
 $lightGrey: #f1f1f1
 $link: #239ae5
 $green: #00973d
+$blue: #0094d2
 
 
 // Global Variables
@@ -16,6 +17,8 @@ $font: 'Open Sans', sans-serif
 h1, h2, h3, h4, h5
 	font-family: $font
 	font-weight: 100
+	line-height: 1.3
+	margin-top: 0
 p
 	font-size: 1em
 	margin-bottom: 1.5em
@@ -30,19 +33,30 @@ body
 // Buttons
 .btn
 	border-radius: 0
+	border: none
 	i
 		font-size: .65em
 		top: 0
-.btn-primary
-	background: $green
-	border-color: $green
+.btn-lg
+	font-size: 17px
+	padding: 16px 40px
 	text-transform: uppercase
 	font-weight: bold
 	text-shadow: none
-	&.btn-lg
-		font-size: 17px
-		padding: 16px 40px
-
+.btn-primary
+	background: $green
+	border-color: $green
+	text-shadow: none
+	&:hover
+		background: lighten($green, 2%)
+.btn-default
+	background: transparent
+	border: 2px solid white
+	color: white
+	&:hover
+		background: white
+		color: $blue
+		border-color: white
 
 // Forms
 form
@@ -59,6 +73,10 @@ form
 		border-radius: 0
 		color: #999
 
+// Media
+.img-thumbnail
+	border-radius: 2px
+	border-color: #efefef
 // Layout
 .flat
 	margin: 0

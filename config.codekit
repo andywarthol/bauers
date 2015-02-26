@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/about.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/archive-custom_type.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3043,6 +3052,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/boarding-bus-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79184,
+		"inputAbbreviatedPath": "\/library\/images\/boarding-bus-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/boarding-bus-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/coca-cola-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3153,6 +3173,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/lct-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8642,
+		"inputAbbreviatedPath": "\/library\/images\/lct-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/lct-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/levis-stadium-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3208,6 +3239,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/new-york-times-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9356,
+		"inputAbbreviatedPath": "\/library\/images\/new-york-times-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/new-york-times-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/pge-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3226,6 +3268,28 @@
 		"initialSize": 148359,
 		"inputAbbreviatedPath": "\/library\/images\/pink-bridge.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/pink-bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/sf-business-times-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14916,
+		"inputAbbreviatedPath": "\/library\/images\/sf-business-times-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/sf-business-times-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/sunset-bus-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75624,
+		"inputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3270,6 +3334,17 @@
 		"initialSize": 8048,
 		"inputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/wine-tour-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91023,
+		"inputAbbreviatedPath": "\/library\/images\/wine-tour-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/wine-tour-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4365,6 +4440,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/press.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/press.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

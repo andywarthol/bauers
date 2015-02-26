@@ -62,7 +62,7 @@ Template Name: Home Page
 				</div>
 			</div>
 		</div>
-		<a class="down-arrow scroll" href="#features"></a>
+		<a class="down-arrow scroll" href="#services"></a>
 	</div>
 </section>
 <section class="logos lightGrey">
@@ -82,7 +82,7 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-<section class="features" id="features">
+<section class="features" id="services">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
@@ -109,7 +109,7 @@ Template Name: Home Page
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">Weddings</a></h2>
+						    			<h2><a href="#">City Tours</a></h2>
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
 						    		</div>
 						    	</div>
@@ -133,16 +133,6 @@ Template Name: Home Page
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
 						    		</div>
 						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">City Tours</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">Private Parties</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
-						    		</div>
-						    	</div>
 						    </div>
 						    <div role="tabpanel" class="tab-pane fade" id="commuters">...</div>
 						    <div role="tabpanel" class="tab-pane fade" id="events">...</div>
@@ -159,7 +149,7 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-<section class="testimonials light">
+<section class="testimonials light" id="testimonials">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -178,6 +168,11 @@ Template Name: Home Page
       <?php endwhile; ?>
     </div>
   	<?php endif; ?>
+  	<div class="row">
+			<div class="col-sm-12 text-center">
+				<a href="#" class="btn btn-lg btn-default">Get a free quote</a>
+			</div>
+		</div>
 	</div>
 </section>
 <section class="benefits">
@@ -290,8 +285,9 @@ Template Name: Home Page
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 
-		$('.scroll').smoothScroll({
-			offset: -60
+		$('.scroll, .scroll a').smoothScroll({
+			offset: -60,
+			easing: 'swing'
 		});
 	});
 </script>
