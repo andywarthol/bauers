@@ -80,7 +80,8 @@ form select.form-control {
       .panel-group .panel .panel-heading .panel-title a {
         font-size: 1em;
         line-height: 1.5;
-        text-shadow: none; }
+        text-shadow: none;
+        font-weight: normal; }
         .panel-group .panel .panel-heading .panel-title a .glyphicon {
           color: #666;
           font-size: 0.75em;
@@ -113,10 +114,10 @@ form select.form-control {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
   .navbar-default .navbar-header .navbar-brand {
     text-indent: -9999px;
-    width: 150px;
+    width: 180px;
     height: 78px;
-    background: url("../images/bauers-it-logo-better.png") center center no-repeat;
-    background-size: 120px auto; }
+    background: url("../images/bauers-logo-flat-2x.png") center 18px no-repeat;
+    background-size: 150px auto; }
   .navbar-default .navbar-collapse {
     margin: 20px 0 10px; }
     .navbar-default .navbar-collapse .navbar-nav li a {
@@ -127,6 +128,8 @@ form select.form-control {
       font-weight: normal; }
       .navbar-default .navbar-collapse .navbar-nav li a:hover {
         background: rgba(0, 0, 0, 0.02); }
+    .navbar-default .navbar-collapse .navbar-nav li.active a {
+      background: transparent; }
   .navbar-default .telephone {
     margin: 0; }
     .navbar-default .telephone .navbar-nav {

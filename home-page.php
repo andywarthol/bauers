@@ -16,6 +16,7 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6 col-lg-5">
 						<div class="card">
+							<?php /*echo do_shortcode('[formidable id=6]'); ?>*/ ?>
 							<form action="">
 								<legend>Get a Quote<small>We'll get back to you in 24 hours</small></legend>
 								<fieldset>
@@ -56,7 +57,7 @@ Template Name: Home Page
 										<button class="btn btn-lg btn-primary btn-block">Get a quote &rarr;</button>
 									</div>
 								</fieldset>
-							</form>
+							</form> 
 						</div>
 					</div>
 				</div>

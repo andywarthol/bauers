@@ -20,9 +20,9 @@ Template Name: About
 			<div class="col-lg-10 col-md-12">
 				<div class="row">
 					<div class="col-sm-3 ">
-						<div class="sidebar">
-							<ul class="">
-								<?php wp_list_pages('sort_column=menu_order&exclude=44&title_li=&child_of=27&link_before=<i class="glyphicon glyphicon-chevron-right"></i>'); ?>
+						<div class="widget">
+							<ul class="list-unstyled">
+								<?php wp_list_pages('sort_column=menu_order&include=33,27&title_li'); ?>
 							</ul>
 						</div>
 					</div>

@@ -2798,6 +2798,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/contact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3004,6 +3013,28 @@
 		"initialSize": 45692,
 		"inputAbbreviatedPath": "\/library\/images\/bauers-it-logo-new-2x.png",
 		"outputAbbreviatedPath": "\/library\/images\/bauers-it-logo-new-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/bauers-logo-flat-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10087,
+		"inputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/bauers-logo-flat-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20835,
+		"inputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.png",
+		"outputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3279,6 +3310,17 @@
 		"initialSize": 14916,
 		"inputAbbreviatedPath": "\/library\/images\/sf-business-times-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/sf-business-times-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/sf-waterfront-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121016,
+		"inputAbbreviatedPath": "\/library\/images\/sf-waterfront-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/sf-waterfront-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
