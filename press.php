@@ -8,8 +8,8 @@ Template Name: Press
 <section class="microhero light" style="background-image: url('<?php the_field('background_image'); ?>');">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<h2 class="text-center">We make headlines.</h2>
+			<div class="col-sm-12">
+				<h2 class="text-center">Award-winning Service &amp; Innovation.</h2>
 			</div>
 		</div>
 	</div>
@@ -17,17 +17,12 @@ Template Name: Press
 <section class="press-hits">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-10 col-md-12">
+			<div class="col-sm-12">
 				<div class="row">
 					<div class="col-sm-3 ">
-						<div class="widget">
-							<ul class="list-unstyled">
-								<?php wp_list_pages('sort_column=menu_order&include=33,27&title_li'); ?>
-							</ul>
-						</div>
+						<?php get_sidebar(); ?>
 					</div>
-					<div class="col-sm-9">
-						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+					<div class="col-sm-8">
 						<div class="row">
 							<div class="col-sm-12">
 								<header>
@@ -48,8 +43,6 @@ Template Name: Press
 								<p><?php the_sub_field('excerpt'); ?> <a href="<?php the_sub_field('url'); ?>">More&rarr;</a></p>
 							</div>
 						</article> <!-- end article -->
-						<?php endwhile; ?>
-						<?php endif; ?>
 						<?php endwhile; endif; ?>
 						<?php wp_reset_postdata(); ?>
 					</div>
@@ -61,9 +54,9 @@ Template Name: Press
 <section class="press-releases">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-10 col-md-12">
+			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-9 col-sm-offset-3">
+					<div class="col-sm-8 col-sm-offset-3">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<div class="row">
 							<div class="col-sm-12">

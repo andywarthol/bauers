@@ -2,15 +2,30 @@
 
 				<div class="container">
 
-				<div id="inner-footer" class="wrap clearfix">
+				<div id="inner-footer" class="footer-links clearfix">
 
-					<nav role="navigation">
-							<?php bones_footer_links(); ?>
-					</nav>
-
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<div class="row">
+						<div class="col-sm-3">
+							<h3 class="bucket-title">Services</h3>
+							<?php footer_bucket_1(); ?>
+						</div>
+						<div class="col-sm-3">
+							<h3 class="bucket-title">Company</h3>
+							<?php footer_bucket_2(); ?>
+						</div>
+						<div class="col-sm-3">
+							<h3 class="bucket-title">Environmental Commitment</h3>
+							<?php footer_bucket_3(); ?>
+						</div>
+						<div class="col-sm-3">
+							<h3 class="bucket-title">Sponsorship &amp; Advertising</h3>
+							<?php footer_bucket_4(); ?>
+						</div>
+					</div>
 
 				</div> <!-- end #inner-footer -->
+
+				<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>&nbsp;&nbsp;| <a href="#">Terms &amp; Conditions&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Privacy Policy</a></a></p>
 
 				</div> <!-- end .container -->
 

@@ -30,6 +30,11 @@ body.home
 			margin: 0 0 0 40px
 			background: rgba(0, 0, 0, .35)
 			padding: 10px 20px
+			transition: background .5s ease-in-out
+			&.hot
+				background: rgba(0, 0, 0, .6)
+			.btn-primary
+				padding: 12px
 		legend
 			color: white
 			border: none
@@ -52,19 +57,7 @@ body.home
 			bottom: 20px
 			left: 50%
 			margin-left: -15px
-		.form-group
-			margin-bottom: 6px
-			.btn-primary
-				padding: 12px 40px
-				font-size: 16px
-			.form-control
-				border-color: #333
-				height: 40px
-			.col-sm-6
-				&.left
-					padding-right: 3px
-				&.right
-					padding-left: 3px
+
 
 	.hero-modal
 		box-shadow: inset 0 8px 10px rgba(0, 0, 0, .15)
@@ -170,18 +163,39 @@ body.home
 					font-size: 14px
 					color: $black
 		.tab-pane
-			padding: 20px 30px
+			padding: 40px 30px 30px
 			border: 1px solid #dadada
 			border-top: none
 			background: white
 			margin-bottom: 40px
 			.col-lg-6
-				padding: 0 30px
+				padding: 0 40px
+			.icon
+				display: inline-block
+				width: 22px
+				height: 14px
+				margin: 0 3px 0 0
+				vertical-align: baseline
+				background-size: auto 14px
+				background-repeat: no-repeat
+				background-position: center center
+				&.airplane
+					background-image: url('../images/airplane-icon.jpg')
+				&.car
+					background-image: url('../images/car-icon.jpg')
+				&.binoculars
+					background-image: url('../images/binoculars-icon.jpg')
+				&.snow
+					background-image: url('../images/snow-icon.jpg')
+				&.group
+					background-image: url('../images/cake-icon.jpg')
+				&.wine
+					background-image: url('../images/wine-glass-icon.jpg')
 		h2
 			text-align: left
 			font-weight: bold
 			font-size: 16px
-			margin-bottom: 5px
+			margin-bottom: 0px
 		p
 			font-size: 13px
 

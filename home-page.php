@@ -5,7 +5,7 @@ Template Name: Home Page
 ?>
 
 <?php get_header(); ?>	
-<section class="hero light">
+<section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -17,11 +17,11 @@ Template Name: Home Page
 					<div class="col-sm-6 col-lg-5">
 						<div class="card">
 							<?php /*echo do_shortcode('[formidable id=6]'); ?>*/ ?>
-							<form action="">
+							<form id="intake" class="intake-form" action="">
 								<legend>Get a Quote<small>We'll get back to you in 24 hours</small></legend>
 								<fieldset>
 									<div class="form-group">
-										<select name="service" id="service" class="form-control">
+										<select name="service" id="service" class="form-control" required="">
 											<option value="">Which service would you like?</option>
 											<option value="charter">Charter</option>
 											<option value="commuter">Commuter</option>
@@ -30,31 +30,31 @@ Template Name: Home Page
 									</div>
 									<div class="form-group row">
 										<div class="col-sm-6 left">
-											<input type="text" name="first_name" placeholder="First name" class="form-control">
+											<input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control" required="">
 										</div>
 										<div class="col-sm-6 right">
-											<input type="text" name="last_name" placeholder="Last name" class="form-control">
+											<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
 										</div>
 									</div>
 									<div class="form-group">
-										<input type="email" class="form-control" name="email_address" placeholder="Email address">
+										<input type="email" class="form-control" name="email_address" placeholder="Email address" required="">
 									</div>
 									<div class="form-group">
-										<input type="tel" class="form-control" name="phone_number" placeholder="Phone number">
+										<input type="tel" class="form-control" name="phone_number" placeholder="Phone number" required="">
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control" name="company_name" placeholder="Company name">
+										<input type="text" class="form-control" name="company_name" placeholder="Company name" required="">
 									</div>
 									<div class="form-group row">
 										<div class="col-sm-6 left">
-											<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control">
+											<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
 										</div>
 										<div class="col-sm-6 right">
-											<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control">
+											<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
 										</div>
 									</div>
 									<div class="form-group">
-										<button class="btn btn-lg btn-primary btn-block">Get a quote &rarr;</button>
+										<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 									</div>
 								</fieldset>
 							</form> 
@@ -106,31 +106,31 @@ Template Name: Home Page
 						    <div role="tabpanel" class="tab-pane fade in active" id="charters">
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">Airport Transfers</a></h2>
+						    			<h2><a href="#"><i class="icon airplane"></i>Airport Transfers</a></h2>
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">City Tours</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">Snow Trips</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">Wine Country Tours</a></h2>
+						    			<h2><a href="#"><i class="icon binoculars"></i>City Tours</a></h2>
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">Group Events</a></h2>
+						    			<h2><a href="#"><i class="icon snow"></i>Snow Trips</a></h2>
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#">Black Car Service</a></h2>
+						    			<h2><a href="#"><i class="icon wine"></i>Wine Country Tours</a></h2>
+						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h2><a href="#"><i class="icon group"></i>Group Events</a></h2>
+						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h2><a href="#"><i class="icon car"></i>Black Car Service</a></h2>
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
 						    		</div>
 						    	</div>
@@ -143,7 +143,7 @@ Template Name: Home Page
 				</div>
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<a href="#" class="btn btn-lg btn-primary">Get a free quote</a>
+						<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -171,7 +171,7 @@ Template Name: Home Page
   	<?php endif; ?>
   	<div class="row">
 			<div class="col-sm-12 text-center">
-				<a href="#" class="btn btn-lg btn-default">Get a free quote</a>
+				<a href="#hero" class="btn btn-lg btn-default signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -231,7 +231,7 @@ Template Name: Home Page
 		<br><br>
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<a href="#" class="btn btn-lg btn-primary">Get a free quote</a>
+				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -276,7 +276,7 @@ Template Name: Home Page
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center"><a href="#contact" data-toggle="modal" data-target="#contact" class="btn btn-lg btn-primary">Get started <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+				<p class="text-center"><a href="#hero" class="btn btn-lg btn-default signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 			</div>
 		</div>
 	</div>
@@ -286,10 +286,37 @@ Template Name: Home Page
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 
+		// Smooth Scroll Functionality
 		$('.scroll, .scroll a').smoothScroll({
 			offset: -60,
 			easing: 'swing'
 		});
+
+		$('.signup').smoothScroll({
+			offset: -100,
+			easing: 'swing',
+			afterScroll: function() {
+				setTimeout(function(){
+					$('.card').addClass('hot');
+					$('#service').addClass('hot');
+				}, 150);
+			}
+		});
+
+		$('#service').bind('change click', function(){
+	    if( $(this).val() !== "" ){
+	      $(this).addClass('valid').removeClass('hot');
+	      $('#first_name').focus();
+	    } else {
+	      $(this).removeClass('valid');
+	    }
+		});
+
+		// Form Validation
+		$('#intake').validate({
+
+		});
+
 	});
 </script>
 

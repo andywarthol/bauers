@@ -9,6 +9,12 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     color: #004c6c; }
 
+.bucket-title {
+  color: #999;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase; }
+
 p {
   font-size: 1em;
   margin-bottom: 1.5em;
@@ -38,7 +44,7 @@ body {
   background: #00973d;
   border-color: #00973d;
   text-shadow: none; }
-  .btn-primary:hover {
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #00a141; }
 
 .btn-default {
@@ -54,14 +60,35 @@ form .form-control {
   border-radius: 0;
   border-color: 1px solid #dadada;
   box-shadow: none;
-  color: #212121; }
+  color: #212121;
+  padding: 6px 8px;
+  font-weight: normal; }
 form select.form-control {
   -webkit-appearance: none;
-  background: white url("../images/dd-arrow.jpg") 95% 10px no-repeat;
+  background: white url("../images/dd-arrow.jpg") 97% 13px no-repeat;
   background-size: 8px 12px;
   border: 1px solid #dadada;
   border-radius: 0;
-  color: #999; }
+  color: #999;
+  font-weight: normal; }
+  form select.form-control.hot {
+    border-color: #0094d2;
+    box-shadow: 0 0 15px white;
+    outline: 1px; }
+  form select.form-control.valid {
+    color: #212121; }
+form.intake-form .form-group {
+  margin-bottom: 6px; }
+  form.intake-form .form-group .form-control {
+    border-color: #333;
+    height: 40px; }
+  form.intake-form .form-group .col-sm-6.left {
+    padding-right: 3px; }
+  form.intake-form .form-group .col-sm-6.right {
+    padding-left: 3px; }
+form label.error {
+  font-weight: normal;
+  font-size: 13px; }
 
 .img-thumbnail {
   border-radius: 2px;
@@ -116,6 +143,7 @@ form select.form-control {
   border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
   .navbar-default .navbar-header .navbar-brand {
+    margin-left: 0;
     text-indent: -9999px;
     width: 180px;
     height: 78px;
@@ -179,7 +207,12 @@ body.home .hero {
   body.home .hero .card {
     margin: 0 0 0 40px;
     background: rgba(0, 0, 0, 0.35);
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    transition: background 0.5s ease-in-out; }
+    body.home .hero .card.hot {
+      background: rgba(0, 0, 0, 0.6); }
+    body.home .hero .card .btn-primary {
+      padding: 12px; }
   body.home .hero legend {
     color: white;
     border: none;
@@ -202,18 +235,6 @@ body.home .hero {
     bottom: 20px;
     left: 50%;
     margin-left: -15px; }
-  body.home .hero .form-group {
-    margin-bottom: 6px; }
-    body.home .hero .form-group .btn-primary {
-      padding: 12px 40px;
-      font-size: 16px; }
-    body.home .hero .form-group .form-control {
-      border-color: #333;
-      height: 40px; }
-    body.home .hero .form-group .col-sm-6.left {
-      padding-right: 3px; }
-    body.home .hero .form-group .col-sm-6.right {
-      padding-left: 3px; }
 body.home .hero-modal {
   box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.15);
   padding: 2em 0 2em;
@@ -310,18 +331,39 @@ body.home .features {
       font-size: 14px;
       color: #212121; }
   body.home .features .tab-pane {
-    padding: 20px 30px;
+    padding: 40px 30px 30px;
     border: 1px solid #dadada;
     border-top: none;
     background: white;
     margin-bottom: 40px; }
     body.home .features .tab-pane .col-lg-6 {
-      padding: 0 30px; }
+      padding: 0 40px; }
+    body.home .features .tab-pane .icon {
+      display: inline-block;
+      width: 22px;
+      height: 14px;
+      margin: 0 3px 0 0;
+      vertical-align: baseline;
+      background-size: auto 14px;
+      background-repeat: no-repeat;
+      background-position: center center; }
+      body.home .features .tab-pane .icon.airplane {
+        background-image: url("../images/airplane-icon.jpg"); }
+      body.home .features .tab-pane .icon.car {
+        background-image: url("../images/car-icon.jpg"); }
+      body.home .features .tab-pane .icon.binoculars {
+        background-image: url("../images/binoculars-icon.jpg"); }
+      body.home .features .tab-pane .icon.snow {
+        background-image: url("../images/snow-icon.jpg"); }
+      body.home .features .tab-pane .icon.group {
+        background-image: url("../images/cake-icon.jpg"); }
+      body.home .features .tab-pane .icon.wine {
+        background-image: url("../images/wine-glass-icon.jpg"); }
   body.home .features h2 {
     text-align: left;
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 5px; }
+    margin-bottom: 0px; }
   body.home .features p {
     font-size: 13px; }
 body.home .benefits h2 {
@@ -337,7 +379,7 @@ body.home .benefits hr {
 body.home .faq {
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.2)), -webkit-linear-gradient(108deg, #ABC283 10%, #00596E 90%); }
 body.home .testimonials {
-  background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #333333, #555555 90%); }
+  background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
   body.home .testimonials .thumbnail {
     position: relative;
     height: 130px;
@@ -394,8 +436,24 @@ body.home .testimonials {
 .widget {
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #333333, #555555 90%);
   border: 1px solid #212121;
-  width: 100%;
-  padding: 10px 0; }
+  border-top: 3px solid #00973d;
+  padding: 10px 0;
+  margin-bottom: 20px; }
+  .widget.quick-quote {
+    padding: 10px; }
+    .widget.quick-quote legend {
+      color: white;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+      border: none;
+      text-align: center;
+      margin: 10px 0; }
+    .widget.quick-quote .form-control {
+      font-size: 12px;
+      height: 32px !important;
+      padding-left: 8px !important; }
+    .widget.quick-quote .btn-primary {
+      padding: 10px 20px;
+      font-size: 16px; }
   .widget ul li a {
     color: white;
     padding: 10px 20px;
@@ -414,17 +472,25 @@ body.home .testimonials {
 
 section {
   padding: 2em 0; }
+  section .subhead {
+    font-weight: 600;
+    font-size: 28px; }
+    section .subhead small {
+      font-size: 18px;
+      margin-left: 10px; }
   section h3 {
     margin-bottom: 20px; }
 
 .page-title {
   margin: 0 0 30px;
-  text-align: center; }
+  padding-bottom: 8px;
+  border-bottom: 3px solid #efefef; }
 
 .light {
   color: white; }
 
 .microhero {
+  box-shadow: inset 0 -1px 8px rgba(0, 0, 0, 0.5);
   padding: 0;
   height: 300px;
   background-position: center center;
@@ -464,6 +530,24 @@ section {
     text-transform: uppercase;
     color: #999; }
 
+.leadership article {
+  margin-bottom: 40px; }
+.leadership p {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+.leadership .social-profile {
+  font-size: 14px;
+  text-align: right; }
+.leadership .linkedin-icon {
+  margin: 0 5px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  background: url("../images/linkedin-icon.jpg") center center no-repeat;
+  background-size: 18px auto; }
+
 .contact .google-map {
   position: relative;
   padding-bottom: 75%;
@@ -482,3 +566,24 @@ section {
 .contact address span {
   display: block;
   margin-bottom: 5px; }
+
+.footer {
+  margin-top: 0;
+  background: #313131;
+  border: none;
+  color: #f1f1f1; }
+  .footer .footer-links {
+    margin-bottom: 20px; }
+  .footer .footer-bucket {
+    padding: 0; }
+    .footer .footer-bucket li {
+      display: block;
+      margin-bottom: 8px; }
+      .footer .footer-bucket li a {
+        color: #f1f1f1; }
+  .footer .copyright {
+    text-align: center;
+    color: #999;
+    font-size: 13px; }
+    .footer .copyright a {
+      color: #999; }

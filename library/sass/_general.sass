@@ -1,13 +1,14 @@
 // Colors
 $black: #212121
 $midGrey: #444444
+$darkGrey: #313131
 $lightGrey: #f1f1f1
 $link: #239ae5
 $green: #00973d
 $blue: #0094d2
 
 $blueGreenGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg,#ABC283 10%,#00596E 90%)
-$blueGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#333333,#555555 90%)
+$blueGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#00abba,#006b98 90%)
 $darkGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#333333,#555555 90%)
 
 // Global Variables
@@ -26,6 +27,11 @@ h1, h2, h3, h4, h5
 		&:hover
 			text-decoration: none
 			color: darken($blue, 20%)
+.bucket-title
+	color: #999
+	font-weight: bold
+	font-size: 15px
+	text-transform: uppercase
 p
 	font-size: 1em
 	margin-bottom: 1.5em
@@ -54,7 +60,7 @@ body
 	background: $green
 	border-color: $green
 	text-shadow: none
-	&:hover
+	&:hover, &:focus, &:active
 		background: lighten($green, 2%)
 .btn-default
 	background: transparent
@@ -72,13 +78,40 @@ form
 		border-color: 1px solid #dadada
 		box-shadow: none
 		color: $black
+		padding: 6px 8px
+		font-weight: normal
 	select.form-control
 		-webkit-appearance: none
-		background: white url('../images/dd-arrow.jpg') 95% 10px no-repeat
+		background: white url('../images/dd-arrow.jpg') 97% 13px no-repeat
 		background-size: 8px 12px
 		border: 1px solid #dadada
 		border-radius: 0
 		color: #999
+		font-weight: normal
+		&.hot
+			border-color: $blue
+			box-shadow: 0 0 15px white
+			outline: 1px
+		&.valid
+			color: $black
+	&.intake-form
+		.form-group
+			margin-bottom: 6px
+			// .btn-primary
+			// 	padding: 12px 40px
+			// 	font-size: 16px
+			.form-control
+				border-color: #333
+				height: 40px
+			.col-sm-6
+				&.left
+					padding-right: 3px
+				&.right
+					padding-left: 3px
+	label.error
+		font-weight: normal
+		font-size: 13px
+
 
 // Media
 .img-thumbnail

@@ -2,8 +2,24 @@
 .widget
 	background-image: $darkGradient
 	border: 1px solid $black
-	width: 100%
+	border-top: 3px solid $green
 	padding: 10px 0
+	margin-bottom: 20px
+	&.quick-quote
+		padding: 10px
+		legend
+			color: white
+			text-shadow: 0 1px 1px rgba(0, 0, 0, .5)
+			border: none
+			text-align: center
+			margin: 10px 0
+		.form-control
+			font-size: 12px
+			height: 32px!important
+			padding-left: 8px!important
+		.btn-primary
+			padding: 10px 20px
+			font-size: 16px
 	ul
 		li
 			a
@@ -25,14 +41,22 @@
 
 section
 	padding: 2em 0
+	.subhead
+		font-weight: 600
+		font-size: 28px
+		small
+			font-size: 18px
+			margin-left: 10px
 	h3
 		margin-bottom: 20px
 .page-title
 	margin: 0 0 30px
-	text-align: center
+	padding-bottom: 8px
+	border-bottom: 3px solid #efefef
 .light
 	color: white
 .microhero
+	box-shadow: inset 0 -1px 8px rgba(0, 0, 0, .5)
 	padding: 0
 	height: 300px
 	background-position: center center
@@ -73,6 +97,26 @@ section
 		margin-top: 5px
 		text-transform: uppercase
 		color: #999
+
+// Leadership
+.leadership
+	article
+		margin-bottom: 40px
+	p
+		border-bottom: 1px solid #efefef
+		margin-bottom: 10px
+		padding-bottom: 10px
+	.social-profile
+		font-size: 14px
+		text-align: right
+	.linkedin-icon
+		margin: 0 5px 0 0
+		display: inline-block
+		vertical-align: middle
+		width: 18px
+		height: 18px
+		background: url('../images/linkedin-icon.jpg') center center no-repeat
+		background-size: 18px auto
 
 // Contact
 .contact
