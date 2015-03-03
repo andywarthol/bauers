@@ -179,35 +179,34 @@ Template Name: Home Page
 						    </div>
 						    <div role="tabpanel" class="tab-pane fade" id="events">
 						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#"><i class="icon airplane"></i>Airport Transfers</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
+						    		<div class="col-sm-12">
+						    			<h2 class="text-center">Comprehensive Event Management</h2>
+						    			<p class="text-center">We don't just move people, we plan and manage your entire experience on top of the logistics behind it all.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#"><i class="icon binoculars"></i>City Tours</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#"><i class="icon snow"></i>Snow Trips</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
+						    			<h3><a href="#"><i class="retention icon"></i>Improve Employee Retention</a></h3>
+						    			<p><small>Foster healthy work patterns in employees with timely and comfortable commutes.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#"><i class="icon wine"></i>Wine Country Tours</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
+						    			<h3><a href="#"><i class="up icon"></i>Increase Productivity</a></h3>
+						    			<p><small>When employees ride with us they can focus on a deadline, or relax after a productive day.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#"><i class="icon group"></i>Group Events</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
+						    			<h3><a href="#"><i class="earth icon"></i>Be Environmentally Conscious</a></h3>
+						    			<p><small>All Bauer's vehicle utilize sustainable fuel that significantly reduces our carbon footprint.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h2><a href="#"><i class="icon car"></i>Black Car Service</a></h2>
-						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
+						    			<h3><a href="#"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
+						    			<p><small>Commuter Benefits are a competitive incentive for recruiting the very best talent.</small></p>
 						    		</div>
 						    	</div>
+						    	<div class="row">
+										<div class="col-sm-12 text-center">
+											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free commuter quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+										</div>
+									</div>
 						    </div>
 						  </div>
 						</div>
