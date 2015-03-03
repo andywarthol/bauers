@@ -164,7 +164,7 @@ Template Name: Home Page
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="earth icon"></i>Be Environmentally Conscious</a></h3>
-						    			<p><small>All Bauer's vehicle utilize sustainable fuel that significantly reduces our carbon footprint.</small></p>
+						    			<p><small>All Bauer's vehicles utilize sustainable fuel that significantly reduces our carbon footprint.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
