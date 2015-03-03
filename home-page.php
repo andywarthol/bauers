@@ -105,6 +105,80 @@ Template Name: Home Page
 						  <div class="tab-content">
 						    <div role="tabpanel" class="tab-pane fade in active" id="charters">
 						    	<div class="row">
+						    		<div class="col-sm-12">
+						    			<h2 class="text-center">Choose Your Adventure</h2>
+						    			<p class="text-center">We make the journey part of the enjoyment of travel for a wide variety of <br class="hidden-xs hidden-sm"/>activities, events and occasions for groups of all sizes.</p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="icon airplane"></i>Airport Transfers</a></h3>
+						    			<p><small>Take the hassle out of ground transportation after touching down at the airport.</small></p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="icon binoculars"></i>City Tours</a></h3>
+						    			<p><small>Sightseeing tours showcase a city’s unique sights and culture for groups of all sizes.</small></p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="icon snow"></i>Snow Trips</a></h3>
+						    			<p><small>Journey up to North Lake Tahoe &mdash; including Sugar Bowl, Alpine, Squaw, and North Star.</small></p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="icon wine"></i>Wine Country Tours</a></h3>
+						    			<p><small>Exclusive, curated tours lead by wine experts. Tastings and a gourmet lunch included.</small></p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="icon car"></i>Black Car Service</a></h3>
+						    			<p><small>We provide luxury black car transportation for both individuals and small groups.</small></p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="icon group"></i>Group Events</a></h3>
+						    			<p><small>The list of Bauer's IT adventures is endless. <br class="hidden-xs hidden-sm" />Tell us what your plans are.</small></p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+										<div class="col-sm-12 text-center">
+											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free charter quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+										</div>
+									</div>
+						    </div>
+						    <div role="tabpanel" class="tab-pane fade" id="commuters">
+						    	<div class="row">
+						    		<div class="col-sm-12">
+						    			<h2 class="text-center">Healthier Commuting</h2>
+						    			<p class="text-center">Bauer’s commuter services create efficient and sustainable commute-to-work programs, effectively fulfilling the transportation needs for employees of large organizations.</p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="retention icon"></i>Improve Employee Retention</a></h3>
+						    			<p><small>Foster healthy work patterns in employees with timely and comfortable commutes.</small></p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="up icon"></i>Increase Productivity</a></h3>
+						    			<p><small>When employees ride with us they can focus on a deadline, or relax after a productive day.</small></p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="earth icon"></i>Be Environmentally Conscious</a></h3>
+						    			<p><small>All Bauer's vehicle utilize sustainable fuel that significantly reduces our carbon footprint.</small></p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
+						    			<p><small>Commuter Benefits are a competitive incentive for recruiting the very best talent.</small></p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+										<div class="col-sm-12 text-center">
+											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free commuter quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+										</div>
+									</div>
+						    </div>
+						    <div role="tabpanel" class="tab-pane fade" id="events">
+						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h2><a href="#"><i class="icon airplane"></i>Airport Transfers</a></h2>
 						    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio ab reprehenderit.</p>
@@ -135,15 +209,8 @@ Template Name: Home Page
 						    		</div>
 						    	</div>
 						    </div>
-						    <div role="tabpanel" class="tab-pane fade" id="commuters">...</div>
-						    <div role="tabpanel" class="tab-pane fade" id="events">...</div>
 						  </div>
 						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>

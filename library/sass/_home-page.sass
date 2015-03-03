@@ -167,8 +167,14 @@ body.home
 			border: 1px solid #dadada
 			border-top: none
 			background: white
-			margin-bottom: 40px
-			.col-lg-6
+			margin-bottom: 0px
+			.btn-primary
+				font-size: 14px
+			.img-thumbnail
+				float: left
+				margin: 0 10px 10px 0
+				width: 220px
+			.col-lg-6, .col-sm-12
 				padding: 0 40px
 			.icon
 				display: inline-block
@@ -191,13 +197,25 @@ body.home
 					background-image: url('../images/cake-icon.jpg')
 				&.wine
 					background-image: url('../images/wine-glass-icon.jpg')
-		h2
+				&.earth
+					background-image: url('../images/earth-icon.jpg')
+				&.retention
+					background-image: url('../images/retention-icon.jpg')
+				&.up
+					background-image: url('../images/up-arrow-icon.jpg')
+				&.like
+					background-image: url('../images/like-icon.jpg')
+		h3
 			text-align: left
 			font-weight: bold
 			font-size: 16px
 			margin-bottom: 0px
 		p
-			font-size: 13px
+			font-size: 15px
+			line-height: 1.5
+			margin-bottom: 40px
+			small
+				font-size: 13px
 
 	.benefits
 		h2
@@ -212,7 +230,7 @@ body.home
 			margin: 50px 0
 
 	.faq
-		background-image: $blueGreenGradient
+		background-image: $blueGradient
 
 	.testimonials
 		background-image: $blueGradient

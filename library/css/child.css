@@ -335,8 +335,14 @@ body.home .features {
     border: 1px solid #dadada;
     border-top: none;
     background: white;
-    margin-bottom: 40px; }
-    body.home .features .tab-pane .col-lg-6 {
+    margin-bottom: 0px; }
+    body.home .features .tab-pane .btn-primary {
+      font-size: 14px; }
+    body.home .features .tab-pane .img-thumbnail {
+      float: left;
+      margin: 0 10px 10px 0;
+      width: 220px; }
+    body.home .features .tab-pane .col-lg-6, body.home .features .tab-pane .col-sm-12 {
       padding: 0 40px; }
     body.home .features .tab-pane .icon {
       display: inline-block;
@@ -359,13 +365,25 @@ body.home .features {
         background-image: url("../images/cake-icon.jpg"); }
       body.home .features .tab-pane .icon.wine {
         background-image: url("../images/wine-glass-icon.jpg"); }
-  body.home .features h2 {
+      body.home .features .tab-pane .icon.earth {
+        background-image: url("../images/earth-icon.jpg"); }
+      body.home .features .tab-pane .icon.retention {
+        background-image: url("../images/retention-icon.jpg"); }
+      body.home .features .tab-pane .icon.up {
+        background-image: url("../images/up-arrow-icon.jpg"); }
+      body.home .features .tab-pane .icon.like {
+        background-image: url("../images/like-icon.jpg"); }
+  body.home .features h3 {
     text-align: left;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 0px; }
   body.home .features p {
-    font-size: 13px; }
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px; }
+    body.home .features p small {
+      font-size: 13px; }
 body.home .benefits h2 {
   text-align: left;
   font-weight: bold;
@@ -377,7 +395,7 @@ body.home .benefits hr {
   border: none;
   margin: 50px 0; }
 body.home .faq {
-  background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.2)), -webkit-linear-gradient(108deg, #ABC283 10%, #00596E 90%); }
+  background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
 body.home .testimonials {
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
   body.home .testimonials .thumbnail {

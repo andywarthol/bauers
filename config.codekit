@@ -3169,6 +3169,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/corporate-commuter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17481,
+		"inputAbbreviatedPath": "\/library\/images\/corporate-commuter.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/corporate-commuter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/custom-post-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3209,6 +3220,17 @@
 		"initialSize": 7769,
 		"inputAbbreviatedPath": "\/library\/images\/ea-games-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/ea-games-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/earth-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1593,
+		"inputAbbreviatedPath": "\/library\/images\/earth-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/earth-icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3323,6 +3345,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/like-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1516,
+		"inputAbbreviatedPath": "\/library\/images\/like-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/like-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/lincecum-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3433,6 +3466,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/retention-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1544,
+		"inputAbbreviatedPath": "\/library\/images\/retention-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/retention-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/sf-business-times-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3517,6 +3561,17 @@
 		"initialSize": 18463,
 		"inputAbbreviatedPath": "\/library\/images\/Untitled-3.png",
 		"outputAbbreviatedPath": "\/library\/images\/Untitled-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/up-arrow-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1479,
+		"inputAbbreviatedPath": "\/library\/images\/up-arrow-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/up-arrow-icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
