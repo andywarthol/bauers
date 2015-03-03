@@ -12,7 +12,7 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6 col-lg-7">
 						<h1>Luxury Transportation.<br>For Any Occasion.</h1>
-						<h2>Backed by years of experience, Bauer’s IT moves groups of all sizes to and from corporate events, tours, holiday parties, sporting events, weddings, airport transfers and much more.</h2>
+						<h2>Backed by 25 years of experience, Bauer’s IT moves groups of all sizes to and from corporate events, tours, holiday parties, sporting events, weddings, airport transfers and much more.</h2>
 					</div>
 					<div class="col-sm-6 col-lg-5">
 						<div class="card">
@@ -107,7 +107,7 @@ Template Name: Home Page
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Choose Your Adventure</h2>
-						    			<p class="text-center">We make the journey part of the enjoyment of travel for a wide variety of <br class="hidden-xs hidden-sm"/>activities, events and occasions for groups of all sizes.</p>
+						    			<p class="text-center">We make the journey part of the enjoyment of travel for a wide variety of activities, events and occasions for groups of up to 1,000.</p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
@@ -127,17 +127,17 @@ Template Name: Home Page
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="icon wine"></i>Wine Country Tours</a></h3>
-						    			<p><small>Exclusive, curated tours lead by wine experts. Tastings and a gourmet lunch included.</small></p>
+						    			<p><small>Exclusive, curated tours led by wine experts. Tastings and gourmet lunch included.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="icon car"></i>Black Car Service</a></h3>
-						    			<p><small>We provide luxury black car transportation for both individuals and small groups.</small></p>
+						    			<p><small>Travel in style with luxury black car transportation.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="icon group"></i>Group Events</a></h3>
-						    			<p><small>The list of Bauer's IT adventures is endless. <br class="hidden-xs hidden-sm" />Tell us what your plans are.</small></p>
+						    			<p><small>The list of Bauer's IT adventures is nearly endless. Tell us what your plans are.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
@@ -150,21 +150,21 @@ Template Name: Home Page
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Healthier Commuting</h2>
-						    			<p class="text-center">Bauer’s commuter services create efficient and sustainable commute-to-work programs, effectively fulfilling the transportation needs for employees of large organizations.</p>
+						    			<p class="text-center">Bauer’s commuter services create efficient and sustainable commute-to-work programs, effectively fulfilling transportation needs for employees of large organizations.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="retention icon"></i>Improve Employee Retention</a></h3>
-						    			<p><small>Foster healthy work patterns in employees with timely and comfortable commutes.</small></p>
+						    			<h3><a href="#"><i class="retention icon"></i>Surprisingly Cost-Effective</a></h3>
+						    			<p><small>Increase retention and efficiency by removing the commute headache from your employees.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="up icon"></i>Increase Productivity</a></h3>
-						    			<p><small>When employees ride with us they can focus on a deadline, or relax after a productive day.</small></p>
+						    			<h3><a href="#"><i class="up icon"></i>Last-Mile Shuttles</a></h3>
+						    			<p><small>Just a little too far from the train? Make public transportation easy with our last-mile shuttles.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="earth icon"></i>Be Environmentally Conscious</a></h3>
-						    			<p><small>All Bauer's vehicles utilize sustainable fuel that significantly reduces our carbon footprint.</small></p>
+						    			<h3><a href="#"><i class="earth icon"></i>Increase Productivity</a></h3>
+						    			<p><small>When employees ride with us they can focus on a deadline with Wi-Drive.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
@@ -180,26 +180,36 @@ Template Name: Home Page
 						    <div role="tabpanel" class="tab-pane" id="events">
 						    	<div class="row">
 						    		<div class="col-sm-12">
-						    			<h2 class="text-center">Comprehensive Event Management</h2>
-						    			<p class="text-center">We don't just move people, we plan and manage your entire experience on top of the logistics behind it all.</p>
+						    			<h2 class="text-center">Event Logistics</h2>
+						    			<p class="text-center">Need to move more than 1,000 people? Remove the headache from your next major event with our team of expert planners that delivers innovative solutions.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="retention icon"></i>Improve Employee Retention</a></h3>
-						    			<p><small>Foster healthy work patterns in employees with timely and comfortable commutes.</small></p>
+						    			<h3><a href="#"><i class="retention icon"></i>Concerts &amp; Festivals</a></h3>
+						    			<p><small>Get thousands of attendees to and from fun and funky venues - even off the beaten path.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="up icon"></i>Increase Productivity</a></h3>
-						    			<p><small>When employees ride with us they can focus on a deadline, or relax after a productive day.</small></p>
+						    			<h3><a href="#"><i class="up icon"></i>Conferences &amp; Conventions</a></h3>
+						    			<p><small>Support the transportation needs of your major event, whether it’s across the country or around the world.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="earth icon"></i>Be Environmentally Conscious</a></h3>
-						    			<p><small>All Bauer's vehicle utilize sustainable fuel that significantly reduces our carbon footprint.</small></p>
+						    			<h3><a href="#"><i class="earth icon"></i>Sports Events &amp; Marathons</a></h3>
+						    			<p><small>Need to handle a marathon, football game, or PGA tournament? Create exceptional travel experiences for participants and fans.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
-						    			<p><small>Commuter Benefits are a competitive incentive for recruiting the very best talent.</small></p>
+						    			<h3><a href="#"><i class="like icon"></i>Parking &amp; Traffic Management</a></h3>
+						    			<p><small>Green, comprehensive services for parking management that can handle any size event.</small></p>
+						    		</div>
+						    	</div>
+						    	<div class="row">
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="earth icon"></i>Travel Demand</a></h3>
+						    			<p><small>Get single-occupancy private vehicles off the road with our “Smart Growth” policies and plans.</small></p>
+						    		</div>
+						    		<div class="col-sm-6 col-lg-6">
+						    			<h3><a href="#"><i class="like icon"></i>VIP Transportation</a></h3>
+						    			<p><small>If you have to move large numbers of VIPs, Bauer’s will provide a seamless, professional experience.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
@@ -257,7 +267,7 @@ Template Name: Home Page
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Ride in Style</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quisquam consectetur unde sae.</p>
+								<p>Bauer’s offers an impressive fleet of sustainable luxury vehicles equipped with all the latest features and amenities for private or corporate events.</p>
 							</div>
 						</div>
 					</div>
@@ -266,7 +276,7 @@ Template Name: Home Page
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Get Comfortable</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quisquam consectetur unde sae.</p>
+								<p>Sit back and relax into leatherette seating and enjoy our customized first-class interiors.</p>
 							</div>
 						</div>
 					</div>
@@ -278,7 +288,7 @@ Template Name: Home Page
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Stay Connected</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quisquam consectetur unde sae.</p>
+								<p>With WI-FI on board and power ports throughout the vehicles, you can keep up with your deadlines (or stock quotes).</p>
 							</div>
 						</div>
 					</div>
@@ -287,7 +297,7 @@ Template Name: Home Page
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Go Green</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quisquam consectetur unde sae.</p>
+								<p>Stay comfortable and comply with anti-idling laws with our green bus rentals and hybrids.</p>
 							</div>
 						</div>
 					</div>
