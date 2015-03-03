@@ -3158,6 +3158,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/cars-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1526,
+		"inputAbbreviatedPath": "\/library\/images\/cars-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/cars-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/coca-cola-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3169,6 +3180,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/conference-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1453,
+		"inputAbbreviatedPath": "\/library\/images\/conference-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/conference-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/corporate-commuter.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3176,6 +3198,17 @@
 		"initialSize": 17481,
 		"inputAbbreviatedPath": "\/library\/images\/corporate-commuter.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/corporate-commuter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/crown-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1514,
+		"inputAbbreviatedPath": "\/library\/images\/crown-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/crown-icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3253,6 +3286,28 @@
 		"initialSize": 13024,
 		"inputAbbreviatedPath": "\/library\/images\/gary-schwartz.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/gary-schwartz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/get-comfortable.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46052,
+		"inputAbbreviatedPath": "\/library\/images\/get-comfortable.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/get-comfortable.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/go-green.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88970,
+		"inputAbbreviatedPath": "\/library\/images\/go-green.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/go-green.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3444,6 +3499,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/music-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1487,
+		"inputAbbreviatedPath": "\/library\/images\/music-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/music-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/new-york-times-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3488,6 +3554,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/ride-in-style.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39471,
+		"inputAbbreviatedPath": "\/library\/images\/ride-in-style.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/ride-in-style.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/sf-business-times-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3521,6 +3598,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/sports-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1547,
+		"inputAbbreviatedPath": "\/library\/images\/sports-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/sports-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/stay-connected.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28711,
+		"inputAbbreviatedPath": "\/library\/images\/stay-connected.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/stay-connected.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/sunset-bus-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3528,6 +3627,17 @@
 		"initialSize": 75624,
 		"inputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/travel-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1495,
+		"inputAbbreviatedPath": "\/library\/images\/travel-icon.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/travel-icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

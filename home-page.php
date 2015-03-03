@@ -184,31 +184,31 @@ Template Name: Home Page
 						    			<p class="text-center">Need to move more than 1,000 people? Remove the headache from your next major event with our team of expert planners that delivers innovative solutions.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="retention icon"></i>Concerts &amp; Festivals</a></h3>
+						    			<h3><a href="#"><i class="music icon"></i>Concerts &amp; Festivals</a></h3>
 						    			<p><small>Get thousands of attendees to and from fun and funky venues - even off the beaten path.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="up icon"></i>Conferences &amp; Conventions</a></h3>
+						    			<h3><a href="#"><i class="conference icon"></i>Conferences &amp; Conventions</a></h3>
 						    			<p><small>Support the transportation needs of your major event, whether it’s across the country or around the world.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="earth icon"></i>Sports Events &amp; Marathons</a></h3>
+						    			<h3><a href="#"><i class="sports icon"></i>Sports Events &amp; Marathons</a></h3>
 						    			<p><small>Need to handle a marathon, football game, or PGA tournament? Create exceptional travel experiences for participants and fans.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="like icon"></i>Parking &amp; Traffic Management</a></h3>
+						    			<h3><a href="#"><i class="car icon"></i>Parking &amp; Traffic Management</a></h3>
 						    			<p><small>Green, comprehensive services for parking management that can handle any size event.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="earth icon"></i>Travel Demand</a></h3>
+						    			<h3><a href="#"><i class="travel icon"></i>Travel Demand</a></h3>
 						    			<p><small>Get single-occupancy private vehicles off the road with our “Smart Growth” policies and plans.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="like icon"></i>VIP Transportation</a></h3>
+						    			<h3><a href="#"><i class="crown icon"></i>VIP Transportation</a></h3>
 						    			<p><small>If you have to move large numbers of VIPs, Bauer’s will provide a seamless, professional experience.</small></p>
 						    		</div>
 						    	</div>
@@ -264,7 +264,7 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/ride-in-style.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Ride in Style</h2>
 								<p>Bauer’s offers an impressive fleet of sustainable luxury vehicles equipped with all the latest features and amenities for private or corporate events.</p>
@@ -273,7 +273,7 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/get-comfortable.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Get Comfortable</h2>
 								<p>Sit back and relax into leatherette seating and enjoy our customized first-class interiors.</p>
@@ -285,7 +285,7 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/stay-connected.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Stay Connected</h2>
 								<p>With WI-FI on board and power ports throughout the vehicles, you can keep up with your deadlines (or stock quotes).</p>
@@ -294,7 +294,7 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="http://placehold.it/160x100" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/go-green.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2>Go Green</h2>
 								<p>Stay comfortable and comply with anti-idling laws with our green bus rentals and hybrids.</p>

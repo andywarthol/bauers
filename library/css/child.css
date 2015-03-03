@@ -373,6 +373,22 @@ body.home .features {
         background-image: url("../images/up-arrow-icon.jpg"); }
       body.home .features .tab-pane .icon.like {
         background-image: url("../images/like-icon.jpg"); }
+      body.home .features .tab-pane .icon.cars {
+        background-image: url("../images/cars-icon.jpg"); }
+      body.home .features .tab-pane .icon.music {
+        background-image: url("../images/music-icon.jpg"); }
+      body.home .features .tab-pane .icon.conference {
+        background-image: url("../images/conference-icon.jpg"); }
+      body.home .features .tab-pane .icon.sports {
+        background-image: url("../images/sports-icon.jpg"); }
+      body.home .features .tab-pane .icon.travel {
+        background-image: url("../images/travel-icon.jpg"); }
+      body.home .features .tab-pane .icon.wine {
+        background-image: url("../images/wine-glass-icon.jpg"); }
+      body.home .features .tab-pane .icon.earth {
+        background-image: url("../images/earth-icon.jpg"); }
+      body.home .features .tab-pane .icon.crown {
+        background-image: url("../images/crown-icon.jpg"); }
   body.home .features h3 {
     text-align: left;
     font-weight: bold;
