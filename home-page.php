@@ -103,7 +103,7 @@ Template Name: Home Page
 						  </ul>
 						  <!-- Tab panes -->
 						  <div class="tab-content">
-						    <div role="tabpanel" class="tab-pane fade in active" id="charters">
+						    <div role="tabpanel" class="tab-pane active" id="charters">
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Choose Your Adventure</h2>
@@ -146,7 +146,7 @@ Template Name: Home Page
 										</div>
 									</div>
 						    </div>
-						    <div role="tabpanel" class="tab-pane fade" id="commuters">
+						    <div role="tabpanel" class="tab-pane" id="commuters">
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Healthier Commuting</h2>
@@ -177,7 +177,7 @@ Template Name: Home Page
 										</div>
 									</div>
 						    </div>
-						    <div role="tabpanel" class="tab-pane fade" id="events">
+						    <div role="tabpanel" class="tab-pane" id="events">
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Comprehensive Event Management</h2>
