@@ -197,13 +197,16 @@ body.home .hero {
   body.home .hero h1 {
     text-align: left;
     font-weight: bold;
-    font-size: 44px;
-    margin: 60px 0 20px; }
+    font-size: 33px;
+    margin: 40px 0 20px; }
   body.home .hero h2 {
     text-align: left;
     font-weight: normal;
     font-size: 21px;
     line-height: 1.4; }
+  body.home .hero ul li {
+    font-size: 21px;
+    margin-bottom: 15px; }
   body.home .hero .card {
     margin: 0 0 0 40px;
     background: rgba(0, 0, 0, 0.35);

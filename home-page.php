@@ -8,11 +8,16 @@ Template Name: Home Page
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
+			<div class="col-lg-11 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-lg-7">
-						<h1>Luxury Transportation.<br>For Any Occasion.</h1>
-						<h2>Backed by 25 years of experience, Bauer’s IT moves groups of all sizes to and from corporate events, tours, holiday parties, sporting events, weddings, airport transfers and much more.</h2>
+						<h1>Secure, Professional Transportation for Any Occasion</h1>
+						<h2>Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2>
+						<ul>
+							<li>Charters</li>
+							<li>Corporate Commuter Programs</li>
+							<li>Major Event Logistics and Transportation</li>
+						</ul>
 					</div>
 					<div class="col-sm-6 col-lg-5">
 						<div class="card">
