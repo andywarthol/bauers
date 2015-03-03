@@ -20,13 +20,11 @@
 						<option value="events">Event Logistics Management</option>
 					</select>
 				</div>
-				<div class="form-group row">
-					<div class="col-sm-6 left">
-						<input type="text" name="first_name" placeholder="First name" class="form-control">
-					</div>
-					<div class="col-sm-6 right">
-						<input type="text" name="last_name" placeholder="Last name" class="form-control">
-					</div>
+				<div class="form-group">
+					<input type="text" name="first_name" placeholder="First name" class="form-control">
+				</div>
+				<div class="form-group">
+					<input type="text" name="last_name" placeholder="Last name" class="form-control">
 				</div>
 				<div class="form-group">
 					<input type="email" class="form-control" name="email_address" placeholder="Email address">
@@ -37,16 +35,14 @@
 				<div class="form-group">
 					<input type="text" class="form-control" name="company_name" placeholder="Company name">
 				</div>
-				<div class="form-group row">
-					<div class="col-sm-6 left">
-						<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control">
-					</div>
-					<div class="col-sm-6 right">
-						<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control">
-					</div>
+				<div class="form-group">
+					<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control">
 				</div>
 				<div class="form-group">
-					<button class="btn btn-lg btn-primary btn-block">Get a quote &rarr;</button>
+					<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control">
+				</div>
+				<div class="form-group">
+					<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 				</div>
 			</fieldset>
 		</form>
