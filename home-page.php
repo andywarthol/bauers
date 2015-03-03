@@ -11,8 +11,8 @@ Template Name: Home Page
 			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-lg-7">
-						<h1>Luxury Transportation<br>For Any Occasion</h1>
-						<h2>Any number of passengers to any where! Backed by years of experience, Bauer’s IT moves groups of all sizes to and from corporate events, tours, holiday parties, sporting events, weddings, airport transfers and more!</h2>
+						<h1>Luxury Transportation.<br>For Any Occasion.</h1>
+						<h2>Backed by years of experience, Bauer’s IT moves groups of all sizes to and from corporate events, tours, holiday parties, sporting events, weddings, airport transfers and much more.</h2>
 					</div>
 					<div class="col-sm-6 col-lg-5">
 						<div class="card">
