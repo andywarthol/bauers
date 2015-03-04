@@ -475,10 +475,9 @@ body.home .testimonials {
       width: auto; }
 
 .widget {
-  padding: 10px 0;
-  margin-bottom: 20px;
-  background: #f5f5f5; }
+  margin-bottom: 20px; }
   .widget.quick-quote {
+    background: #f5f5f5;
     padding: 10px; }
     .widget.quick-quote legend {
       border: none;

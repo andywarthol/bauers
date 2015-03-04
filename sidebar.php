@@ -5,7 +5,7 @@
 
 <?php else : ?>
 	
-	<div class="widget">
+	<div class="widget about">
 		<?php footer_bucket_2(); ?>
 	</div>
 	<div class="widget quick-quote">
