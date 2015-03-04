@@ -68,7 +68,7 @@ Template Name: Home Page
 				</div>
 			</div>
 		</div>
-		<a class="down-arrow scroll" href="#services"></a>
+		<!-- <a class="down-arrow scroll" href="#services"></a> -->
 	</div>
 </section>
 <section class="logos lightGrey">
