@@ -11,12 +11,12 @@ Template Name: Home Page
 			<div class="col-lg-11 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-lg-7">
-						<h1>Secure, Professional Transportation for Any Occasion</h1>
-						<h2>Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2>
+						<h1>Professional Transportation <br class="hidden-xs"/>for Any Occasion</h1>
+						<!-- <h2>Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2> -->
 						<ul>
-							<li>Charters</li>
-							<li>Corporate Commuter Programs</li>
-							<li>Major Event Logistics and Transportation</li>
+							<li>25+ years of transportation experience</li>
+							<li>Charter, corporate, and event transportation</li>
+							<li>Dedicated account managers support every trip</li>
 						</ul>
 					</div>
 					<div class="col-sm-6 col-lg-5">

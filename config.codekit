@@ -3125,6 +3125,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/blue-gradient-bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155898,
+		"inputAbbreviatedPath": "\/library\/images\/blue-gradient-bg2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/blue-gradient-bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/boarding-bus-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

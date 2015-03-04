@@ -197,7 +197,7 @@ body.home .hero {
   body.home .hero h1 {
     text-align: left;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 42px;
     margin: 40px 0 20px; }
   body.home .hero h2 {
     text-align: left;
@@ -493,7 +493,7 @@ body.home .testimonials {
       padding: 10px 20px;
       font-size: 16px; }
   .widget ul li a {
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-transform: uppercase;
     display: block; }
     .widget ul li a:hover {
