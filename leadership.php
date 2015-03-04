@@ -33,9 +33,6 @@ Template Name: Leadership
 						<?php if(get_field('leadership_team')): ?>
 						<?php while(has_sub_field('leadership_team')): ?>
 						<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix row' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-							<div class="col-sm-4">
-								<img class="img-responsive img-thumbnail" src="<?php the_sub_field('headshot'); ?>" alt="">
-							</div>
 							<div class="col-sm-8">
 								<header>
 									<h2 class="subhead"><?php the_sub_field('name'); ?><small><?php the_sub_field('title'); ?></small></h2>
@@ -44,6 +41,9 @@ Template Name: Leadership
 								<div class="social-profile">
 									<a class="linkedin-icon" href="<?php the_sub_field('linkedin_url'); ?>" title="<?php the_sub_field('name'); ?> on LinkedIn">&nbsp;</a> <a href="<?php the_sub_field('linkedin_url'); ?>" title="<?php the_sub_field('name'); ?> on LinkedIn"><?php the_sub_field('name'); ?> on LinkedIn</a>
 								</div>
+							</div>
+							<div class="col-sm-4">
+								<img class="img-responsive img-thumbnail" src="<?php the_sub_field('headshot'); ?>" alt="">
 							</div>
 						</article> <!-- end article -->
 						<?php endwhile; ?>
