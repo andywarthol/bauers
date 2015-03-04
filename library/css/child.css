@@ -495,7 +495,8 @@ body.home .testimonials {
   .widget ul li a {
     padding: 5px 20px;
     text-transform: uppercase;
-    display: block; }
+    display: block;
+    font-size: 15px; }
     .widget ul li a:hover {
       text-decoration: none;
       background: rgba(255, 255, 255, 0.75); }
