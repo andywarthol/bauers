@@ -5,15 +5,7 @@ Template Name: Press
 ?>
 
 <?php get_header(); ?>	
-<section class="microhero light" style="background-image: url('<?php the_field('background_image'); ?>');">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h2 class="text-center">Award-winning Service &amp; Innovation.</h2>
-			</div>
-		</div>
-	</div>
-</section>
+
 <section class="press-hits">
 	<div class="container">
 		<div class="row">
@@ -26,7 +18,7 @@ Template Name: Press
 						<div class="row">
 							<div class="col-sm-12">
 								<header>
-									<h1 class="page-title">Bauer's IT in the News</h1>
+									<h1 class="page-title">In the News</h1>
 								</header>
 							</div>
 						</div>
