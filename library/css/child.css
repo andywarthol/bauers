@@ -536,6 +536,15 @@ body.page-template-home-page-new-copy-php .hero ul li {
       font-weight: bold; }
       .widget ul li.current_page_item a:hover, .widget ul li.current-page-ancestor a:hover {
         background: rgba(255, 255, 255, 0.75); }
+  .widget ul .sub-menu {
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+    list-style-type: none; }
+    .widget ul .sub-menu li {
+      font-size: 14px;
+      color: #999; }
+      .widget ul .sub-menu li a {
+        font-size: 14px; }
 
 section {
   padding: 2em 0; }
