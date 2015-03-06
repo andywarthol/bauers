@@ -77,12 +77,12 @@ Template Name: Home Page
 			<div class="col-lg-2 col-lg-offset-1 clients text-center">Our Clients:</div>
 			<div class="col-lg-8">
 				<div class="row">
-					<div class="col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/linkedin-logo.jpg" alt=""></div>
+					<div class="col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
 					<div class="col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
 					<div class="col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
 					<div class="col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
 					<div class="col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
-					<div class="col-sm-2 livenation"><img src="<?php bloginfo('template_directory'); ?>/library/images/live-nation-logo.jpg" alt=""></div>
+					<div class="col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
 				</div>
 			</div>
 		</div>
