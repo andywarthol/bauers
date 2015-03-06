@@ -5,15 +5,7 @@ Template Name: Leadership
 ?>
 
 <?php get_header(); ?>
-<section class="microhero light" style="background-image: url('<?php the_field('background_image'); ?>');">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<h2 class="text-center">All-Star Team Leadership.</h2>
-			</div>
-		</div>
-	</div>
-</section>
+
 <section class="leadership">
 	<div class="container">
 		<div class="row">

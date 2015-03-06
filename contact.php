@@ -5,61 +5,14 @@ Template Name: Contact
 ?>
 
 <?php get_header(); ?>
-<section class="microhero light" style="background-image: url('<?php the_field('background_image'); ?>');">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<h2 class="text-center">We're here for you.</h2>
-			</div>
-		</div>
-	</div>
-</section>
+
 <section class="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
 					<div class="col-sm-3">
-						<br><br>
-						<div class="widget quick-quote">
-							<form class="intake-form" action="">
-								<legend>Get a Quote</legend>
-								<fieldset>
-									<div class="form-group">
-										<select name="service" id="service" class="form-control">
-											<option value="">Which service would you like?</option>
-											<option value="charter">Charter</option>
-											<option value="commuter">Commuter</option>
-											<option value="events">Event Logistics Management</option>
-										</select>
-									</div>
-									<div class="form-group">
-										<input type="text" name="first_name" placeholder="First name" class="form-control">
-									</div>
-									<div class="form-group">
-										<input type="text" name="last_name" placeholder="Last name" class="form-control">
-									</div>
-									<div class="form-group">
-										<input type="email" class="form-control" name="email_address" placeholder="Email address">
-									</div>
-									<div class="form-group">
-										<input type="tel" class="form-control" name="phone_number" placeholder="Phone number">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" name="company_name" placeholder="Company name">
-									</div>
-									<div class="form-group">
-										<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control">
-									</div>
-									<div class="form-group">
-										<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control">
-									</div>
-									<div class="form-group">
-										<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
-									</div>
-								</fieldset>
-							</form>
-						</div>
+						<?php get_sidebar(); ?>
 					</div>
 					<div class="col-sm-9">
 						<h1 class="page-title">Contact Us</h1>
@@ -70,14 +23,22 @@ Template Name: Contact
 								<?php endwhile; endif; ?>
 							</div>
 							<div class="col-sm-6">
+								<div class="well">
+									<address>
+										<span><strong>Phone: </strong>1-800-546-6688</span>
+										<span><strong>Fax: </strong>415-522-1600</span>
+										<span><strong>General Inquiries: </strong><a href="mailto:info@bauersit.com" target="_blank">info@bauersit.com</a></span>
+										<span><strong>Booking &amp; Sales: </strong><a href="mailto:sales@bauersit.com" target="_blank">sales@bauersit.com</a></span>
+										<span><strong>Event Planning &amp; Logistics: </strong><a href="mailto:info@eventlm.com" target="_blank">info@eventlm.com</a></span>
+									</address>
+								</div>
 								<div class="google-map">
 									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12614.742836221516!2d-122.38716!3d37.773967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43f71d878b4ae770!2sBauer&#39;s+Intelligent+Transportation!5e0!3m2!1sen!2sus!4v1424976017685" width="600" height="500" frameborder="0" style="border:0"></iframe>
 								</div>
 								<address class="pull-right text-right">
 									<span><strong>Bauer's Intelligent Transportation</strong></span>
 									<span>50 Pier</span>
-									<span>San Francisco, CA</span>
-									<span>94158-2193</span>
+									<span>San Francisco, CA 94158</span>
 								</address>
 							</div>
 						</div>

@@ -5,15 +5,7 @@ Template Name: About
 ?>
 
 <?php get_header(); ?>	
-<section class="microhero light" style="background-image: url('<?php the_field('background_image'); ?>');">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<h2 class="text-center">Don't just get there, make <em>IT</em> an experience.</h2>
-			</div>
-		</div>
-	</div>
-</section>
+
 <section class="">
 	<div class="container">
 		<div class="row">
