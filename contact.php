@@ -11,10 +11,7 @@ Template Name: Contact
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3">
-						<?php get_sidebar(); ?>
-					</div>
-					<div class="col-sm-9">
+					<div class="col-sm-12 col-md-8 col-md-offset-2">
 						<h1 class="page-title">Contact Us</h1>
 						<div class="row">
 							<div class="col-sm-6 form">
