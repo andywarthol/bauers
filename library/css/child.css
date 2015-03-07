@@ -557,6 +557,8 @@ body.page-template-home-page-new-copy-php .hero ul li {
       .widget ul li a:hover {
         text-decoration: none;
         background: rgba(255, 255, 255, 0.75); }
+    .widget ul li.menu-item-94 {
+      display: none; }
     .widget ul li.current_page_item > a {
       font-weight: bold; }
       .widget ul li.current_page_item > a:hover {
