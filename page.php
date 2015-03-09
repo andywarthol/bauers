@@ -5,8 +5,8 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<?php if (function_exists("builder_breadcrumb_lists")) { ?>
-							<?php builder_breadcrumb_lists(); ?>
-							<?php } ?>
+					<?php builder_breadcrumb_lists(); ?>
+				<?php } ?>
 			</div>
 		</div>
 		<div class="row">
@@ -14,11 +14,7 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<?php
-							if ($post->post_parent) {
-							get_sidebar($post->post_parent);
-							} else {
 							get_sidebar();
-							}
 						?>
 					</div>
 					<div class="col-sm-8">

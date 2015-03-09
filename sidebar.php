@@ -6,7 +6,15 @@
 <?php else : ?>
 	
 	<div class="widget about">
-		<?php footer_bucket_2(); ?>
+		<?php if ( is_page( 225 ) ) {
+			footer_bucket_1();
+		} elseif ( is_page( 27 ) ) {
+			footer_bucket_2();
+		} elseif ($post->post_parent) {
+			get_sidebar($post->post_parent);
+		} else {
+			get_sidebar();
+		}?>
 	</div>
 	<div class="widget quick-quote">
 		<form class="intake-form" action="">

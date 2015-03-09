@@ -557,7 +557,7 @@ body.page-template-home-page-new-copy-php .hero ul li {
       .widget ul li a:hover {
         text-decoration: none;
         background: rgba(255, 255, 255, 0.75); }
-    .widget ul li.menu-item-94 {
+    .widget ul li.menu-item-95 {
       display: none; }
     .widget ul li.current_page_item > a {
       font-weight: bold; }
@@ -713,7 +713,8 @@ section {
         color: #f1f1f1;
         font-size: 14px; }
     .footer .footer-bucket .sub-menu {
-      display: none; }
+      margin-top: 8px;
+      padding: 0; }
   .footer .copyright {
     text-align: center;
     color: #999;
