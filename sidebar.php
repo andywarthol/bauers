@@ -8,7 +8,7 @@
 	<div class="widget about">
 		<?php if ( is_page( 225 ) ) {
 			footer_bucket_1();
-		} elseif ( is_page( 27 ) ) {
+		} elseif ( is_page( 27,90 ) ) {
 			footer_bucket_2();
 		} elseif ($post->post_parent) {
 			get_sidebar($post->post_parent);
