@@ -1,9 +1,4 @@
 
-<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
-
-	<?php dynamic_sidebar( 'sidebar1' ); ?>
-
-<?php else : ?>
 	
 		<?php if ( is_page (array( 225, 181 )) ) { ?>
 			<div class="widget about">
@@ -64,5 +59,5 @@
 		</form>
 	</div>
 
-<?php endif; ?>
+
 
