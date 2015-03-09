@@ -8,7 +8,7 @@
 	<div class="widget about">
 		<?php if ( is_page (array( 225, 181 )) ) {
 			footer_bucket_1();
-		} elseif ( $post->post_parent == 225 || $post->post_parent == 181 || $post->post_parent == 228 || $post->post_parent == 250 )) ) {
+		} elseif ( $post->post_parent == 225 || $post->post_parent == 181 || $post->post_parent == 228 || $post->post_parent == 250 ) {
 			footer_bucket_1();
 		} elseif ( is_page( 27 ) || is_page( 90 ) ) {
 			footer_bucket_2();
