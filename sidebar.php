@@ -22,7 +22,7 @@
 				<?php footer_bucket_2(); ?>
 			</div>
 		<?php } else { ?>
-			
+			hi
 		}?>
 	<div class="widget quick-quote">
 		<form class="intake-form" action="">
