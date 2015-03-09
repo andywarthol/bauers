@@ -5,26 +5,18 @@
 
 <?php else : ?>
 	
-	
-		<?php if ( is_page (array( 225, 181 )) ) { ?>
-			<div class="widget about">
-				<?php footer_bucket_1(); ?>
-			</div>
-   	<?php } elseif ( $post->post_parent == 225 ) { ?>
-   		<div class="widget about">
-				<?php footer_bucket_1(); ?>
-			</div>
-		<?php } elseif ( is_page( 27 ) || is_page( 90 ) ) { ?>
-			<div class="widget about">
-				<?php footer_bucket_2(); ?>
-			</div>
-		<?php } elseif ( $post->post_parent == 27 || $post->post_parent == 90 ) { ?>
-			<div class="widget about">
-				<?php footer_bucket_2(); ?>
-			</div>
-		<?php } else { ?>
-			<?php get_sidebar(); ?>
-		<?php }?>
+	<div class="widget about">
+		<?php if ( is_page (array( 225, 181 )) ) {
+			footer_bucket_1();
+		} elseif ( $post->post_parent == 225 ) {
+			footer_bucket_1();
+		} elseif ( is_page( 27 ) || is_page( 90 ) ) {
+			footer_bucket_2();
+		} elseif ( $post->post_parent == 27 || $post->post_parent == 90 ) {
+			footer_bucket_2();
+		} else {
+			get_sidebar();
+		}?>
 	</div>
 	<div class="widget quick-quote">
 		<form class="intake-form" action="">
