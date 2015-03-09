@@ -38,8 +38,17 @@ body.single-post
 			padding: 12px 20px
 			font-size: 14px
 	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
 		li
 			margin-bottom: 0
+			.glyphicon
+				font-size: .75em
+				top: 0
+				margin-right: 6px
+			.glyphicon-minus
+				display: none
 			a
 				padding: 5px 0
 				text-transform: none
@@ -50,6 +59,10 @@ body.single-post
 			&.contact-us
 				display: none
 			&.current_page_item, &.current_page_ancestor
+				.glyphicon-minus
+					display: inline-block
+				.glyphicon-plus
+					display: none
 				> a
 					font-weight: bold
 			// Grand children menu items
@@ -61,6 +74,8 @@ body.single-post
 				li
 					font-size: 14px
 					color: #999
+					.glyphicon
+						display: none
 					a
 						font-size: 14px
 						text-transform: none
