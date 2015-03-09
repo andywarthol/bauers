@@ -23,9 +23,7 @@
 				<?php footer_bucket_2(); ?>
 			</div>
 		<?php } else { ?>
-			<div class="widget about">
-				<?php get_sidebar(); ?>
-			</div>
+			<?php get_sidebar(); ?>
 		<?php }?>
 	</div>
 	<div class="widget quick-quote">
