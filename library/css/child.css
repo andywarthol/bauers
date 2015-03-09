@@ -179,7 +179,7 @@ form label.error {
       border-radius: 40px;
       font-weight: normal; }
       .navbar-default .navbar-collapse .navbar-nav li a:hover {
-        background: rgba(0, 0, 0, 0.02); }
+        background: rgba(0, 0, 0, 0.04); }
     .navbar-default .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
   .navbar-default .telephone {
@@ -588,8 +588,9 @@ section {
     section ul li {
       margin-bottom: 1em; }
   section article h3 {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #efefef; }
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 20px; }
   section article .video-wrapper {
     padding: 6px;
     border: 1px solid #efefef;

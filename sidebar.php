@@ -6,7 +6,9 @@
 <?php else : ?>
 	
 	<div class="widget about">
-		<?php if ( is_page( 225 ) ) {
+		<?php if ( is_page (array( 225, 181 )) ) {
+			footer_bucket_1();
+		} elseif ( $post->post_parent == 225 ) {
 			footer_bucket_1();
 		} elseif ( is_page( 27 ) || is_page( 90 ) ) {
 			footer_bucket_2();
