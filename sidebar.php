@@ -10,8 +10,8 @@
 			footer_bucket_1();
 		} elseif ( is_page( 27 ) || is_page( 90 ) ) {
 			footer_bucket_2();
-		} elseif ($post->post_parent) {
-			get_sidebar($post->post_parent);
+		} elseif ( $post->post_parent == 27 || $post->post_parent == 90 ) {
+			footer_bucket_2();
 		} else {
 			get_sidebar();
 		}?>
