@@ -15,7 +15,7 @@
 		} elseif ( $post->post_parent == 27 || $post->post_parent == 90 ) {
 			footer_bucket_2();
 		} else {
-			get_sidebar();
+			//get_sidebar();
 		}?>
 	</div>
 	<div class="widget quick-quote">
