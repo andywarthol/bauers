@@ -11,10 +11,10 @@ Template Name: About
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-sm-4 col-md-3">
 						<?php get_sidebar(); ?>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-8 col-md-9 col-lg-8">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<div class="row">
 							<div class="col-sm-12">

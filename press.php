@@ -11,10 +11,10 @@ Template Name: Press
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3 ">
+					<div class="col-sm-4 col-md-3">
 						<?php get_sidebar(); ?>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-8 col-md-9 col-lg-8">
 						<div class="row">
 							<div class="col-sm-12">
 								<header>
@@ -24,7 +24,7 @@ Template Name: Press
 						</div>
 						<?php if(get_field('press_articles')): ?>
 						<?php while(has_sub_field('press_articles')): ?>
-						<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix row' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+						<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 							<div class="col-sm-2">
 								<img class="img-responsive img-thumbnail" src="<?php the_sub_field('logo'); ?>" alt="">
 							</div>
@@ -54,7 +54,7 @@ Template Name: Press
 								$myposts = get_posts( $args );
 								foreach( $myposts as $post ) :  setup_postdata($post);
 							?>
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix row' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 								<div class="col-sm-2 text-center">
 									<span class="date"><?php the_field('date'); ?></span>
 								</div>
