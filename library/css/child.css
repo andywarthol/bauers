@@ -527,6 +527,9 @@ body.page-template-home-page-new-copy-php .hero ul li {
     color: #ccc;
     font-size: 14px; }
 
+body.single-post .widget.about {
+  display: none; }
+
 .widget {
   margin: 20px 0 40px; }
   .widget.quick-quote {
