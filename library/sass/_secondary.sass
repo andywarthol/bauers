@@ -42,29 +42,33 @@ body.single-post
 			margin-bottom: 0
 			a
 				padding: 5px 0
-				text-transform: uppercase
-				display: block
+				text-transform: none
+				display: inline-block
+				clear: both
 				font-size: 16px
-				&:hover
-					text-decoration: none
-					background: rgba(255, 255, 255, .75)
 			// Hide contact from sidebar nav
 			&.contact-us
 				display: none
-			&.current_page_item
+			&.current_page_item, &.current_page_ancestor
 				> a
 					font-weight: bold
-					&:hover
-						background: rgba(255, 255, 255, .75)
-		.sub-menu
-			margin: 0 0 10px
-			padding: 0 0 0 15px
-			list-style-type: none
-			li
-				font-size: 14px
-				color: #999
-				a
+			// Grand children menu items
+			.sub-menu
+				margin: 0 0 10px
+				padding: 0 0 0 10px
+				list-style-type: none
+				display: none
+				li
 					font-size: 14px
+					color: #999
+					a
+						font-size: 14px
+						text-transform: none
+						color: #666
+			&.current-menu-item, &.current_page_ancestor
+				> .sub-menu
+					display: block
+
 
 
 section

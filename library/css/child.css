@@ -554,27 +554,28 @@ body.single-post .widget.about {
     margin-bottom: 0; }
     .widget ul li a {
       padding: 5px 0;
-      text-transform: uppercase;
-      display: block;
+      text-transform: none;
+      display: inline-block;
+      clear: both;
       font-size: 16px; }
-      .widget ul li a:hover {
-        text-decoration: none;
-        background: rgba(255, 255, 255, 0.75); }
     .widget ul li.contact-us {
       display: none; }
-    .widget ul li.current_page_item > a {
+    .widget ul li.current_page_item > a, .widget ul li.current_page_ancestor > a {
       font-weight: bold; }
-      .widget ul li.current_page_item > a:hover {
-        background: rgba(255, 255, 255, 0.75); }
-  .widget ul .sub-menu {
-    margin: 0 0 10px;
-    padding: 0 0 0 15px;
-    list-style-type: none; }
-    .widget ul .sub-menu li {
-      font-size: 14px;
-      color: #999; }
-      .widget ul .sub-menu li a {
-        font-size: 14px; }
+    .widget ul li .sub-menu {
+      margin: 0 0 10px;
+      padding: 0 0 0 10px;
+      list-style-type: none;
+      display: none; }
+      .widget ul li .sub-menu li {
+        font-size: 14px;
+        color: #999; }
+        .widget ul li .sub-menu li a {
+          font-size: 14px;
+          text-transform: none;
+          color: #666; }
+    .widget ul li.current-menu-item > .sub-menu, .widget ul li.current_page_ancestor > .sub-menu {
+      display: block; }
 
 section {
   padding: 2em 0; }
@@ -718,6 +719,7 @@ section {
         color: #f1f1f1;
         font-size: 14px; }
     .footer .footer-bucket .sub-menu {
+      display: none;
       margin-top: 8px;
       padding: 0; }
   .footer .copyright {
