@@ -673,7 +673,8 @@ section {
     font-size: 0.9em;
     line-height: 1.7;
     font-style: normal;
-    color: #212121; }
+    color: #212121;
+    font-weight: 600; }
 
 .awards article {
   padding-bottom: 20px;
