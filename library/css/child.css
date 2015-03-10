@@ -649,6 +649,30 @@ section {
 .standard {
   padding-top: 2em; }
 
+.testimonial-quotes blockquote {
+  font-style: italic;
+  border: none;
+  line-height: 1.7;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 20px;
+  position: relative; }
+  .testimonial-quotes blockquote:before {
+    content: "“";
+    font-family: Georgia, sans-serif;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.2);
+    line-height: 1;
+    margin-left: -24px; }
+  .testimonial-quotes blockquote small {
+    display: block;
+    text-align: right;
+    font-size: 1em;
+    line-height: 1.7; }
+
 .awards article {
   padding-bottom: 20px;
   margin-bottom: 20px;
