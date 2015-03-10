@@ -659,6 +659,9 @@ section {
     max-width: 100%; }
   .awards article h2 {
     font-size: 24px; }
+  .awards article p {
+    font-size: 14px;
+    margin: 0; }
 
 .press-hits article {
   padding-bottom: 20px;
