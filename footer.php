@@ -14,11 +14,11 @@
 							<?php footer_bucket_2(); ?>
 						</div>
 						<div class="col-sm-3">
-							<h3 class="bucket-title">Environmental Commitment</h3>
+							<h3 class="bucket-title">Environment</h3>
 							<?php footer_bucket_3(); ?>
 						</div>
 						<div class="col-sm-3">
-							<h3 class="bucket-title">Sponsorship &amp; Advertising</h3>
+							<h3 class="bucket-title">Advertising</h3>
 							<?php footer_bucket_4(); ?>
 						</div>
 					</div>
