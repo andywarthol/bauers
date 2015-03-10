@@ -671,7 +671,8 @@ section {
     display: block;
     text-align: right;
     font-size: 1em;
-    line-height: 1.7; }
+    line-height: 1.7;
+    font-style: normal; }
 
 .awards article {
   padding-bottom: 20px;
