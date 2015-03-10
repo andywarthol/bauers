@@ -649,6 +649,17 @@ section {
 .standard {
   padding-top: 2em; }
 
+.awards article {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1; }
+  .awards article .img-thumbnail {
+    width: 100%;
+    height: auto;
+    max-width: 100%; }
+  .awards article h2 {
+    font-size: 24px; }
+
 .press-hits article {
   padding-bottom: 20px;
   margin-bottom: 20px;

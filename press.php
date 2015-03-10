@@ -30,9 +30,9 @@ Template Name: Press
 							</div>
 							<div class="col-sm-10">
 								<header>
-									<h2><a href="<?php the_sub_field('url'); ?>"><?php the_sub_field('title'); ?></a><small><?php the_sub_field('date'); ?></small></h2>
+									<h2><a href="<?php the_sub_field('url'); ?>" target="_blank"><?php the_sub_field('title'); ?></a><small><?php the_sub_field('date'); ?></small></h2>
 								</header>
-								<p><?php the_sub_field('excerpt'); ?> <a href="<?php the_sub_field('url'); ?>">More&rarr;</a></p>
+								<p><?php the_sub_field('excerpt'); ?> <a href="<?php the_sub_field('url'); ?>" target="_blank">More&rarr;</a></p>
 							</div>
 						</article> <!-- end article -->
 						<?php endwhile; endif; ?>
