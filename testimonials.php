@@ -18,7 +18,7 @@ Template Name: Testimonials
 						<div class="row">
 							<div class="col-sm-12">
 								<header>
-									<h1 class="page-title">Awards</h1>
+									<h1 class="page-title">Testimonials</h1>
 								</header>
 							</div>
 						</div>
