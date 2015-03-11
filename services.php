@@ -9,7 +9,7 @@ Template Name: Services
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
-				<h2 class="text-center">Our Services</h2>
+				<h2 class="text-center"><?php the_title(); ?></h2>
 			</div>
 		</div>
 	</div>
