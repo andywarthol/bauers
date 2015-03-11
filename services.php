@@ -9,7 +9,7 @@ Template Name: Services
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
-				<h2 class="text-center">Don't just get there, make <em>IT</em> an experience.</h2>
+				<h2 class="text-center">Our Services</h2>
 			</div>
 		</div>
 	</div>
@@ -36,9 +36,9 @@ Template Name: Services
 						<div class="row">
 							<div class="col-sm-12">
 								<article>
-									<header>
+									<!-- <header>
 										<h1 class="page-title"><?php the_title(); ?></h1>
-									</header>
+									</header> -->
 									<?php the_content(); ?>
 								</article> <!-- end article -->
 							</div>
