@@ -18,15 +18,15 @@ Template Name: Services
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<?php if (function_exists("builder_breadcrumb_lists")) { ?>
-					<?php builder_breadcrumb_lists(); ?>
-				<?php } ?>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
 				<div class="row">
 					<div class="col-sm-4 col-md-3">
+						<div class="row">
+							<div class="col-sm-12">
+								<?php if (function_exists("builder_breadcrumb_lists")) { ?>
+									<?php builder_breadcrumb_lists(); ?>
+								<?php } ?>
+							</div>
+						</div>
 						<?php
 							get_sidebar();
 						?>
