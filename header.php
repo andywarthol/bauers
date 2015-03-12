@@ -51,6 +51,7 @@
 								<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+										<span class="text">Menu</span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
@@ -60,7 +61,7 @@
 
 								</div>
 
-								<nav class="pull-right telephone">
+								<nav class="telephone">
 									<ul class="nav navbar-nav">
 										<li>
 											Get a Free Quote: <em>1-800-546-6688</em>

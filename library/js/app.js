@@ -1,3 +1,6 @@
 jQuery(document).ready(function($){
-	console.log('JS is working');
+	$('.navbar-toggle').bind( "touchstart", function(e){
+		e.preventDefault();
+		$('.navbar-collapse').collapse('toggle');
+	});
 });

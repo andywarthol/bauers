@@ -191,6 +191,7 @@ form label.error {
     .navbar-default .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
   .navbar-default .telephone {
+    float: right;
     margin: 0; }
     .navbar-default .telephone .navbar-nav {
       margin: 0; }
@@ -807,3 +808,58 @@ section {
     font-size: 13px; }
     .footer .copyright a {
       color: #999; }
+
+@media screen and (max-width: 767px) {
+  body {
+    padding: 0; }
+
+  header .navbar-default {
+    position: static;
+    margin: 0;
+    height: auto; }
+    header .navbar-default .navbar-header .navbar-brand {
+      width: 120px;
+      height: 60px;
+      background-size: 100px auto; }
+    header .navbar-default .navbar-header .navbar-toggle {
+      border: none;
+      background: transparent;
+      margin: 0 5px 0 0; }
+      header .navbar-default .navbar-header .navbar-toggle .text {
+        font-size: 10px;
+        text-transform: uppercase; }
+      header .navbar-default .navbar-header .navbar-toggle .icon-bar {
+        background: #545454;
+        height: 3px;
+        width: 28px;
+        border-radius: 0; }
+    header .navbar-default .navbar-collapse {
+      float: none !important;
+      margin: 0; }
+      header .navbar-default .navbar-collapse .navbar-nav {
+        overflow: auto; }
+        header .navbar-default .navbar-collapse .navbar-nav li {
+          float: left;
+          display: block;
+          width: 50%;
+          text-align: center; }
+          header .navbar-default .navbar-collapse .navbar-nav li a {
+            padding: 10px 15px; }
+          header .navbar-default .navbar-collapse .navbar-nav li.contact {
+            clear: both;
+            float: none;
+            width: 100%; }
+            header .navbar-default .navbar-collapse .navbar-nav li.contact a {
+              border-top: 1px solid #f1f1f1; }
+    header .navbar-default .telephone {
+      float: none;
+      display: block; }
+      header .navbar-default .telephone .navbar-nav li {
+        padding: 5px 0;
+        float: none;
+        display: block;
+        text-align: center;
+        font-size: 15px; }
+        header .navbar-default .telephone .navbar-nav li em {
+          display: inline-block;
+          font-size: 15px; } }
