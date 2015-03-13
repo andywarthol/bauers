@@ -5,19 +5,19 @@
 				<div id="inner-footer" class="footer-links clearfix">
 
 					<div class="row">
-						<div class="col-sm-3">
+						<div class="col-sm-3 bucket">
 							<h3 class="bucket-title">Services</h3>
 							<?php footer_bucket_1(); ?>
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-3 bucket">
 							<h3 class="bucket-title">Company</h3>
 							<?php footer_bucket_2(); ?>
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-3 bucket">
 							<h3 class="bucket-title">Environment</h3>
 							<?php footer_bucket_3(); ?>
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-3 bucket">
 							<h3 class="bucket-title">Advertising</h3>
 							<?php footer_bucket_4(); ?>
 						</div>

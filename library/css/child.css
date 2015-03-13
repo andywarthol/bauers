@@ -909,10 +909,46 @@ section {
         margin-bottom: 20px; }
       body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary {
         padding: 16px;
-        font-size: 13px; }
+        font-size: 13px;
+        width: 100%; }
       body.home .features .tab-content .tab-pane .col-sm-12 p, body.home .features .tab-content .tab-pane .col-lg-6 p {
         margin-bottom: 20px; }
+  body.home .testimonials .btn-default {
+    font-size: 14px; }
+  body.home .benefits h2 {
+    font-size: 17px; }
   body.home .benefits p {
     padding-bottom: 15px;
     border-bottom: 1px solid #f1f1f1;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  body.home .benefits .btn-primary {
+    font-size: 14px;
+    width: 100%; }
+  body.home .faq .panel-group {
+    margin-bottom: 1em; }
+    body.home .faq .panel-group .panel {
+      margin-bottom: 0.65em; }
+      body.home .faq .panel-group .panel .panel-heading {
+        padding: 4px 8px; }
+        body.home .faq .panel-group .panel .panel-heading .panel-title a {
+          font-size: 14px; }
+          body.home .faq .panel-group .panel .panel-heading .panel-title a .glyphicon {
+            margin-right: 0;
+            font-size: 9px;
+            top: -1px; }
+  body.home .faq .btn-default {
+    font-size: 14px;
+    width: 100%; }
+
+  .footer .bucket .bucket-title {
+    text-align: center;
+    font-size: 19px; }
+  .footer .bucket .footer-bucket {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
+    margin-bottom: 20px; }
+    .footer .bucket .footer-bucket li {
+      text-align: center; }
+      .footer .bucket .footer-bucket li a {
+        font-size: 17px; } }
