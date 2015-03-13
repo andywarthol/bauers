@@ -215,57 +215,57 @@ body.page-template-home-page-old-logo-php .navbar-default .navbar-header .navbar
   background: url("../images/bauers-it-logo-2x.jpg") center 7px no-repeat;
   background-size: 140px auto; }
 
-body.home section, body.page-template-home-page-old-logo-php section, body.page-template-home-page-new-hero-php section, body.page-template-home-page-new-hero-old-logo-php section, body.page-template-home-page-with-arrow-php section, body.page-template-home-page-new-copy-php section {
+body.home section {
   padding: 4em 0; }
-  body.home section h1, body.home section h2, body.page-template-home-page-old-logo-php section h1, body.page-template-home-page-old-logo-php section h2, body.page-template-home-page-new-hero-php section h1, body.page-template-home-page-new-hero-php section h2, body.page-template-home-page-new-hero-old-logo-php section h1, body.page-template-home-page-new-hero-old-logo-php section h2, body.page-template-home-page-with-arrow-php section h1, body.page-template-home-page-with-arrow-php section h2, body.page-template-home-page-new-copy-php section h1, body.page-template-home-page-new-copy-php section h2 {
+  body.home section h1, body.home section h2 {
     text-align: center; }
-  body.home section h1, body.page-template-home-page-old-logo-php section h1, body.page-template-home-page-new-hero-php section h1, body.page-template-home-page-new-hero-old-logo-php section h1, body.page-template-home-page-with-arrow-php section h1, body.page-template-home-page-new-copy-php section h1 {
+  body.home section h1 {
     margin-bottom: 2em; }
-  body.home section.light, body.page-template-home-page-old-logo-php section.light, body.page-template-home-page-new-hero-php section.light, body.page-template-home-page-new-hero-old-logo-php section.light, body.page-template-home-page-with-arrow-php section.light, body.page-template-home-page-new-copy-php section.light {
+  body.home section.light {
     color: white;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
-  body.home section.lightGrey, body.page-template-home-page-old-logo-php section.lightGrey, body.page-template-home-page-new-hero-php section.lightGrey, body.page-template-home-page-new-hero-old-logo-php section.lightGrey, body.page-template-home-page-with-arrow-php section.lightGrey, body.page-template-home-page-new-copy-php section.lightGrey {
+  body.home section.lightGrey {
     background: #f1f1f1; }
-body.home .hero, body.page-template-home-page-old-logo-php .hero, body.page-template-home-page-new-hero-php .hero, body.page-template-home-page-new-hero-old-logo-php .hero, body.page-template-home-page-with-arrow-php .hero, body.page-template-home-page-new-copy-php .hero {
+body.home .hero {
   position: relative;
   padding: 2em 0 2em;
   background: url("../images/blue-bridge.jpg") 50% 100% no-repeat;
   background-size: cover;
   height: auto; }
-  body.home .hero h1, body.page-template-home-page-old-logo-php .hero h1, body.page-template-home-page-new-hero-php .hero h1, body.page-template-home-page-new-hero-old-logo-php .hero h1, body.page-template-home-page-with-arrow-php .hero h1, body.page-template-home-page-new-copy-php .hero h1 {
+  body.home .hero h1 {
     text-align: left;
     font-weight: bold;
     font-size: 42px;
     margin: 60px 0 20px; }
-  body.home .hero h2, body.page-template-home-page-old-logo-php .hero h2, body.page-template-home-page-new-hero-php .hero h2, body.page-template-home-page-new-hero-old-logo-php .hero h2, body.page-template-home-page-with-arrow-php .hero h2, body.page-template-home-page-new-copy-php .hero h2 {
+  body.home .hero h2 {
     text-align: left;
     font-weight: normal;
     font-size: 21px;
     line-height: 1.4; }
-  body.home .hero ul li, body.page-template-home-page-old-logo-php .hero ul li, body.page-template-home-page-new-hero-php .hero ul li, body.page-template-home-page-new-hero-old-logo-php .hero ul li, body.page-template-home-page-with-arrow-php .hero ul li, body.page-template-home-page-new-copy-php .hero ul li {
+  body.home .hero ul li {
     font-size: 24px;
     margin-bottom: 15px; }
-  body.home .hero .card, body.page-template-home-page-old-logo-php .hero .card, body.page-template-home-page-new-hero-php .hero .card, body.page-template-home-page-new-hero-old-logo-php .hero .card, body.page-template-home-page-with-arrow-php .hero .card, body.page-template-home-page-new-copy-php .hero .card {
+  body.home .hero .card {
     margin: 0 0 0 40px;
     background: rgba(0, 0, 0, 0.35);
     padding: 10px 20px;
     transition: background 0.5s ease-in-out; }
-    body.home .hero .card.hot, body.page-template-home-page-old-logo-php .hero .card.hot, body.page-template-home-page-new-hero-php .hero .card.hot, body.page-template-home-page-new-hero-old-logo-php .hero .card.hot, body.page-template-home-page-with-arrow-php .hero .card.hot, body.page-template-home-page-new-copy-php .hero .card.hot {
+    body.home .hero .card.hot {
       background: rgba(0, 0, 0, 0.6); }
-    body.home .hero .card .btn-primary, body.page-template-home-page-old-logo-php .hero .card .btn-primary, body.page-template-home-page-new-hero-php .hero .card .btn-primary, body.page-template-home-page-new-hero-old-logo-php .hero .card .btn-primary, body.page-template-home-page-with-arrow-php .hero .card .btn-primary, body.page-template-home-page-new-copy-php .hero .card .btn-primary {
+    body.home .hero .card .btn-primary {
       padding: 12px; }
-  body.home .hero legend, body.page-template-home-page-old-logo-php .hero legend, body.page-template-home-page-new-hero-php .hero legend, body.page-template-home-page-new-hero-old-logo-php .hero legend, body.page-template-home-page-with-arrow-php .hero legend, body.page-template-home-page-new-copy-php .hero legend {
+  body.home .hero legend {
     color: white;
     border: none;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     margin: 10px 0 15px; }
-    body.home .hero legend small, body.page-template-home-page-old-logo-php .hero legend small, body.page-template-home-page-new-hero-php .hero legend small, body.page-template-home-page-new-hero-old-logo-php .hero legend small, body.page-template-home-page-with-arrow-php .hero legend small, body.page-template-home-page-new-copy-php .hero legend small {
+    body.home .hero legend small {
       font-size: 15px;
       font-weight: normal;
       display: block; }
-  body.home .hero .down-arrow, body.page-template-home-page-old-logo-php .hero .down-arrow, body.page-template-home-page-new-hero-php .hero .down-arrow, body.page-template-home-page-new-hero-old-logo-php .hero .down-arrow, body.page-template-home-page-with-arrow-php .hero .down-arrow, body.page-template-home-page-new-copy-php .hero .down-arrow {
+  body.home .hero .down-arrow {
     display: inline-block;
     background: url("../images/down-arrow.png") center center no-repeat;
     background-size: 30px 15px;
@@ -276,95 +276,95 @@ body.home .hero, body.page-template-home-page-old-logo-php .hero, body.page-temp
     bottom: 20px;
     left: 50%;
     margin-left: -15px; }
-    body.home .hero .down-arrow:hover, body.page-template-home-page-old-logo-php .hero .down-arrow:hover, body.page-template-home-page-new-hero-php .hero .down-arrow:hover, body.page-template-home-page-new-hero-old-logo-php .hero .down-arrow:hover, body.page-template-home-page-with-arrow-php .hero .down-arrow:hover, body.page-template-home-page-new-copy-php .hero .down-arrow:hover {
+    body.home .hero .down-arrow:hover {
       opacity: 1; }
-body.home .hero-modal, body.page-template-home-page-old-logo-php .hero-modal, body.page-template-home-page-new-hero-php .hero-modal, body.page-template-home-page-new-hero-old-logo-php .hero-modal, body.page-template-home-page-with-arrow-php .hero-modal, body.page-template-home-page-new-copy-php .hero-modal {
+body.home .hero-modal {
   box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.15);
   padding: 2em 0 2em;
   background: url("../images/beautiful-road-2.jpg") 50% 100% no-repeat;
   background-size: cover;
   height: 500px; }
-  body.home .hero-modal h1, body.page-template-home-page-old-logo-php .hero-modal h1, body.page-template-home-page-new-hero-php .hero-modal h1, body.page-template-home-page-new-hero-old-logo-php .hero-modal h1, body.page-template-home-page-with-arrow-php .hero-modal h1, body.page-template-home-page-new-copy-php .hero-modal h1 {
+  body.home .hero-modal h1 {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
     margin: 100px 0 20px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
-  body.home .hero-modal h2, body.page-template-home-page-old-logo-php .hero-modal h2, body.page-template-home-page-new-hero-php .hero-modal h2, body.page-template-home-page-new-hero-old-logo-php .hero-modal h2, body.page-template-home-page-with-arrow-php .hero-modal h2, body.page-template-home-page-new-copy-php .hero-modal h2 {
+  body.home .hero-modal h2 {
     text-align: center;
     font-weight: normal;
     font-size: 20px;
     line-height: 1.4;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     margin-bottom: 40px; }
-  body.home .hero-modal .btn-primary, body.page-template-home-page-old-logo-php .hero-modal .btn-primary, body.page-template-home-page-new-hero-php .hero-modal .btn-primary, body.page-template-home-page-new-hero-old-logo-php .hero-modal .btn-primary, body.page-template-home-page-with-arrow-php .hero-modal .btn-primary, body.page-template-home-page-new-copy-php .hero-modal .btn-primary {
+  body.home .hero-modal .btn-primary {
     font-size: 18px;
     padding: 15px 40px;
     background: #e85d00;
     border-color: #e85d00; }
-  body.home .hero-modal .card, body.page-template-home-page-old-logo-php .hero-modal .card, body.page-template-home-page-new-hero-php .hero-modal .card, body.page-template-home-page-new-hero-old-logo-php .hero-modal .card, body.page-template-home-page-with-arrow-php .hero-modal .card, body.page-template-home-page-new-copy-php .hero-modal .card {
+  body.home .hero-modal .card {
     margin: 0 0 0 40px;
     background: rgba(0, 0, 0, 0.25);
     padding: 10px 20px; }
-  body.home .hero-modal legend, body.page-template-home-page-old-logo-php .hero-modal legend, body.page-template-home-page-new-hero-php .hero-modal legend, body.page-template-home-page-new-hero-old-logo-php .hero-modal legend, body.page-template-home-page-with-arrow-php .hero-modal legend, body.page-template-home-page-new-copy-php .hero-modal legend {
+  body.home .hero-modal legend {
     color: white;
     border: none;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     margin: 10px 0 15px; }
-    body.home .hero-modal legend small, body.page-template-home-page-old-logo-php .hero-modal legend small, body.page-template-home-page-new-hero-php .hero-modal legend small, body.page-template-home-page-new-hero-old-logo-php .hero-modal legend small, body.page-template-home-page-with-arrow-php .hero-modal legend small, body.page-template-home-page-new-copy-php .hero-modal legend small {
+    body.home .hero-modal legend small {
       font-size: 15px;
       font-weight: normal;
       display: block; }
-  body.home .hero-modal .form-group, body.page-template-home-page-old-logo-php .hero-modal .form-group, body.page-template-home-page-new-hero-php .hero-modal .form-group, body.page-template-home-page-new-hero-old-logo-php .hero-modal .form-group, body.page-template-home-page-with-arrow-php .hero-modal .form-group, body.page-template-home-page-new-copy-php .hero-modal .form-group {
+  body.home .hero-modal .form-group {
     margin-bottom: 6px; }
-    body.home .hero-modal .form-group .form-control, body.page-template-home-page-old-logo-php .hero-modal .form-group .form-control, body.page-template-home-page-new-hero-php .hero-modal .form-group .form-control, body.page-template-home-page-new-hero-old-logo-php .hero-modal .form-group .form-control, body.page-template-home-page-with-arrow-php .hero-modal .form-group .form-control, body.page-template-home-page-new-copy-php .hero-modal .form-group .form-control {
+    body.home .hero-modal .form-group .form-control {
       border-color: #333;
       height: 40px; }
-    body.home .hero-modal .form-group .col-sm-6.left, body.page-template-home-page-old-logo-php .hero-modal .form-group .col-sm-6.left, body.page-template-home-page-new-hero-php .hero-modal .form-group .col-sm-6.left, body.page-template-home-page-new-hero-old-logo-php .hero-modal .form-group .col-sm-6.left, body.page-template-home-page-with-arrow-php .hero-modal .form-group .col-sm-6.left, body.page-template-home-page-new-copy-php .hero-modal .form-group .col-sm-6.left {
+    body.home .hero-modal .form-group .col-sm-6.left {
       padding-right: 3px; }
-    body.home .hero-modal .form-group .col-sm-6.right, body.page-template-home-page-old-logo-php .hero-modal .form-group .col-sm-6.right, body.page-template-home-page-new-hero-php .hero-modal .form-group .col-sm-6.right, body.page-template-home-page-new-hero-old-logo-php .hero-modal .form-group .col-sm-6.right, body.page-template-home-page-with-arrow-php .hero-modal .form-group .col-sm-6.right, body.page-template-home-page-new-copy-php .hero-modal .form-group .col-sm-6.right {
+    body.home .hero-modal .form-group .col-sm-6.right {
       padding-left: 3px; }
-body.home .logos, body.page-template-home-page-old-logo-php .logos, body.page-template-home-page-new-hero-php .logos, body.page-template-home-page-new-hero-old-logo-php .logos, body.page-template-home-page-with-arrow-php .logos, body.page-template-home-page-new-copy-php .logos {
+body.home .logos {
   padding: 1.5em 0;
   border-bottom: 1px solid #dadada; }
-  body.home .logos .col-sm-2, body.page-template-home-page-old-logo-php .logos .col-sm-2, body.page-template-home-page-new-hero-php .logos .col-sm-2, body.page-template-home-page-new-hero-old-logo-php .logos .col-sm-2, body.page-template-home-page-with-arrow-php .logos .col-sm-2, body.page-template-home-page-new-copy-php .logos .col-sm-2 {
+  body.home .logos .col-sm-2 {
     text-align: center;
     float: none;
     display: inline-block;
     vertical-align: middle;
     width: 16.1%; }
-  body.home .logos img, body.page-template-home-page-old-logo-php .logos img, body.page-template-home-page-new-hero-php .logos img, body.page-template-home-page-new-hero-old-logo-php .logos img, body.page-template-home-page-with-arrow-php .logos img, body.page-template-home-page-new-copy-php .logos img {
+  body.home .logos img {
     display: inline-block;
     vertical-align: middle;
     width: 80px;
     height: auto; }
-  body.home .logos .ea img, body.page-template-home-page-old-logo-php .logos .ea img, body.page-template-home-page-new-hero-php .logos .ea img, body.page-template-home-page-new-hero-old-logo-php .logos .ea img, body.page-template-home-page-with-arrow-php .logos .ea img, body.page-template-home-page-new-copy-php .logos .ea img {
+  body.home .logos .ea img {
     width: 50px; }
-  body.home .logos .pge img, body.page-template-home-page-old-logo-php .logos .pge img, body.page-template-home-page-new-hero-php .logos .pge img, body.page-template-home-page-new-hero-old-logo-php .logos .pge img, body.page-template-home-page-with-arrow-php .logos .pge img, body.page-template-home-page-new-copy-php .logos .pge img {
+  body.home .logos .pge img {
     width: 36px; }
-  body.home .logos .levis img, body.page-template-home-page-old-logo-php .logos .levis img, body.page-template-home-page-new-hero-php .logos .levis img, body.page-template-home-page-new-hero-old-logo-php .logos .levis img, body.page-template-home-page-with-arrow-php .logos .levis img, body.page-template-home-page-new-copy-php .logos .levis img {
+  body.home .logos .levis img {
     width: 50px; }
-  body.home .logos .livenation img, body.page-template-home-page-old-logo-php .logos .livenation img, body.page-template-home-page-new-hero-php .logos .livenation img, body.page-template-home-page-new-hero-old-logo-php .logos .livenation img, body.page-template-home-page-with-arrow-php .logos .livenation img, body.page-template-home-page-new-copy-php .logos .livenation img {
+  body.home .logos .livenation img {
     width: 100px; }
-  body.home .logos .clients, body.page-template-home-page-old-logo-php .logos .clients, body.page-template-home-page-new-hero-php .logos .clients, body.page-template-home-page-new-hero-old-logo-php .logos .clients, body.page-template-home-page-with-arrow-php .logos .clients, body.page-template-home-page-new-copy-php .logos .clients {
+  body.home .logos .clients {
     text-transform: uppercase;
     color: #777;
     line-height: 42px;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 100; }
-body.home .features, body.page-template-home-page-old-logo-php .features, body.page-template-home-page-new-hero-php .features, body.page-template-home-page-new-hero-old-logo-php .features, body.page-template-home-page-with-arrow-php .features, body.page-template-home-page-new-copy-php .features {
+body.home .features {
   background-image: -webkit-radial-gradient(closest-corner, #f7f7f7 60%, #dadada), -webkit-linear-gradient(108deg, #f5f5f5, #efefef 10%, #f5f5f5 90%); }
-  body.home .features h1, body.page-template-home-page-old-logo-php .features h1, body.page-template-home-page-new-hero-php .features h1, body.page-template-home-page-new-hero-old-logo-php .features h1, body.page-template-home-page-with-arrow-php .features h1, body.page-template-home-page-new-copy-php .features h1 {
+  body.home .features h1 {
     margin-bottom: 1em; }
-  body.home .features .nav-tabs li, body.page-template-home-page-old-logo-php .features .nav-tabs li, body.page-template-home-page-new-hero-php .features .nav-tabs li, body.page-template-home-page-new-hero-old-logo-php .features .nav-tabs li, body.page-template-home-page-with-arrow-php .features .nav-tabs li, body.page-template-home-page-new-copy-php .features .nav-tabs li {
+  body.home .features .nav-tabs li {
     width: 33%;
     margin: 0 0 -1px 0; }
-    body.home .features .nav-tabs li.two, body.home .features .nav-tabs li.three, body.page-template-home-page-old-logo-php .features .nav-tabs li.two, body.page-template-home-page-old-logo-php .features .nav-tabs li.three, body.page-template-home-page-new-hero-php .features .nav-tabs li.two, body.page-template-home-page-new-hero-php .features .nav-tabs li.three, body.page-template-home-page-new-hero-old-logo-php .features .nav-tabs li.two, body.page-template-home-page-new-hero-old-logo-php .features .nav-tabs li.three, body.page-template-home-page-with-arrow-php .features .nav-tabs li.two, body.page-template-home-page-with-arrow-php .features .nav-tabs li.three, body.page-template-home-page-new-copy-php .features .nav-tabs li.two, body.page-template-home-page-new-copy-php .features .nav-tabs li.three {
+    body.home .features .nav-tabs li.two, body.home .features .nav-tabs li.three {
       margin-left: -1px; }
-    body.home .features .nav-tabs li a, body.page-template-home-page-old-logo-php .features .nav-tabs li a, body.page-template-home-page-new-hero-php .features .nav-tabs li a, body.page-template-home-page-new-hero-old-logo-php .features .nav-tabs li a, body.page-template-home-page-with-arrow-php .features .nav-tabs li a, body.page-template-home-page-new-copy-php .features .nav-tabs li a {
+    body.home .features .nav-tabs li a {
       border: 1px solid #dadada;
       border-bottom: none;
       border-radius: 0;
@@ -373,21 +373,21 @@ body.home .features, body.page-template-home-page-old-logo-php .features, body.p
       text-align: center;
       font-size: 14px;
       color: #212121; }
-  body.home .features .tab-pane, body.page-template-home-page-old-logo-php .features .tab-pane, body.page-template-home-page-new-hero-php .features .tab-pane, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane, body.page-template-home-page-with-arrow-php .features .tab-pane, body.page-template-home-page-new-copy-php .features .tab-pane {
+  body.home .features .tab-pane {
     padding: 40px 30px 30px;
     border: 1px solid #dadada;
     border-top: none;
     background: white;
     margin-bottom: 0px; }
-    body.home .features .tab-pane .btn-primary, body.page-template-home-page-old-logo-php .features .tab-pane .btn-primary, body.page-template-home-page-new-hero-php .features .tab-pane .btn-primary, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .btn-primary, body.page-template-home-page-with-arrow-php .features .tab-pane .btn-primary, body.page-template-home-page-new-copy-php .features .tab-pane .btn-primary {
+    body.home .features .tab-pane .btn-primary {
       font-size: 14px; }
-    body.home .features .tab-pane .img-thumbnail, body.page-template-home-page-old-logo-php .features .tab-pane .img-thumbnail, body.page-template-home-page-new-hero-php .features .tab-pane .img-thumbnail, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .img-thumbnail, body.page-template-home-page-with-arrow-php .features .tab-pane .img-thumbnail, body.page-template-home-page-new-copy-php .features .tab-pane .img-thumbnail {
+    body.home .features .tab-pane .img-thumbnail {
       float: left;
       margin: 0 10px 10px 0;
       width: 220px; }
-    body.home .features .tab-pane .col-lg-6, body.home .features .tab-pane .col-sm-12, body.page-template-home-page-old-logo-php .features .tab-pane .col-lg-6, body.page-template-home-page-old-logo-php .features .tab-pane .col-sm-12, body.page-template-home-page-new-hero-php .features .tab-pane .col-lg-6, body.page-template-home-page-new-hero-php .features .tab-pane .col-sm-12, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .col-lg-6, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .col-sm-12, body.page-template-home-page-with-arrow-php .features .tab-pane .col-lg-6, body.page-template-home-page-with-arrow-php .features .tab-pane .col-sm-12, body.page-template-home-page-new-copy-php .features .tab-pane .col-lg-6, body.page-template-home-page-new-copy-php .features .tab-pane .col-sm-12 {
+    body.home .features .tab-pane .col-lg-6, body.home .features .tab-pane .col-sm-12 {
       padding: 0 40px; }
-    body.home .features .tab-pane .icon, body.page-template-home-page-old-logo-php .features .tab-pane .icon, body.page-template-home-page-new-hero-php .features .tab-pane .icon, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon, body.page-template-home-page-with-arrow-php .features .tab-pane .icon, body.page-template-home-page-new-copy-php .features .tab-pane .icon {
+    body.home .features .tab-pane .icon {
       display: inline-block;
       width: 22px;
       height: 14px;
@@ -396,72 +396,72 @@ body.home .features, body.page-template-home-page-old-logo-php .features, body.p
       background-size: auto 14px;
       background-repeat: no-repeat;
       background-position: center center; }
-      body.home .features .tab-pane .icon.airplane, body.page-template-home-page-old-logo-php .features .tab-pane .icon.airplane, body.page-template-home-page-new-hero-php .features .tab-pane .icon.airplane, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.airplane, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.airplane, body.page-template-home-page-new-copy-php .features .tab-pane .icon.airplane {
+      body.home .features .tab-pane .icon.airplane {
         background-image: url("../images/airplane-icon.jpg"); }
-      body.home .features .tab-pane .icon.car, body.page-template-home-page-old-logo-php .features .tab-pane .icon.car, body.page-template-home-page-new-hero-php .features .tab-pane .icon.car, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.car, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.car, body.page-template-home-page-new-copy-php .features .tab-pane .icon.car {
+      body.home .features .tab-pane .icon.car {
         background-image: url("../images/car-icon.jpg"); }
-      body.home .features .tab-pane .icon.binoculars, body.page-template-home-page-old-logo-php .features .tab-pane .icon.binoculars, body.page-template-home-page-new-hero-php .features .tab-pane .icon.binoculars, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.binoculars, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.binoculars, body.page-template-home-page-new-copy-php .features .tab-pane .icon.binoculars {
+      body.home .features .tab-pane .icon.binoculars {
         background-image: url("../images/binoculars-icon.jpg"); }
-      body.home .features .tab-pane .icon.snow, body.page-template-home-page-old-logo-php .features .tab-pane .icon.snow, body.page-template-home-page-new-hero-php .features .tab-pane .icon.snow, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.snow, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.snow, body.page-template-home-page-new-copy-php .features .tab-pane .icon.snow {
+      body.home .features .tab-pane .icon.snow {
         background-image: url("../images/snow-icon.jpg"); }
-      body.home .features .tab-pane .icon.group, body.page-template-home-page-old-logo-php .features .tab-pane .icon.group, body.page-template-home-page-new-hero-php .features .tab-pane .icon.group, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.group, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.group, body.page-template-home-page-new-copy-php .features .tab-pane .icon.group {
+      body.home .features .tab-pane .icon.group {
         background-image: url("../images/cake-icon.jpg"); }
-      body.home .features .tab-pane .icon.wine, body.page-template-home-page-old-logo-php .features .tab-pane .icon.wine, body.page-template-home-page-new-hero-php .features .tab-pane .icon.wine, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.wine, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.wine, body.page-template-home-page-new-copy-php .features .tab-pane .icon.wine {
+      body.home .features .tab-pane .icon.wine {
         background-image: url("../images/wine-glass-icon.jpg"); }
-      body.home .features .tab-pane .icon.earth, body.page-template-home-page-old-logo-php .features .tab-pane .icon.earth, body.page-template-home-page-new-hero-php .features .tab-pane .icon.earth, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.earth, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.earth, body.page-template-home-page-new-copy-php .features .tab-pane .icon.earth {
+      body.home .features .tab-pane .icon.earth {
         background-image: url("../images/earth-icon.jpg"); }
-      body.home .features .tab-pane .icon.retention, body.page-template-home-page-old-logo-php .features .tab-pane .icon.retention, body.page-template-home-page-new-hero-php .features .tab-pane .icon.retention, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.retention, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.retention, body.page-template-home-page-new-copy-php .features .tab-pane .icon.retention {
+      body.home .features .tab-pane .icon.retention {
         background-image: url("../images/retention-icon.jpg"); }
-      body.home .features .tab-pane .icon.up, body.page-template-home-page-old-logo-php .features .tab-pane .icon.up, body.page-template-home-page-new-hero-php .features .tab-pane .icon.up, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.up, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.up, body.page-template-home-page-new-copy-php .features .tab-pane .icon.up {
+      body.home .features .tab-pane .icon.up {
         background-image: url("../images/up-arrow-icon.jpg"); }
-      body.home .features .tab-pane .icon.like, body.page-template-home-page-old-logo-php .features .tab-pane .icon.like, body.page-template-home-page-new-hero-php .features .tab-pane .icon.like, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.like, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.like, body.page-template-home-page-new-copy-php .features .tab-pane .icon.like {
+      body.home .features .tab-pane .icon.like {
         background-image: url("../images/like-icon.jpg"); }
-      body.home .features .tab-pane .icon.cars, body.page-template-home-page-old-logo-php .features .tab-pane .icon.cars, body.page-template-home-page-new-hero-php .features .tab-pane .icon.cars, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.cars, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.cars, body.page-template-home-page-new-copy-php .features .tab-pane .icon.cars {
+      body.home .features .tab-pane .icon.cars {
         background-image: url("../images/cars-icon.jpg"); }
-      body.home .features .tab-pane .icon.music, body.page-template-home-page-old-logo-php .features .tab-pane .icon.music, body.page-template-home-page-new-hero-php .features .tab-pane .icon.music, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.music, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.music, body.page-template-home-page-new-copy-php .features .tab-pane .icon.music {
+      body.home .features .tab-pane .icon.music {
         background-image: url("../images/music-icon.jpg"); }
-      body.home .features .tab-pane .icon.conference, body.page-template-home-page-old-logo-php .features .tab-pane .icon.conference, body.page-template-home-page-new-hero-php .features .tab-pane .icon.conference, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.conference, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.conference, body.page-template-home-page-new-copy-php .features .tab-pane .icon.conference {
+      body.home .features .tab-pane .icon.conference {
         background-image: url("../images/conference-icon.jpg"); }
-      body.home .features .tab-pane .icon.sports, body.page-template-home-page-old-logo-php .features .tab-pane .icon.sports, body.page-template-home-page-new-hero-php .features .tab-pane .icon.sports, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.sports, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.sports, body.page-template-home-page-new-copy-php .features .tab-pane .icon.sports {
+      body.home .features .tab-pane .icon.sports {
         background-image: url("../images/sports-icon.jpg"); }
-      body.home .features .tab-pane .icon.travel, body.page-template-home-page-old-logo-php .features .tab-pane .icon.travel, body.page-template-home-page-new-hero-php .features .tab-pane .icon.travel, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.travel, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.travel, body.page-template-home-page-new-copy-php .features .tab-pane .icon.travel {
+      body.home .features .tab-pane .icon.travel {
         background-image: url("../images/travel-icon.jpg"); }
-      body.home .features .tab-pane .icon.wine, body.page-template-home-page-old-logo-php .features .tab-pane .icon.wine, body.page-template-home-page-new-hero-php .features .tab-pane .icon.wine, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.wine, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.wine, body.page-template-home-page-new-copy-php .features .tab-pane .icon.wine {
+      body.home .features .tab-pane .icon.wine {
         background-image: url("../images/wine-glass-icon.jpg"); }
-      body.home .features .tab-pane .icon.earth, body.page-template-home-page-old-logo-php .features .tab-pane .icon.earth, body.page-template-home-page-new-hero-php .features .tab-pane .icon.earth, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.earth, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.earth, body.page-template-home-page-new-copy-php .features .tab-pane .icon.earth {
+      body.home .features .tab-pane .icon.earth {
         background-image: url("../images/earth-icon.jpg"); }
-      body.home .features .tab-pane .icon.crown, body.page-template-home-page-old-logo-php .features .tab-pane .icon.crown, body.page-template-home-page-new-hero-php .features .tab-pane .icon.crown, body.page-template-home-page-new-hero-old-logo-php .features .tab-pane .icon.crown, body.page-template-home-page-with-arrow-php .features .tab-pane .icon.crown, body.page-template-home-page-new-copy-php .features .tab-pane .icon.crown {
+      body.home .features .tab-pane .icon.crown {
         background-image: url("../images/crown-icon.jpg"); }
-  body.home .features h3, body.page-template-home-page-old-logo-php .features h3, body.page-template-home-page-new-hero-php .features h3, body.page-template-home-page-new-hero-old-logo-php .features h3, body.page-template-home-page-with-arrow-php .features h3, body.page-template-home-page-new-copy-php .features h3 {
+  body.home .features h3 {
     text-align: left;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 0px; }
-  body.home .features p, body.page-template-home-page-old-logo-php .features p, body.page-template-home-page-new-hero-php .features p, body.page-template-home-page-new-hero-old-logo-php .features p, body.page-template-home-page-with-arrow-php .features p, body.page-template-home-page-new-copy-php .features p {
+  body.home .features p {
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 40px; }
-    body.home .features p small, body.page-template-home-page-old-logo-php .features p small, body.page-template-home-page-new-hero-php .features p small, body.page-template-home-page-new-hero-old-logo-php .features p small, body.page-template-home-page-with-arrow-php .features p small, body.page-template-home-page-new-copy-php .features p small {
+    body.home .features p small {
       font-size: 13px; }
-body.home .benefits h2, body.page-template-home-page-old-logo-php .benefits h2, body.page-template-home-page-new-hero-php .benefits h2, body.page-template-home-page-new-hero-old-logo-php .benefits h2, body.page-template-home-page-with-arrow-php .benefits h2, body.page-template-home-page-new-copy-php .benefits h2 {
+body.home .benefits h2 {
   text-align: left;
   font-weight: bold;
   font-size: 15px;
   margin-top: 10px; }
-body.home .benefits p, body.page-template-home-page-old-logo-php .benefits p, body.page-template-home-page-new-hero-php .benefits p, body.page-template-home-page-new-hero-old-logo-php .benefits p, body.page-template-home-page-with-arrow-php .benefits p, body.page-template-home-page-new-copy-php .benefits p {
+body.home .benefits p {
   font-size: 14px; }
-body.home .benefits hr, body.page-template-home-page-old-logo-php .benefits hr, body.page-template-home-page-new-hero-php .benefits hr, body.page-template-home-page-new-hero-old-logo-php .benefits hr, body.page-template-home-page-with-arrow-php .benefits hr, body.page-template-home-page-new-copy-php .benefits hr {
+body.home .benefits hr {
   border: none;
   margin: 50px 0; }
-body.home .faq, body.page-template-home-page-old-logo-php .faq, body.page-template-home-page-new-hero-php .faq, body.page-template-home-page-new-hero-old-logo-php .faq, body.page-template-home-page-with-arrow-php .faq, body.page-template-home-page-new-copy-php .faq {
+body.home .faq {
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
-  body.home .faq h1, body.page-template-home-page-old-logo-php .faq h1, body.page-template-home-page-new-hero-php .faq h1, body.page-template-home-page-new-hero-old-logo-php .faq h1, body.page-template-home-page-with-arrow-php .faq h1, body.page-template-home-page-new-copy-php .faq h1 {
+  body.home .faq h1 {
     margin-bottom: 1em; }
-  body.home .faq .panel-group, body.page-template-home-page-old-logo-php .faq .panel-group, body.page-template-home-page-new-hero-php .faq .panel-group, body.page-template-home-page-new-hero-old-logo-php .faq .panel-group, body.page-template-home-page-with-arrow-php .faq .panel-group, body.page-template-home-page-new-copy-php .faq .panel-group {
+  body.home .faq .panel-group {
     margin-bottom: 3em; }
-body.home .testimonials, body.page-template-home-page-old-logo-php .testimonials, body.page-template-home-page-new-hero-php .testimonials, body.page-template-home-page-new-hero-old-logo-php .testimonials, body.page-template-home-page-with-arrow-php .testimonials, body.page-template-home-page-new-copy-php .testimonials {
+body.home .testimonials {
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
-  body.home .testimonials .thumbnail, body.page-template-home-page-old-logo-php .testimonials .thumbnail, body.page-template-home-page-new-hero-php .testimonials .thumbnail, body.page-template-home-page-new-hero-old-logo-php .testimonials .thumbnail, body.page-template-home-page-with-arrow-php .testimonials .thumbnail, body.page-template-home-page-new-copy-php .testimonials .thumbnail {
+  body.home .testimonials .thumbnail {
     position: relative;
     height: 130px;
     width: auto;
@@ -469,16 +469,16 @@ body.home .testimonials, body.page-template-home-page-old-logo-php .testimonials
     border-radius: 100px;
     border-color: white;
     border-width: 2px; }
-  body.home .testimonials h1, body.page-template-home-page-old-logo-php .testimonials h1, body.page-template-home-page-new-hero-php .testimonials h1, body.page-template-home-page-new-hero-old-logo-php .testimonials h1, body.page-template-home-page-with-arrow-php .testimonials h1, body.page-template-home-page-new-copy-php .testimonials h1 {
+  body.home .testimonials h1 {
     margin-bottom: 40px; }
-    body.home .testimonials h1 i, body.page-template-home-page-old-logo-php .testimonials h1 i, body.page-template-home-page-new-hero-php .testimonials h1 i, body.page-template-home-page-new-hero-old-logo-php .testimonials h1 i, body.page-template-home-page-with-arrow-php .testimonials h1 i, body.page-template-home-page-new-copy-php .testimonials h1 i {
+    body.home .testimonials h1 i {
       font-size: 0.8em;
       margin: 0 8px 0 4px; }
-  body.home .testimonials h2, body.page-template-home-page-old-logo-php .testimonials h2, body.page-template-home-page-new-hero-php .testimonials h2, body.page-template-home-page-new-hero-old-logo-php .testimonials h2, body.page-template-home-page-with-arrow-php .testimonials h2, body.page-template-home-page-new-copy-php .testimonials h2 {
+  body.home .testimonials h2 {
     font-weight: normal;
     font-size: 18px;
     margin: 0 0 20px; }
-  body.home .testimonials blockquote, body.page-template-home-page-old-logo-php .testimonials blockquote, body.page-template-home-page-new-hero-php .testimonials blockquote, body.page-template-home-page-new-hero-old-logo-php .testimonials blockquote, body.page-template-home-page-with-arrow-php .testimonials blockquote, body.page-template-home-page-new-copy-php .testimonials blockquote {
+  body.home .testimonials blockquote {
     display: inline-block;
     position: relative;
     border-radius: 2px;
@@ -491,14 +491,14 @@ body.home .testimonials, body.page-template-home-page-old-logo-php .testimonials
     line-height: 1.5;
     margin: 0 0 30px;
     clear: both; }
-    body.home .testimonials blockquote:before, body.page-template-home-page-old-logo-php .testimonials blockquote:before, body.page-template-home-page-new-hero-php .testimonials blockquote:before, body.page-template-home-page-new-hero-old-logo-php .testimonials blockquote:before, body.page-template-home-page-with-arrow-php .testimonials blockquote:before, body.page-template-home-page-new-copy-php .testimonials blockquote:before {
+    body.home .testimonials blockquote:before {
       content: "“";
       display: inline-block;
       position: relative;
       font-size: 60px;
       color: rgba(255, 255, 255, 0.2);
       line-height: 1; }
-    body.home .testimonials blockquote small, body.page-template-home-page-old-logo-php .testimonials blockquote small, body.page-template-home-page-new-hero-php .testimonials blockquote small, body.page-template-home-page-new-hero-old-logo-php .testimonials blockquote small, body.page-template-home-page-with-arrow-php .testimonials blockquote small, body.page-template-home-page-new-copy-php .testimonials blockquote small {
+    body.home .testimonials blockquote small {
       margin-top: 10px;
       font-size: 14px;
       white-space: nowrap;
@@ -506,11 +506,11 @@ body.home .testimonials, body.page-template-home-page-old-logo-php .testimonials
       font-weight: bold;
       font-family: "Open Sans", sans-serif;
       color: white; }
-      body.home .testimonials blockquote small strong, body.page-template-home-page-old-logo-php .testimonials blockquote small strong, body.page-template-home-page-new-hero-php .testimonials blockquote small strong, body.page-template-home-page-new-hero-old-logo-php .testimonials blockquote small strong, body.page-template-home-page-with-arrow-php .testimonials blockquote small strong, body.page-template-home-page-new-copy-php .testimonials blockquote small strong {
+      body.home .testimonials blockquote small strong {
         display: block;
         white-space: normal;
         color: #212121; }
-    body.home .testimonials blockquote img, body.page-template-home-page-old-logo-php .testimonials blockquote img, body.page-template-home-page-new-hero-php .testimonials blockquote img, body.page-template-home-page-new-hero-old-logo-php .testimonials blockquote img, body.page-template-home-page-with-arrow-php .testimonials blockquote img, body.page-template-home-page-new-copy-php .testimonials blockquote img {
+    body.home .testimonials blockquote img {
       height: 20px;
       width: auto; }
 
@@ -862,4 +862,57 @@ section {
         font-size: 15px; }
         header .navbar-default .telephone .navbar-nav li em {
           display: inline-block;
-          font-size: 15px; } }
+          font-size: 15px; }
+
+  body.home section {
+    padding: 2.5em 0; }
+    body.home section h1 {
+      font-size: 24px;
+      margin-bottom: 1em; }
+  body.home .hero {
+    background-image: url("../images/blue-bridge-mobile.jpg"); }
+    body.home .hero h1 {
+      margin-top: 0;
+      font-size: 20px; }
+    body.home .hero ul {
+      margin: 0 0 0 20px;
+      padding: 0; }
+      body.home .hero ul li {
+        font-size: 18px; }
+    body.home .hero .card {
+      margin: 0;
+      padding: 10px; }
+      body.home .hero .card form.intake-form .form-group {
+        margin-bottom: 8px; }
+        body.home .hero .card form.intake-form .form-group.row {
+          margin: 0; }
+        body.home .hero .card form.intake-form .form-group .col-sm-6.left, body.home .hero .card form.intake-form .form-group .col-sm-6.right {
+          padding: 0; }
+          body.home .hero .card form.intake-form .form-group .col-sm-6.left .form-control, body.home .hero .card form.intake-form .form-group .col-sm-6.right .form-control {
+            margin-bottom: 8px; }
+  body.home .logos .col-sm-2 {
+    width: 49%; }
+    body.home .logos .col-sm-2 img {
+      margin-bottom: 20px; }
+  body.home .logos .clients {
+    margin-bottom: 20px; }
+  body.home .features .nav-tabs li a {
+    height: 72px;
+    font-size: 13px; }
+  body.home .features .tab-content .tab-pane {
+    padding: 30px 15px; }
+    body.home .features .tab-content .tab-pane .col-sm-12, body.home .features .tab-content .tab-pane .col-lg-6 {
+      padding: 0 15px; }
+      body.home .features .tab-content .tab-pane .col-sm-12 h2, body.home .features .tab-content .tab-pane .col-lg-6 h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px; }
+      body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary {
+        padding: 16px;
+        font-size: 13px; }
+      body.home .features .tab-content .tab-pane .col-sm-12 p, body.home .features .tab-content .tab-pane .col-lg-6 p {
+        margin-bottom: 20px; }
+  body.home .benefits p {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 20px; } }

@@ -3125,6 +3125,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/blue-bridge-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61087,
+		"inputAbbreviatedPath": "\/library\/images\/blue-bridge-mobile.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/blue-bridge-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/blue-bridge.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3198,6 +3209,17 @@
 		"initialSize": 1526,
 		"inputAbbreviatedPath": "\/library\/images\/cars-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/cars-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/charters-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90946,
+		"inputAbbreviatedPath": "\/library\/images\/charters-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/charters-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3308,6 +3330,17 @@
 		"initialSize": 1593,
 		"inputAbbreviatedPath": "\/library\/images\/earth-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/earth-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/event-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129565,
+		"inputAbbreviatedPath": "\/library\/images\/event-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/event-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

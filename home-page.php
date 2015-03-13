@@ -77,12 +77,12 @@ Template Name: Home Page
 			<div class="col-lg-2 col-lg-offset-1 clients text-center">Our Clients:</div>
 			<div class="col-lg-8">
 				<div class="row">
-					<div class="col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
-					<div class="col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
-					<div class="col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
-					<div class="col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
-					<div class="col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
-					<div class="col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -112,7 +112,7 @@ Template Name: Home Page
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Choose Your Adventure</h2>
-						    			<p class="text-center">We make the journey part of the enjoyment of travel for a wide variety of activities, events and occasions for groups of up to 1,000.</p>
+						    			<p class="text-center hidden-xs">We make the journey part of the enjoyment of travel for a wide variety of activities, events and occasions for groups of up to 1,000.</p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
@@ -155,7 +155,7 @@ Template Name: Home Page
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Healthier Commuting</h2>
-						    			<p class="text-center">Bauer’s commuter services create efficient and sustainable commute-to-work programs, effectively fulfilling transportation needs for employees of large organizations.</p>
+						    			<p class="text-center hidden-xs">Bauer’s commuter services create efficient and sustainable commute-to-work programs, effectively fulfilling transportation needs for employees of large organizations.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="retention icon"></i>Surprisingly Cost-Effective</a></h3>
@@ -186,7 +186,7 @@ Template Name: Home Page
 						    	<div class="row">
 						    		<div class="col-sm-12">
 						    			<h2 class="text-center">Event Logistics</h2>
-						    			<p class="text-center">Need to move more than 1,000 people? Remove the headache from your next major event with our team of expert planners that delivers innovative solutions.</p>
+						    			<p class="text-center hidden-xs">Need to move more than 1,000 people? Remove the headache from your next major event with our team of expert planners that delivers innovative solutions.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
 						    			<h3><a href="#"><i class="music icon"></i>Concerts &amp; Festivals</a></h3>
@@ -286,7 +286,7 @@ Template Name: Home Page
 						</div>
 					</div>
 				</div>
-				<hr>
+				<hr class="hidden-xs"/>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
@@ -309,7 +309,7 @@ Template Name: Home Page
 				</div>
 			</div>
 		</div>
-		<br><br>
+		<br class="hidden-xs"/><br class="hidden-xs"/>
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
