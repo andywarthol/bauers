@@ -20,7 +20,8 @@
 		}?>
 	</div>
 	<div class="widget quick-quote">
-		<form class="intake-form" action="">
+		<a href="tel:1-800-546-6688" class="btn btn-lg btn-block btn-primary visible-xs">Call for a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+		<form class="intake-form hidden-xs" action="">
 			<legend>Get a Quote</legend>
 			<fieldset>
 				<div class="form-group">
