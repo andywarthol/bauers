@@ -5,7 +5,7 @@ Template Name: Services
 ?>
 
 <?php get_header(); ?>
-<section class="microhero light hidden-xs" style="background-image: url('<?php the_field('background_image'); ?>');">
+<section class="microhero light" style="background-image: url('<?php the_field('background_image'); ?>');">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">

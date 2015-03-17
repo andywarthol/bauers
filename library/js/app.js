@@ -12,4 +12,11 @@ jQuery(document).ready(function($){
 	  return false
 	});
 
+	// Mobile intake form
+	$('#toggle_intake').click(function(){
+		$('#toggle_intake').remove();
+		$('.quick-quote').addClass('active');
+		$('#service').focus();
+	});
+
 });

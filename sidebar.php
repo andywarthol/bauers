@@ -4,7 +4,6 @@
 	<?php dynamic_sidebar( 'sidebar1' ); ?>
 
 <?php else : ?>
-	
 	<div class="widget about">
 		<?php if ( is_page (array( 225, 181, 287 )) ) {
 			footer_bucket_1();
@@ -19,9 +18,9 @@
 			//get_sidebar();
 		}?>
 	</div>
-	<div class="widget quick-quote">
-		<a href="tel:1-800-546-6688" class="btn btn-lg btn-block btn-primary visible-xs">Call for a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
-		<form class="intake-form hidden-xs" action="">
+	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
+	<div class="widget quick-quote" id="intake_widget">
+		<form class="intake-form" action="" id="intake_form">
 			<legend>Get a Quote</legend>
 			<fieldset>
 				<div class="form-group">
@@ -59,6 +58,4 @@
 			</fieldset>
 		</form>
 	</div>
-
 <?php endif; ?>
-

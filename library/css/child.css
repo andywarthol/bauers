@@ -666,6 +666,7 @@ section {
   box-shadow: inset 0 -1px 8px rgba(0, 0, 0, 0.5);
   padding: 0;
   height: 300px;
+  background-color: #212121;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -839,6 +840,14 @@ section {
 @media screen and (max-width: 767px) {
   body {
     padding: 0; }
+    body p, body ul li {
+      font-size: 14px; }
+    body .btn-primary {
+      font-size: 15px;
+      padding: 14px 20px;
+      margin-bottom: 20px; }
+    body section ul {
+      padding-left: 15px; }
 
   header .navbar-default {
     position: static;
@@ -976,6 +985,48 @@ section {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
     margin-bottom: 20px; }
     .footer .bucket .footer-bucket li {
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 10px; }
       .footer .bucket .footer-bucket li a {
-        font-size: 17px; } }
+        font-size: 16px; }
+
+  .standard {
+    padding-top: 1em; }
+
+  .microhero {
+    height: 150px;
+    background-color: #212121;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .microhero h2, .microhero h1 {
+      font-size: 32px;
+      line-height: 150px;
+      margin: 0; }
+
+  .sidebar {
+    margin-bottom: 1px; }
+
+  .widget {
+    margin: 0 0 20px; }
+    .widget .footer-bucket {
+      overflow: auto; }
+      .widget .footer-bucket li {
+        text-align: center;
+        float: left;
+        width: 50%; }
+        .widget .footer-bucket li.current-menu-item > .sub-menu {
+          display: none; }
+        .widget .footer-bucket li a {
+          font-size: 14px; }
+
+  .quick-quote {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: none; }
+    .quick-quote.active {
+      opacity: 1;
+      display: block; }
+
+  .breadcrumb {
+    display: none; } }
