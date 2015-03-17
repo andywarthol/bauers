@@ -25,7 +25,7 @@ Template Name: Press
 						<?php if(get_field('press_articles')): ?>
 						<?php while(has_sub_field('press_articles')): ?>
 						<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-							<div class="col-sm-2">
+							<div class="col-sm-2 hidden-xs">
 								<img class="img-responsive img-thumbnail" src="<?php the_sub_field('logo'); ?>" alt="">
 							</div>
 							<div class="col-sm-10">
