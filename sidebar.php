@@ -4,6 +4,7 @@
 	<?php dynamic_sidebar( 'sidebar1' ); ?>
 
 <?php else : ?>
+<div class="bar">
 	<div class="widget about">
 		<?php if ( is_page (array( 225, 181, 287 )) ) {
 			footer_bucket_1();
@@ -32,25 +33,25 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<input type="text" name="first_name" placeholder="First name" class="form-control">
+					<input type="text" name="first_name" placeholder="First name" class="form-control" required="">
 				</div>
 				<div class="form-group">
-					<input type="text" name="last_name" placeholder="Last name" class="form-control">
+					<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
 				</div>
 				<div class="form-group">
-					<input type="email" class="form-control" name="email_address" placeholder="Email address">
+					<input type="email" class="form-control" name="email_address" placeholder="Email address" required="">
 				</div>
 				<div class="form-group">
-					<input type="tel" class="form-control" name="phone_number" placeholder="Phone number">
+					<input type="tel" class="form-control" name="phone_number" placeholder="Phone number" required="">
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" name="company_name" placeholder="Company name">
+					<input type="text" class="form-control" name="company_name" placeholder="Company name" required="">
 				</div>
 				<div class="form-group">
-					<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control">
+					<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
 				</div>
 				<div class="form-group">
-					<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control">
+					<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
 				</div>
 				<div class="form-group">
 					<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
@@ -58,4 +59,13 @@
 			</fieldset>
 		</form>
 	</div>
+</div>
 <?php endif; ?>
+
+<script>
+	jQuery(document).ready(function($){
+		$('#intake_form').validate({
+
+		});
+	});
+</script>

@@ -1004,11 +1004,16 @@ section {
       line-height: 150px;
       margin: 0; }
 
+  .bar {
+    clear: both; }
+
   .sidebar {
     margin-bottom: 1px; }
 
   .widget {
     margin: 0 0 20px; }
+    .widget .btn-primary {
+      margin: 0; }
     .widget .footer-bucket {
       overflow: auto; }
       .widget .footer-bucket li {
