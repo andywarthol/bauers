@@ -992,6 +992,10 @@ section {
 
   .standard {
     padding-top: 1em; }
+    .standard h1.page-title {
+      font-size: 22px; }
+    .standard .subhead {
+      font-size: 18px; }
 
   .microhero {
     height: 150px;
@@ -1005,15 +1009,15 @@ section {
       margin: 0; }
 
   .bar {
-    clear: both; }
-
-  .sidebar {
-    margin-bottom: 1px; }
+    clear: both;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #f1f1f1; }
+    .bar .btn-primary {
+      margin: 0; }
 
   .widget {
     margin: 0 0 20px; }
-    .widget .btn-primary {
-      margin: 0; }
     .widget .footer-bucket {
       overflow: auto; }
       .widget .footer-bucket li {
@@ -1034,4 +1038,11 @@ section {
       display: block; }
 
   .breadcrumb {
-    display: none; } }
+    display: none; }
+
+  .leadership .social-profile {
+    margin-bottom: 20px; }
+  .leadership article {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #f1f1f1; } }

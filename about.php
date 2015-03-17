@@ -6,7 +6,7 @@ Template Name: About
 
 <?php get_header(); ?>	
 
-<section class="">
+<section class="standard">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">

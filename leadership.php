@@ -6,7 +6,7 @@ Template Name: Leadership
 
 <?php get_header(); ?>
 
-<section class="leadership">
+<section class="leadership standard">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
