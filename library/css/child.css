@@ -910,13 +910,14 @@ section {
               border-top: 1px solid #f1f1f1; }
     header .navbar-default .telephone {
       float: none;
-      display: block; }
+      display: block;
+      clear: both; }
       header .navbar-default .telephone .navbar-nav li {
         padding: 5px 0;
         float: none;
         display: block;
         text-align: center;
-        font-size: 15px; }
+        font-size: 17px; }
         header .navbar-default .telephone .navbar-nav li em {
           display: inline-block;
           font-size: 15px; }
