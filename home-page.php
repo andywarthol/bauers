@@ -286,7 +286,7 @@ Template Name: Home Page
 						</div>
 					</div>
 				</div>
-				<hr class="hidden-xs"/>
+				<hr class="hidden-xs hidden-sm"/>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
@@ -309,7 +309,7 @@ Template Name: Home Page
 				</div>
 			</div>
 		</div>
-		<br class="hidden-xs"/><br class="hidden-xs"/>
+		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>

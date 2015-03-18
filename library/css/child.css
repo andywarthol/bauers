@@ -870,6 +870,8 @@ section {
     font-size: 20px; }
   body.home .logos {
     padding-top: 10px; }
+  body.home .benefits h1 {
+    margin-bottom: 1em; }
   body.home .testimonials .thumbnail {
     margin-bottom: 0;
     height: 100px; }
