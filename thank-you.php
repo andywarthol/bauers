@@ -17,6 +17,7 @@ Template Name: Thank You Template
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+				<?php the_content(); ?>
 				<h1 class="text-center"><?php the_field('thank_you_headline'); ?></h1>
 				<p class="text-center"><?php the_field('thank_you_messaging'); ?></p>
 				<p class="text-center"><a href="<?php the_field('thank_you_url'); ?>">Continue browsing &rarr;</a></p>
