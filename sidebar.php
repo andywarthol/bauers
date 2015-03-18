@@ -26,7 +26,7 @@
 			<fieldset>
 				<div class="form-group">
 					<select name="service" id="service" class="form-control">
-						<option value="">Which service would you like?</option>
+						<option value="">- Pick a service -</option>
 						<option value="charter">Charter</option>
 						<option value="commuter">Commuter</option>
 						<option value="events">Event Logistics Management</option>
