@@ -30,5 +30,5 @@ Template Name: Thank You Template
 		
 	});
 </script>
-
+<?php the_field('conversion_pixels'); ?>
 <?php get_footer(); ?>
