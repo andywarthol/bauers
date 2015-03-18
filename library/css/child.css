@@ -866,8 +866,20 @@ section {
   body.home .hero h1 {
     font-size: 24px;
     margin-top: 30px; }
+  body.home .hero ul li {
+    font-size: 20px; }
   body.home .logos {
-    padding-top: 10px; } }
+    padding-top: 10px; }
+  body.home .testimonials .thumbnail {
+    margin-bottom: 0;
+    height: 100px; }
+  body.home .testimonials blockquote {
+    display: block;
+    font-size: 14px;
+    padding: 0;
+    margin-top: -20px; }
+    body.home .testimonials blockquote small {
+      font-size: 13px; } }
 @media screen and (max-width: 767px) {
   body {
     padding: 0; }
