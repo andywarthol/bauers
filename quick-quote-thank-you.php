@@ -15,7 +15,7 @@ Template Name: Quick Quote Thank You
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-				<h1 class="text-center">Thank you for your inquiry!</h1>
+				<h1 class="text-center page-title">Thank you for your inquiry!</h1>
 				<p class="text-center">One of our team members will call you shortly. If you'd like to get things started immediately, <br class="visible-lg"/>please call us directly at <strong>1.800.546.6688</strong>.</p>
 				<br>
 				<br>
