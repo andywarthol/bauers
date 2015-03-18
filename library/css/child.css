@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5 {
   h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
     text-decoration: none;
     color: #004c6c; }
+  h1.borderless, h2.borderless, h3.borderless, h4.borderless, h5.borderless {
+    border: none; }
 
 .bucket-title {
   color: #999;
@@ -58,9 +60,6 @@ body {
 
 .img-thumbnail {
   cursor: default; }
-
-.borderless {
-  border: none; }
 
 .alignleft {
   float: left;
