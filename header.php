@@ -65,7 +65,7 @@
 								<nav class="telephone">
 									<ul class="nav navbar-nav">
 										<li>
-											Get a Free Quote:<em> 1-800-546-6688 </em>
+											Get a Free Quote: <em>1-800-546-6688</em>
 										</li>
 									</ul>
 								</nav>
