@@ -807,9 +807,12 @@ section {
 .contact .form .btn {
   width: 100%;
   background: #f06d1e; }
+.contact .well hr {
+  margin: 10px 0; }
 .contact address span {
   display: block;
-  margin-bottom: 5px; }
+  margin-bottom: 10px;
+  font-size: 14px; }
 
 .footer {
   margin-top: 0;

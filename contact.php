@@ -22,6 +22,12 @@ Template Name: Contact
 							<div class="col-sm-6">
 								<div class="well">
 									<address>
+										<span><strong>Bauer's Intelligent Transportation</strong></span>
+										<span>50 Pier</span>
+										<span>San Francisco, CA 94158</span>
+									</address>
+									<hr>
+									<address>
 										<span><strong>Phone: </strong>1-800-546-6688</span>
 										<span><strong>Fax: </strong>415-522-1600</span>
 										<span><strong>General Inquiries: </strong><a href="mailto:info@bauersit.com" target="_blank">info@bauersit.com</a></span>
@@ -32,11 +38,6 @@ Template Name: Contact
 								<div class="google-map">
 									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12614.742836221516!2d-122.38716!3d37.773967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43f71d878b4ae770!2sBauer&#39;s+Intelligent+Transportation!5e0!3m2!1sen!2sus!4v1424976017685" width="600" height="500" frameborder="0" style="border:0"></iframe>
 								</div>
-								<address class="pull-right text-right">
-									<span><strong>Bauer's Intelligent Transportation</strong></span>
-									<span>50 Pier</span>
-									<span>San Francisco, CA 94158</span>
-								</address>
 							</div>
 						</div>
 						<hr>
