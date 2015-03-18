@@ -59,6 +59,9 @@ body {
 .img-thumbnail {
   cursor: default; }
 
+.borderless {
+  border: none; }
+
 .alignleft {
   float: left;
   border: 1px solid #efefef;
