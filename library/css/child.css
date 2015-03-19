@@ -820,10 +820,11 @@ section {
   background: #f06d1e; }
 .contact .well hr {
   margin: 10px 0; }
-.contact address.details span {
+.contact address span {
   display: block;
-  margin-bottom: 10px;
   font-size: 14px; }
+.contact address.details span {
+  margin-bottom: 10px; }
 
 .footer {
   margin-top: 0;
