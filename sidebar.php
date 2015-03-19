@@ -5,17 +5,23 @@
 
 <?php else : ?>
 <div class="bar">
-	<div class="widget about">
-		<?php if ( is_page (array( 225, 181, 287 )) ) {
-			footer_bucket_1();
-		} elseif ( $post->post_parent == 225 || $post->post_parent == 181 || $post->post_parent == 228 || $post->post_parent == 250 || $post->post_parent == 287 ) {
+	
+		<?php if ( is_page (array( 225, 181, 287 )) ) { ?>
+			<div class="widget about">
+				<?php footer_bucket_1(); ?>
+			</div>
+		<?php } elseif ( $post->post_parent == 225 || $post->post_parent == 181 || $post->post_parent == 228 || $post->post_parent == 250 || $post->post_parent == 287 ) {
 			footer_bucket_1();
 			// wp_nav_menu( array( 'theme_location' => 'footer-bucket-1', 'container' => '', 'container_class' => '', 'link_before' => '<i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i>') );
-		} elseif ( is_page( 27 ) || is_page( 90 ) ) {
-			footer_bucket_2();
-		} elseif ( $post->post_parent == 27 || $post->post_parent == 90 ) {
-			footer_bucket_2();
-		} else {
+		} elseif ( is_page( 27 ) || is_page( 90 ) ) { ?>
+			<div class="widget about">
+				<?php footer_bucket_2(); ?>
+			</div>
+		<?php } elseif ( $post->post_parent == 27 || $post->post_parent == 90 ) { ?>
+			<div class="widget about">
+				<?php footer_bucket_2(); ?>
+			</div>
+		<?php } else {
 			//get_sidebar();
 		}?>
 	</div>
