@@ -222,7 +222,7 @@ Template Name: Home Page
 						    	</div>
 						    	<div class="row">
 										<div class="col-sm-12 text-center">
-											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free commuter quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free event logistics quote <i class="glyphicon glyphicon-chevron-right"></i></a>
 										</div>
 									</div>
 						    </div>
