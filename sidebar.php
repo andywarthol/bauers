@@ -85,10 +85,10 @@
 		// Quick Quote Form Functionality
 		$('#service').change(function(){
 			if ( $(this).val() == "charter" ){
-				$('#first_name').focus();
+				// $('#first_name').focus();
 			} else if ( $(this).val() == "commuter" ){
 				$('.supplementary').fadeOut();
-				$('#first_name').focus();
+				// $('#first_name').focus();
 			} else if ( $(this).val() == "events" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
