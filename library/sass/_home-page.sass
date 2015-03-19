@@ -64,6 +64,28 @@ body.home
 			margin-left: -15px
 			&:hover
 				opacity: 1
+		label.error
+			position: absolute
+			top: -30px
+			right: 0
+			background: rgba($black, .85)
+			color: white
+			padding: 5px 10px
+			border-radius: 2px
+			font-size: 13px
+			font-weight: normal
+			white-space: nowrap
+			-webkit-font-smoothing: antialiased
+			&:after
+				content: ''
+				position: absolute
+				width: 0
+				height: 0
+				border: 8px solid
+				border-color: rgba($black, .85) transparent transparent transparent
+				display: block
+				top: 28px
+				right: 15px
 
 
 	.hero-modal
