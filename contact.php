@@ -21,13 +21,13 @@ Template Name: Contact
 							</div>
 							<div class="col-sm-6">
 								<div class="well">
-									<address>
-										<span><strong>Bauer's Intelligent Transportation</strong></span>
+									<address class="address">
+										<span>Bauer's Intelligent Transportation</span>
 										<span>50 Pier</span>
 										<span>San Francisco, CA 94158</span>
 									</address>
 									<hr>
-									<address>
+									<address class="details">
 										<span><strong>Phone: </strong>1-800-546-6688</span>
 										<span><strong>Fax: </strong>415-522-1600</span>
 										<span><strong>General Inquiries: </strong><a href="mailto:info@bauersit.com" target="_blank">info@bauersit.com</a></span>
