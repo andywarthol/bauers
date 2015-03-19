@@ -58,13 +58,20 @@ body.single-post
 			// Hide contact from sidebar nav
 			&.contact-us
 				display: none
-			&.current_page_item, &.current_page_ancestor
+			&.current_page_item
 				.glyphicon-minus
 					display: inline-block
 				.glyphicon-plus
 					display: none
 				> a
 					font-weight: bold
+			&.current_page_ancestor
+				.glyphicon-minus
+					display: inline-block
+				.glyphicon-plus
+					display: none
+				> a
+					font-weight: normal
 			// Grand children menu items
 			.sub-menu
 				margin: 0 0 10px

@@ -98,6 +98,8 @@ form .form-control {
   color: #212121;
   padding: 6px 8px;
   font-weight: normal; }
+form input[type="tel"] {
+  -webkit-user-select: none; }
 form select.form-control {
   -webkit-appearance: none;
   background: white url("../images/dd-arrow.jpg") 97% 13px no-repeat;
@@ -609,12 +611,18 @@ body.single-post .widget.about {
         font-size: 16px; }
       .widget ul li.contact-us {
         display: none; }
-      .widget ul li.current_page_item .glyphicon-minus, .widget ul li.current_page_ancestor .glyphicon-minus {
+      .widget ul li.current_page_item .glyphicon-minus {
         display: inline-block; }
-      .widget ul li.current_page_item .glyphicon-plus, .widget ul li.current_page_ancestor .glyphicon-plus {
+      .widget ul li.current_page_item .glyphicon-plus {
         display: none; }
-      .widget ul li.current_page_item > a, .widget ul li.current_page_ancestor > a {
+      .widget ul li.current_page_item > a {
         font-weight: bold; }
+      .widget ul li.current_page_ancestor .glyphicon-minus {
+        display: inline-block; }
+      .widget ul li.current_page_ancestor .glyphicon-plus {
+        display: none; }
+      .widget ul li.current_page_ancestor > a {
+        font-weight: normal; }
       .widget ul li .sub-menu {
         margin: 0 0 10px;
         padding: 0 0 0 10px;

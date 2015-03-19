@@ -33,6 +33,9 @@ Template Name: Home Page
 											<option value="events">Event Logistics Management</option>
 										</select>
 									</div>
+									<div class="form-group" id="name_of_event" style="display: none">
+										<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
+									</div>
 									<div class="form-group row">
 										<div class="col-sm-6 left">
 											<input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control" required="">
@@ -50,7 +53,7 @@ Template Name: Home Page
 									<div class="form-group">
 										<input type="text" class="form-control" name="company_name" placeholder="Company name" required="">
 									</div>
-									<div class="form-group row">
+									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
 											<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
 										</div>
@@ -103,7 +106,7 @@ Template Name: Home Page
 						  <!-- Nav tabs -->
 						  <ul class="nav nav-tabs" role="tablist">
 						    <li role="presentation" class="active"><a href="#charters" aria-controls="charters" role="tab" data-toggle="tab">Charters</a></li>
-						    <li role="presentation" class="two"><a href="#commuters" aria-controls="commuters" role="tab" data-toggle="tab">Corporate Commuter</a></li>
+						    <li role="presentation" class="two"><a href="#commuters" aria-controls="commuters" role="tab" data-toggle="tab">Corporate Commuter Programs</a></li>
 						    <li role="presentation" class="three"><a href="#events" aria-controls="events" role="tab" data-toggle="tab">Major Events Transportation</a></li>
 						  </ul>
 						  <!-- Tab panes -->
@@ -117,31 +120,31 @@ Template Name: Home Page
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="icon airplane"></i>Airport Transfers</a></h3>
+						    			<h3><a href="<?php the_field('airport_transfers_url'); ?>"><i class="icon airplane"></i>Airport Transfers</a></h3>
 						    			<p><small>Take the hassle out of ground transportation after touching down at the airport.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="icon binoculars"></i>City Tours</a></h3>
+						    			<h3><a href="<?php the_field('city_tours_url'); ?>"><i class="icon binoculars"></i>City Tours</a></h3>
 						    			<p><small>Sightseeing tours showcase a city’s unique sights and culture for groups of all sizes.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="icon snow"></i>Snow Trips</a></h3>
+						    			<h3><a href="<?php the_field('snow_trips_url'); ?>"><i class="icon snow"></i>Snow Trips</a></h3>
 						    			<p><small>Journey up to North Lake Tahoe &mdash; including Sugar Bowl, Alpine, Squaw, and North Star.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="icon wine"></i>Wine Country Tours</a></h3>
+						    			<h3><a href="<?php the_field('wine_country_tours_url'); ?>"><i class="icon wine"></i>Wine Country Tours</a></h3>
 						    			<p><small>Exclusive, curated tours led by wine experts. Tastings and gourmet lunch included.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="icon car"></i>Black Car Service</a></h3>
+						    			<h3><a href="<?php the_field('black_car_service_url'); ?>"><i class="icon car"></i>Black Car Service</a></h3>
 						    			<p><small>Travel in style with luxury black car transportation.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="icon group"></i>Group Events</a></h3>
+						    			<h3><a href="<?php the_field('group_events_url'); ?>"><i class="icon group"></i>Group Events</a></h3>
 						    			<p><small>The list of Bauer's IT adventures is nearly endless. Tell us what your plans are.</small></p>
 						    		</div>
 						    	</div>
@@ -158,21 +161,21 @@ Template Name: Home Page
 						    			<p class="text-center hidden-xs">Bauer’s commuter services create efficient and sustainable commute-to-work programs, effectively fulfilling transportation needs for employees of large organizations.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="retention icon"></i>Surprisingly Cost-Effective</a></h3>
+						    			<h3><a href="<?php the_field('cost_effective_url'); ?>"><i class="retention icon"></i>Surprisingly Cost-Effective</a></h3>
 						    			<p><small>Increase retention and efficiency by removing the commute headache from your employees.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="up icon"></i>Last-Mile Shuttles</a></h3>
+						    			<h3><a href="<?php the_field('last_mile_shuttles_url'); ?>"><i class="up icon"></i>Last-Mile Shuttles</a></h3>
 						    			<p><small>Just a little too far from the train? Make public transportation easy with our last-mile shuttles.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="earth icon"></i>Increase Productivity</a></h3>
+						    			<h3><a href="<?php the_field('increase_productivity_url'); ?>"><i class="earth icon"></i>Increase Productivity</a></h3>
 						    			<p><small>When employees ride with us they can focus on a deadline with Wi-Drive.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
+						    			<h3><a href="<?php the_field('commuter_benefits_url'); ?>"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
 						    			<p><small>Commuter Benefits are a competitive incentive for recruiting the very best talent.</small></p>
 						    		</div>
 						    	</div>
@@ -189,31 +192,31 @@ Template Name: Home Page
 						    			<p class="text-center hidden-xs">Need to move more than 1,000 people? Remove the headache from your next major event with our team of expert planners that delivers innovative solutions.</p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="music icon"></i>Concerts &amp; Festivals</a></h3>
+						    			<h3><a href="<?php the_field('concerts_festivals_url'); ?>"><i class="music icon"></i>Concerts &amp; Festivals</a></h3>
 						    			<p><small>Get thousands of attendees to and from fun and funky venues - even off the beaten path.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="conference icon"></i>Conferences &amp; Conventions</a></h3>
+						    			<h3><a href="<?php the_field('conferences_conventions_url'); ?>"><i class="conference icon"></i>Conferences &amp; Conventions</a></h3>
 						    			<p><small>Support the transportation needs of your major event, whether it’s across the country or around the world.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="sports icon"></i>Sports Events &amp; Marathons</a></h3>
+						    			<h3><a href="<?php the_field('sports_events_url'); ?>"><i class="sports icon"></i>Sports Events &amp; Marathons</a></h3>
 						    			<p><small>Need to handle a marathon, football game, or PGA tournament? Create exceptional travel experiences for participants and fans.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="car icon"></i>Parking &amp; Traffic Management</a></h3>
+						    			<h3><a href="<?php the_field('traffic_management_url'); ?>"><i class="car icon"></i>Parking &amp; Traffic Management</a></h3>
 						    			<p><small>Green, comprehensive services for parking management that can handle any size event.</small></p>
 						    		</div>
 						    	</div>
 						    	<div class="row">
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="travel icon"></i>Travel Demand</a></h3>
+						    			<h3><a href="<?php the_field('travel_demand_url'); ?>"><i class="travel icon"></i>Travel Demand</a></h3>
 						    			<p><small>Get single-occupancy private vehicles off the road with our “Smart Growth” policies and plans.</small></p>
 						    		</div>
 						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="#"><i class="crown icon"></i>VIP Transportation</a></h3>
+						    			<h3><a href="<?php the_field('vip_transportation_url'); ?>"><i class="crown icon"></i>VIP Transportation</a></h3>
 						    			<p><small>If you have to move large numbers of VIPs, Bauer’s will provide a seamless, professional experience.</small></p>
 						    		</div>
 						    	</div>
@@ -384,18 +387,38 @@ Template Name: Home Page
 			}
 		});
 
-		$('#service').bind('change click', function(){
+		$('#service').bind('change', function(){
 	    if( $(this).val() !== "" ){
 	      $(this).addClass('valid').removeClass('hot');
-	      $('#first_name').focus();
 	    } else {
 	      $(this).removeClass('valid');
 	    }
 		});
 
+		// Quick Quote Form Functionality
+		$('#service').change(function(){
+			if ( $(this).val() == "charter" ){
+				$('#first_name').focus();
+			} else if ( $(this).val() == "commuter" ){
+				$('.supplementary').fadeOut();
+				$('#first_name').focus();
+			} else if ( $(this).val() == "events" ){
+				$('.supplementary').hide();
+				$('#name_of_event').fadeIn();
+			}
+		});
+
+		// Input mask - Restrict count, formatting, numbers only
+		$.extend($.inputmask.defaults, {
+			'placeholder': " "
+		});
+		$('input[type="tel"]').inputmask("(999) 999-9999");
+
 		// Form Validation
 		$('#intake').validate({
-
+			submitHandler: function() { 
+				window.location = "quick-quote-thank-you"
+			}
 		});
 
 	});
