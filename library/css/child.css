@@ -688,6 +688,9 @@ section {
 
 .standard {
   padding-top: 2em; }
+  .standard table tr td {
+    padding: 6px 10px;
+    font-size: 14px; }
 
 .gallery.gallery-size-thumbnail .gallery-item {
   float: left;
