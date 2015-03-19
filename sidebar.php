@@ -24,7 +24,6 @@
 		<?php } else {
 			//get_sidebar();
 		}?>
-	</div>
 	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 	<div class="widget quick-quote" id="intake_widget">
 		<form class="intake-form" action="" id="intake_form">
