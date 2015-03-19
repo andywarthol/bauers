@@ -24,6 +24,7 @@
 	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/ie.css">
 			<![endif]-->
 			<!-- or, set /favicon.ico for IE10 win -->
 			<meta name="msapplication-TileColor" content="#f01d4f">
