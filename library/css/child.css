@@ -571,15 +571,13 @@ body.page-template-home-page-new-copy-php .hero ul li {
 body.single-post .widget.about {
   display: none; }
 
-.bar {
-  padding-top: 10px; }
-
 .widget {
   margin: 0 0 40px; }
   .widget.quick-quote {
     border: 1px solid #efefef;
     background: #f5f5f5;
-    padding: 10px; }
+    padding: 10px;
+    margin-top: 10px; }
     .widget.quick-quote legend {
       border: none;
       text-align: center;
