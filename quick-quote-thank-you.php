@@ -10,7 +10,7 @@ Template Name: Quick Quote Thank You
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<ul class="breadcrumb"><li><a href="http://tempsitebeta.com/bauersit">Quick Quote</a></li> <span class="divider">/</span> <li class="active">Thank You</li></ul>
+				&nbsp;
 			</div>
 		</div>
 		<div class="row">
