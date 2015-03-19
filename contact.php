@@ -30,9 +30,6 @@ Template Name: Contact
 									<address class="details">
 										<span><strong>Phone: </strong>1-800-546-6688</span>
 										<span><strong>Fax: </strong>415-522-1600</span>
-										<span><strong>General Inquiries: </strong><a href="mailto:info@bauersit.com" target="_blank">info@bauersit.com</a></span>
-										<span><strong>Booking &amp; Sales: </strong><a href="mailto:sales@bauersit.com" target="_blank">sales@bauersit.com</a></span>
-										<span><strong>Event Planning &amp; Logistics: </strong><a href="mailto:info@eventlm.com" target="_blank">info@eventlm.com</a></span>
 									</address>
 								</div>
 								<div class="google-map">
