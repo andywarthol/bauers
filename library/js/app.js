@@ -19,4 +19,6 @@ jQuery(document).ready(function($){
 		$('#service').focus();
 	});
 
+	// Placeholders for dinosaur browsers
+	$('input, textarea').placeholder();
 });
