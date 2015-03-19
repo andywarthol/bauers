@@ -104,7 +104,8 @@
 		// Form Validation
 		$('#intake_form').validate({
 			submitHandler: function() { 
-				window.location = "quick-quote-thank-you"
+				$('.intake-form button').prop('disabled', true);
+				window.location = "?p=462"
 			}
 		});
 	});
