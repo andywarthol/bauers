@@ -6,7 +6,7 @@
 <?php else : ?>
 <div class="bar">
 	
-		<?php if ( is_page (array( 225, 181, 287, 250 )) ) { ?>
+		<?php if ( is_page (array( 225, 181, 287, 250, 228 )) ) { ?>
 			<div class="widget about">
 				<?php footer_bucket_1(); ?>
 			</div>
