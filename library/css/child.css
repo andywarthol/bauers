@@ -860,7 +860,8 @@ section {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   header .navbar-default .navbar-collapse {
-    margin-top: 0px; }
+    margin-top: 0px;
+    padding-right: 0; }
     header .navbar-default .navbar-collapse .navbar-nav li a {
       padding: 12px 15px; }
     header .navbar-default .navbar-collapse .navbar-nav li.contact a {
@@ -884,8 +885,12 @@ section {
   body.home .hero h1 {
     font-size: 24px;
     margin-top: 30px; }
-  body.home .hero ul li {
-    font-size: 20px; }
+  body.home .hero h2 {
+    font-size: 18px; }
+  body.home .hero ul {
+    padding-left: 25px; }
+    body.home .hero ul li {
+      font-size: 18px; }
   body.home .logos {
     padding-top: 10px; }
   body.home .benefits h1 {

@@ -16,7 +16,7 @@ Template Name: Home Page
 						<ul>
 							<li>Charters</li>
 							<li>Corporate Commuter Programs</li>
-							<li>Major Event Logistics and Transporation</li>
+							<li>Major Event Logistics &amp; Transporation</li>
 						</ul>
 					</div>
 					<div class="col-sm-6 col-lg-5">
