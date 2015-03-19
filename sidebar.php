@@ -41,7 +41,7 @@
 					<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
 				</div>
 				<div class="form-group">
-					<input type="text" name="first_name" placeholder="First name" class="form-control" required="">
+					<input type="text" name="first_name" id="first_name" placeholder="First name" class="form-control" required="">
 				</div>
 				<div class="form-group">
 					<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
