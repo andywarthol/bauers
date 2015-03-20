@@ -1117,6 +1117,8 @@ section {
         margin-bottom: 20px; }
   body.home .testimonials .btn-default {
     font-size: 14px; }
+    body.home .testimonials .btn-default blockquote small {
+      white-space: normal; }
   body.home .benefits h2 {
     font-size: 17px; }
   body.home .benefits p {
@@ -1224,4 +1226,12 @@ section {
   .leadership article {
     padding-bottom: 1em;
     margin-bottom: 1em;
-    border-bottom: 1px solid #f1f1f1; } }
+    border-bottom: 1px solid #f1f1f1; }
+
+  body.page-id-181 .bar .about, body.page-id-225 .bar .about {
+    display: none; }
+
+  body.page-template-about-php .bar .visible-xs {
+    display: none !important; }
+  body.page-template-about-php .bar .about {
+    margin-bottom: 0; } }

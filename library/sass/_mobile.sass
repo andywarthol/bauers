@@ -153,6 +153,9 @@
 		.testimonials
 			.btn-default
 				font-size: 14px
+				blockquote
+					small
+						white-space: normal
 		.benefits
 			h2
 				font-size: 17px
@@ -261,3 +264,15 @@
 			padding-bottom: 1em
 			margin-bottom: 1em
 			border-bottom: 1px solid $lightGrey
+
+	// Hiding elements for certain pages
+	body.page-id-181, body.page-id-225
+		.bar
+			.about
+				display: none
+	body.page-template-about-php
+		.bar
+			.visible-xs
+				display: none!important
+			.about
+				margin-bottom: 0
