@@ -421,6 +421,7 @@ Template Name: Home Page
 		$('#service').change(function(){
 			if ( $(this).val() == "charter" ){
 				// $('#first_name').focus();
+				$('.supplementary').fadeIn();
 			} else if ( $(this).val() == "commuter" ){
 				$('.supplementary').fadeOut();
 				// $('#first_name').focus();

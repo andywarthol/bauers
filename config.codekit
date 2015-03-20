@@ -3147,6 +3147,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/blue-bridge-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93307,
+		"inputAbbreviatedPath": "\/library\/images\/blue-bridge-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/blue-bridge-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/blue-bridge-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3385,6 +3396,17 @@
 		"initialSize": 6716,
 		"inputAbbreviatedPath": "\/library\/images\/flat.png",
 		"outputAbbreviatedPath": "\/library\/images\/flat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/gary-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9511,
+		"inputAbbreviatedPath": "\/library\/images\/gary-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/gary-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
