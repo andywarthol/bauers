@@ -11,7 +11,7 @@ Template Name: Home Page
 			<div class="col-lg-11 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-lg-7">
-						<h1>Professional Transportations <br class="hidden-xs"/>for Any Occasion</h1>
+						<h1>Professional Transportation <br class="hidden-xs"/>for Any Occasion</h1>
 						<h2 class="hidden-xs">Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2>
 						<ul>
 							<li>Charters</li>
@@ -424,7 +424,7 @@ Template Name: Home Page
 				$('.supplementary').fadeIn();
 			} else if ( $(this).val() == "commuter" ){
 				$('.supplementary').fadeOut();
-				$('#name_of_event').hide();
+				$('#name_of_event').fadeOut();
 			} else if ( $(this).val() == "events" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
