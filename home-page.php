@@ -383,6 +383,10 @@ Template Name: Home Page
 		  $('.signup').smoothScroll({
 				offset: 260,
 				easing: 'swing',
+				beforeScroll: function() {
+					$('#toggle_intake').remove();
+					$('.quick-quote').addClass('active');
+				},
 				afterScroll: function() {
 					setTimeout(function(){
 						$('.card').addClass('hot');
