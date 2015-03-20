@@ -417,7 +417,7 @@ Template Name: Home Page
 	    }
 		});
 
-		// Quick Quote Form Functionality
+		// Quick Quote Form Field Functionality
 		$('#service').change(function(){
 			if ( $(this).val() == "charter" ){
 				$('#name_of_event').hide();
