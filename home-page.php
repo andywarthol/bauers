@@ -12,7 +12,7 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6 col-lg-7">
 						<h1>Professional Transportation <br class="hidden-xs"/>for Any Occasion</h1>
-						<h2>Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2>
+						<h2 class="hidden-xs">Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2>
 						<ul>
 							<li>Charters</li>
 							<li>Corporate Commuter Programs</li>
@@ -106,7 +106,7 @@ Template Name: Home Page
 						  <!-- Nav tabs -->
 						  <ul class="nav nav-tabs" role="tablist">
 						    <li role="presentation" class="active"><a href="#charters" aria-controls="charters" role="tab" data-toggle="tab">Charters</a></li>
-						    <li role="presentation" class="two"><a href="#commuters" aria-controls="commuters" role="tab" data-toggle="tab">Corporate Commuter Programs</a></li>
+						    <li role="presentation" class="two"><a href="#commuters" aria-controls="commuters" role="tab" data-toggle="tab">Corporate Commuter</a></li>
 						    <li role="presentation" class="three"><a href="#events" aria-controls="events" role="tab" data-toggle="tab">Major Events Transportation</a></li>
 						  </ul>
 						  <!-- Tab panes -->

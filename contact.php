@@ -65,6 +65,11 @@ Template Name: Contact
 </section>
 <script>
 	jQuery(document).ready(function($){
+		// Input mask - Restrict count, formatting, numbers only
+		$.extend($.inputmask.defaults, {
+			'placeholder': " "
+		});
+		$('input[type="tel"]').inputmask("(999) 999-9999");
 	});
 </script>
 
