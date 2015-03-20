@@ -1117,7 +1117,9 @@ section {
         margin-bottom: 20px; }
   body.home .testimonials .btn-default {
     font-size: 14px; }
-    body.home .testimonials .btn-default blockquote small {
+  body.home .testimonials blockquote {
+    padding: 0 0 15px; }
+    body.home .testimonials blockquote small {
       white-space: normal; }
   body.home .benefits h2 {
     font-size: 17px; }
