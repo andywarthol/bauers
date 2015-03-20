@@ -1074,6 +1074,13 @@ section {
       padding: 0; }
       body.home .hero ul li {
         font-size: 18px; }
+    body.home .hero .quick-quote {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      display: none; }
+      body.home .hero .quick-quote.active {
+        opacity: 1;
+        display: block; }
     body.home .hero .card {
       margin: 0;
       padding: 10px; }

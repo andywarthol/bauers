@@ -18,9 +18,10 @@ Template Name: Home Page
 							<li>Corporate Commuter Programs</li>
 							<li>Major Event Logistics &amp; Transporation</li>
 						</ul>
+						<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 					<div class="col-sm-6 col-lg-5">
-						<div class="card">
+						<div class="card quick-quote">
 							<?php /*echo do_shortcode('[formidable id=6]'); ?>*/ ?>
 							<form id="intake" class="intake-form" action="">
 								<legend>Get a Quote<small>We'll get back to you in 24 hours</small></legend>
@@ -376,16 +377,33 @@ Template Name: Home Page
 			easing: 'swing'
 		});
 
-		$('.signup').smoothScroll({
-			offset: -100,
-			easing: 'swing',
-			afterScroll: function() {
-				setTimeout(function(){
-					$('.card').addClass('hot');
-					$('#service').addClass('hot');
-				}, 150);
-			}
-		});
+		var userAgent = window.navigator.userAgent;
+
+		if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+		  $('.signup').smoothScroll({
+				offset: 260,
+				easing: 'swing',
+				afterScroll: function() {
+					setTimeout(function(){
+						$('.card').addClass('hot');
+						$('#service').addClass('hot');
+					}, 150);
+				}
+			});
+		}
+		else {
+		  $('.signup').smoothScroll({
+				offset: -100,
+				easing: 'swing',
+				afterScroll: function() {
+					setTimeout(function(){
+						$('.card').addClass('hot');
+						$('#service').addClass('hot');
+					}, 150);
+				}
+			});
+		}
+		
 
 		$('#service').bind('change', function(){
 	    if( $(this).val() !== "" ){
