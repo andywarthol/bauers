@@ -206,7 +206,7 @@ form.intake-form .form-group {
       border-radius: 40px;
       font-weight: normal; }
       .navbar-default .navbar-collapse .navbar-nav li a:hover {
-        background: rgba(0, 0, 0, 0.04); }
+        color: #00973d; }
     .navbar-default .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
   .navbar-default .telephone {
