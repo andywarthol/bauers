@@ -103,6 +103,10 @@ form .placeholder {
 form label.error {
   font-size: 14px;
   font-weight: normal; }
+form input[type="date"] {
+  color: #aaaaaa; }
+  form input[type="date"].active {
+    color: #212121; }
 form input[type="tel"] {
   -webkit-user-select: none; }
 form select.form-control {

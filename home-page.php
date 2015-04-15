@@ -56,10 +56,10 @@ Template Name: Home Page
 									</div>
 									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
-											<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
+											<input type="date" id="pickup_date" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
 										</div>
 										<div class="col-sm-6 right">
-											<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
+											<input type="text" id="passenger_count" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
 										</div>
 									</div>
 									<div class="form-group">
@@ -431,6 +431,16 @@ Template Name: Home Page
 			}
 		});
 
+		// Date Picker functionality
+		$('#pickup_date').change(function(){
+			if ( $(this).val() == "mm/dd/yyyy") {
+				
+			} else {
+		
+				$(this).addClass('active');
+			}
+		});
+
 		jQuery.validator.addMethod("phoneUS", function(value, element) {
 			// allow any non-whitespace characters as the host part
 			return this.optional( element ) || /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/.test( value );
@@ -441,6 +451,7 @@ Template Name: Home Page
 			'placeholder': " "
 		});
 		$('input[type="tel"]').inputmask("(999) 999-9999");
+		$('#passenger_count').inputmask("9999");
 
 		// Form Validation
 		$('#intake').validate({
