@@ -301,3 +301,52 @@ section
 		span
 			margin-bottom: 10px
 
+// Long Quote Form
+#longQuote
+	background: #f4f4f4
+	div, label, input, textarea, p, b, em
+		box-sizing: border-box!important
+	.wFormContainer
+		background: transparent
+		border: none
+		legend
+			background: transparent
+			font-family: $font
+		label
+			padding: 0
+			margin: 0 0 7px
+			font-size: 15px
+			color: $black
+			font-family: $font
+			border: none
+		.form-group
+			display: block
+			clear: both
+			overflow: auto
+			margin-bottom: 20px
+		.wForm .inputWrapper
+			display: block
+			input
+				height: 38px
+				padding: 6px 10px
+				font-family: $font
+				color: $black
+				font-size: 15px
+		.primaryAction
+			@extend .btn-primary
+		.inline div.oneField
+			display: block
+			float: left
+			overflow: auto
+			width: 31.5%
+			margin-right: 1.5%
+			box-sizing: border-box
+			padding: 0
+			border: none
+			input
+				border-radius: 0
+				box-shadow: none
+				border: 1px solid #dadada
+				background: white
+				width: 100%
+				display: block
