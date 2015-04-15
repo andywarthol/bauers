@@ -451,6 +451,8 @@ Template Name: Home Page
 			'placeholder': " "
 		});
 		$('input[type="tel"]').inputmask("(999) 999-9999");
+
+		// Restrict input to numbers only
 		$('#passenger_count').inputmask("9999");
 
 		// Form Validation
