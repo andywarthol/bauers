@@ -43,11 +43,11 @@ body {
   font-weight: bold;
   text-shadow: none; }
 
-.btn-primary, #longQuote .wFormContainer .primaryAction {
+.btn-primary {
   background: #00973d;
   border-color: #00973d;
   text-shadow: none; }
-  .btn-primary:hover, #longQuote .wFormContainer .primaryAction:hover, .btn-primary:focus, #longQuote .wFormContainer .primaryAction:focus, .btn-primary:active, #longQuote .wFormContainer .primaryAction:active {
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #00a141; }
 
 .btn-default {
@@ -271,7 +271,7 @@ body.home .hero {
     transition: background 0.5s ease-in-out; }
     body.home .hero .card.hot {
       background: rgba(0, 0, 0, 0.6); }
-    body.home .hero .card .btn-primary, body.home .hero .card #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer body.home .hero .card .primaryAction {
+    body.home .hero .card .btn-primary {
       padding: 12px; }
   body.home .hero legend {
     color: white;
@@ -338,7 +338,7 @@ body.home .hero-modal {
     line-height: 1.4;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     margin-bottom: 40px; }
-  body.home .hero-modal .btn-primary, body.home .hero-modal #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer body.home .hero-modal .primaryAction {
+  body.home .hero-modal .btn-primary {
     font-size: 18px;
     padding: 15px 40px;
     background: #e85d00;
@@ -438,7 +438,7 @@ body.home .features {
     border-top: none;
     background: white;
     margin-bottom: 0px; }
-    body.home .features .tab-pane .btn-primary, body.home .features .tab-pane #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer body.home .features .tab-pane .primaryAction {
+    body.home .features .tab-pane .btn-primary {
       font-size: 14px; }
     body.home .features .tab-pane .img-thumbnail {
       float: left;
@@ -641,7 +641,7 @@ body.single-post .widget.about {
       font-size: 14px;
       padding-left: 8px !important;
       border-color: #dadada !important; }
-    .widget.quick-quote .btn-primary, .widget.quick-quote #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer .widget.quick-quote .primaryAction {
+    .widget.quick-quote .btn-primary {
       padding: 12px 20px;
       font-size: 14px; }
   .widget ul {
@@ -882,53 +882,54 @@ section {
 .contact address.details span {
   margin-bottom: 10px; }
 
-#longQuote {
-  background: #f4f4f4; }
-  #longQuote div, #longQuote label, #longQuote input, #longQuote textarea, #longQuote p, #longQuote b, #longQuote em {
-    box-sizing: border-box !important; }
-  #longQuote .wFormContainer {
-    background: transparent;
-    border: none; }
-    #longQuote .wFormContainer legend {
-      background: transparent;
-      font-family: "Open Sans", sans-serif; }
-    #longQuote .wFormContainer label {
-      padding: 0;
-      margin: 0 0 7px;
-      font-size: 15px;
-      color: #212121;
-      font-family: "Open Sans", sans-serif;
-      border: none; }
-    #longQuote .wFormContainer .form-group {
-      display: block;
-      clear: both;
-      overflow: auto;
-      margin-bottom: 20px; }
-    #longQuote .wFormContainer .wForm .inputWrapper {
-      display: block; }
-      #longQuote .wFormContainer .wForm .inputWrapper input {
-        height: 38px;
-        padding: 6px 10px;
-        font-family: "Open Sans", sans-serif;
-        color: #212121;
-        font-size: 15px; }
-    #longQuote .wFormContainer .inline div.oneField {
-      display: block;
-      float: left;
-      overflow: auto;
-      width: 31.5%;
-      margin-right: 1.5%;
-      box-sizing: border-box;
-      padding: 0;
-      border: none; }
-      #longQuote .wFormContainer .inline div.oneField input {
-        border-radius: 0;
-        box-shadow: none;
-        border: 1px solid #dadada;
-        background: white;
-        width: 100%;
-        display: block; }
-
+/*#longQuote
+ * background: #f4f4f4
+ * div, label, input, textarea, p, b, em
+ * 	box-sizing: border-box!important
+ * .wFormContainer
+ * 	background: transparent
+ * 	border: none
+ * 	legend
+ * 		background: transparent
+ * 		font-family: $font
+ * 	label
+ * 		padding: 0
+ * 		margin: 0 0 7px
+ * 		font-size: 15px
+ * 		color: $black
+ * 		font-family: $font
+ * 		border: none
+ * 	.form-group
+ * 		display: block
+ * 		clear: both
+ * 		overflow: auto
+ * 		margin-bottom: 20px
+ * 	.wForm .inputWrapper
+ * 		display: block
+ * 		input
+ * 			height: 38px
+ * 			padding: 6px 10px
+ * 			font-family: $font
+ * 			color: $black
+ * 			font-size: 15px
+ * 	.primaryAction
+ * 		@extend .btn-primary
+ * 	.inline div.oneField
+ * 		display: block
+ * 		float: left
+ * 		overflow: auto
+ * 		width: 31.5%
+ * 		margin-right: 1.5%
+ * 		box-sizing: border-box
+ * 		padding: 0
+ * 		border: none
+ * 		input
+ * 			border-radius: 0
+ * 			box-shadow: none
+ * 			border: 1px solid #dadada
+ * 			background: white
+ * 			width: 100%
+ * 			display: block */
 .footer {
   margin-top: 0;
   background: #313131;
@@ -1030,7 +1031,7 @@ section {
     padding: 0; }
     body p, body ul li {
       font-size: 14px; }
-    body .btn-primary, body #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer body .primaryAction {
+    body .btn-primary {
       font-size: 15px;
       padding: 14px 20px;
       margin-bottom: 20px; }
@@ -1162,7 +1163,7 @@ section {
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 20px; }
-      body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-sm-12 #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer body.home .features .tab-content .tab-pane .col-sm-12 .primaryAction, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer body.home .features .tab-content .tab-pane .col-lg-6 .primaryAction {
+      body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary {
         padding: 16px;
         font-size: 13px;
         width: 100%; }
@@ -1180,7 +1181,7 @@ section {
     padding-bottom: 15px;
     border-bottom: 1px solid #f1f1f1;
     margin-bottom: 20px; }
-  body.home .benefits .btn-primary, body.home .benefits #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer body.home .benefits .primaryAction {
+  body.home .benefits .btn-primary {
     font-size: 14px;
     width: 100%; }
   body.home .faq .panel-group {
@@ -1249,7 +1250,7 @@ section {
     margin-bottom: 1em;
     padding-bottom: 1em;
     border-bottom: 1px solid #f1f1f1; }
-    .bar .btn-primary, .bar #longQuote .wFormContainer .primaryAction, #longQuote .wFormContainer .bar .primaryAction {
+    .bar .btn-primary {
       margin: 0; }
 
   .widget {
