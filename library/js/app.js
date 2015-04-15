@@ -12,16 +12,6 @@ jQuery(document).ready(function($){
 	  return false
 	});
 
-	// Mobile intake form
-	$('#toggle_intake').click(function(){
-		$('#toggle_intake').remove();
-		$('.quick-quote').addClass('active');
-		$('#service').focus();
-	});
-
-	// Placeholders for dinosaur browsers
-	$('input, textarea').placeholder();
-
 	// Browser Detection
 	var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
   // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
@@ -30,4 +20,9 @@ jQuery(document).ready(function($){
 	    // At least Safari 3+: "[object HTMLElementConstructor]"
 	var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
 	var isIE = /*@cc_on!@*/false || !!document.documentMode; // At least IE6
+
+	if ( isIE == true ){
+		// Placeholders for dinosaur browsers
+		$('input, textarea').placeholder();
+	}
 });

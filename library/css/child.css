@@ -1138,8 +1138,7 @@ section {
       body.home .hero .card form.intake-form .form-group {
         margin-bottom: 8px; }
         body.home .hero .card form.intake-form .form-group input[type="date"] {
-          color: #212121;
-          min-width: 300px; }
+          color: #212121; }
         body.home .hero .card form.intake-form .form-group.row {
           margin: 0; }
         body.home .hero .card form.intake-form .form-group .col-sm-6.left, body.home .hero .card form.intake-form .form-group .col-sm-6.right {

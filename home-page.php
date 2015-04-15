@@ -56,7 +56,7 @@ Template Name: Home Page
 									</div>
 									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
-											<input type="date" id="pickup_date" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
+											<input readonly="true" type="text" id="pickup_date" name="pickup_date" placeholder="Pick up date" class="form-control" required="" value="">
 										</div>
 										<div class="col-sm-6 right">
 											<input type="text" id="passenger_count" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
@@ -380,6 +380,15 @@ Template Name: Home Page
 		var userAgent = window.navigator.userAgent;
 
 		if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+
+			//Mobile hero CTA functionality
+			$('#toggle_intake').click(function(){
+				$('#toggle_intake').remove();
+				$('.quick-quote').addClass('active');
+				$('.card').addClass('hot');
+				$('#service').addClass('hot');
+			});
+
 			$('.signup').smoothScroll({
 				offset: 260,
 				easing: 'swing',
@@ -406,6 +415,7 @@ Template Name: Home Page
 					}, 150);
 				}
 			});
+
 		}
 		
 
@@ -431,15 +441,8 @@ Template Name: Home Page
 			}
 		});
 
-		// Date Picker functionality
-		$('#pickup_date').change(function(){
-			if ( $(this).val() == "mm/dd/yyyy") {
-				
-			} else {
-		
-				$(this).addClass('active');
-			}
-		});
+		// Date Picker
+		$('#pickup_date').datepicker();
 
 		jQuery.validator.addMethod("phoneUS", function(value, element) {
 			// allow any non-whitespace characters as the host part
