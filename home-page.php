@@ -22,12 +22,12 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6 col-lg-5">
 						<div class="card quick-quote">
-							<?php /*echo do_shortcode('[formidable id=6]'); ?>*/ ?>
-							<form id="intake" class="intake-form" action="">
+							<?php /*echo do_shortcode('[salesforce form="1"]'); */?>
+							<form id="intake" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
 								<legend>Get a Quote<small>We'll get back to you in 24 hours</small></legend>
 								<fieldset>
 									<div class="form-group">
-										<select name="service" id="service" class="form-control" required="">
+										<select name="00NE0000000cAF6" id="service" class="form-control" required="">
 											<option value="">Which service would you like?</option>
 											<option value="charter">Charter</option>
 											<option value="commuter">Commuter</option>
@@ -46,27 +46,31 @@ Template Name: Home Page
 										</div>
 									</div>
 									<div class="form-group">
-										<input type="email" class="form-control" name="email_address" placeholder="Email address" required="">
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email address" required="">
 									</div>
 									<div class="form-group">
-										<input type="tel" class="form-control phoneUS" id="phone_number" name="phone_number" placeholder="Phone number" required="" minlength="14">
+										<input type="tel" class="form-control phoneUS" id="phone" name="phone" placeholder="Phone number" required="" minlength="14">
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control" name="company_name" placeholder="Company name" required="">
+										<input type="text" class="form-control" id="company" name="company" placeholder="Company name" required="">
 									</div>
 									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
-											<input readonly="true" type="text" id="pickup_date" name="pickup_date" placeholder="Pick up date" class="form-control" required="" value="">
+											<input readonly="true" type="text" id="pickup_date" name="00NE0000000cAFG" placeholder="Pick up date" class="form-control" required="" value="">
 										</div>
 										<div class="col-sm-6 right">
-											<input type="text" id="passenger_count" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
+											<input type="text" id="passenger_count" name="00NE0000000cE27" placeholder="# of passengers" class="form-control" required="">
+											<input type=hidden name="oid" value="00DE0000000IvUX">
+											<input type=hidden name="retURL" value="/thank-you">
+											<input type="hidden" name="debug" value=1>
+											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">
 										</div>
 									</div>
 									<div class="form-group">
 										<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 									</div>
 								</fieldset>
-							</form> 
+							</form>
 						</div>
 					</div>
 				</div>
@@ -459,11 +463,7 @@ Template Name: Home Page
 		$('#passenger_count').inputmask("9999");
 
 		// Form Validation
-		$('#intake').validate({
-			submitHandler: function() { 
-				window.location = "quick-quote-thank-you"
-			}
-		});
+		$('#intake').validate();
 
 	});
 </script>

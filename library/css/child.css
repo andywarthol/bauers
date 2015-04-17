@@ -882,6 +882,10 @@ section {
 .contact address.details span {
   margin-bottom: 10px; }
 
+.thank-you {
+  padding: 3em 0 6em;
+  min-height: 300px; }
+
 /*#longQuote
  * background: #f4f4f4
  * div, label, input, textarea, p, b, em
