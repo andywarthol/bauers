@@ -62,8 +62,8 @@ Template Name: Home Page
 											<input type="text" id="passenger_count" name="00NE0000000cE27" placeholder="# of passengers" class="form-control" required="">
 											<input type=hidden name="oid" value="00DE0000000IvUX">
 											<input type=hidden name="retURL" value="/thank-you">
-											<input type="hidden" name="debug" value=1>
-											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">
+											<!--<input type="hidden" name="debug" value=1>
+											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">-->
 										</div>
 									</div>
 									<div class="form-group">
