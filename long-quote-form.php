@@ -17,7 +17,7 @@ Template Name: Long Quote Form
 								<div class="col-sm-12">
 									<article>
 										<header>
-											<h1 class="page-title">Get a Free Quote</h1>
+											<h1 class="page-title">Request for Proposal</h1>
 											<p>Fill out the form below as accurately as possible so that we can provide you with the best quote.</p>
 										</header>
 										<!-- FORM: HEAD SECTION -->
@@ -61,7 +61,6 @@ Template Name: Long Quote Form
     					<div id="tfa_5-D" class="oneField">
     						<label id="tfa_5-L" for="tfa_5" class="label preField reqMark">Last Name</label><br><div class="inputWrapper"><input type="text" id="tfa_5" name="tfa_5" value="" placeholder="" class="required"></div>
     					</div>
-    					<div class="oneField clear">&nbsp;</div>
     				</div>
     				<div id="tfa_9" class="section inline group form-group">
     					<div id="tfa_56-D" class="oneField    ">
