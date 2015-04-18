@@ -24,7 +24,7 @@ Template Name: Home Page
 						<div class="card quick-quote">
 							<?php /*echo do_shortcode('[salesforce form="1"]'); */?>
 							<form id="intake" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
-								<legend>Get a Quote<small>We'll get back to you in 24 hours</small></legend>
+								<legend>Get a Quote<small>More details? Please use the <a href="request-for-proposal">RFP Form</a>.</small></legend>
 								<fieldset>
 									<div class="form-group">
 										<select name="00NE0000000cAF6" id="service" class="form-control" required="">

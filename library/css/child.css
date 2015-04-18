@@ -206,7 +206,7 @@ form.intake-form .form-group {
       border-radius: 40px;
       font-weight: normal; }
       .navbar-default .navbar-collapse .navbar-nav li a:hover {
-        color: #00973d; }
+        background: rgba(0, 0, 0, 0.03); }
     .navbar-default .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
   .navbar-default .telephone {
@@ -284,6 +284,10 @@ body.home .hero {
       font-size: 15px;
       font-weight: normal;
       display: block; }
+      body.home .hero legend small a {
+        color: white;
+        font-weight: bold;
+        text-decoration: underline; }
   body.home .hero .down-arrow {
     display: inline-block;
     background: url("../images/down-arrow.png") center center no-repeat;
@@ -636,7 +640,12 @@ body.single-post .widget.about {
       letter-spacing: 1px;
       margin: 10px 0;
       text-transform: uppercase;
-      font-size: 16px; }
+      font-size: 16px;
+      line-height: 1.6; }
+      .widget.quick-quote legend small {
+        text-transform: none;
+        display: block;
+        font-size: 12px; }
     .widget.quick-quote .form-control {
       font-size: 14px;
       padding-left: 8px !important;
