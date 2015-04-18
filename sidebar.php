@@ -28,7 +28,7 @@
 	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 	<div class="widget quick-quote" id="intake_widget">
 		<form class="intake-form" action="" id="intake_form">
-			<legend>Get a Quote <small>More details? Use the <a href="<?php bloginfo('url'); ?>/request-for-proposal">RFP Form</a>.</small></legend>
+			<legend>Get a Quote <small>More details? Use the <a href="<?php bloginfo('url'); ?>/request-for-proposal" title="">RFP Form</a>.</small></legend>
 			<fieldset>
 				<div class="form-group">
 					<select name="service" id="service" class="form-control" required="">
