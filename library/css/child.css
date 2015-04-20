@@ -36,18 +36,18 @@ body {
     font-size: 0.65em;
     top: 0; }
 
-.btn-lg {
+.btn-lg, #longQuote .wForm input[type="submit"].primaryAction {
   font-size: 17px;
   padding: 16px 40px;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: none; }
 
-.btn-primary {
+.btn-primary, #longQuote .wForm input[type="submit"].primaryAction {
   background: #00973d;
   border-color: #00973d;
   text-shadow: none; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  .btn-primary:hover, #longQuote .wForm input[type="submit"].primaryAction:hover, .btn-primary:focus, #longQuote .wForm input[type="submit"].primaryAction:focus, .btn-primary:active, #longQuote .wForm input[type="submit"].primaryAction:active {
     background: #00a141; }
 
 .btn-default {
@@ -271,7 +271,7 @@ body.home .hero {
     transition: background 0.5s ease-in-out; }
     body.home .hero .card.hot {
       background: rgba(0, 0, 0, 0.6); }
-    body.home .hero .card .btn-primary {
+    body.home .hero .card .btn-primary, body.home .hero .card #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .hero .card input[type="submit"].primaryAction {
       padding: 12px; }
   body.home .hero legend {
     color: white;
@@ -342,7 +342,7 @@ body.home .hero-modal {
     line-height: 1.4;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     margin-bottom: 40px; }
-  body.home .hero-modal .btn-primary {
+  body.home .hero-modal .btn-primary, body.home .hero-modal #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .hero-modal input[type="submit"].primaryAction {
     font-size: 18px;
     padding: 15px 40px;
     background: #e85d00;
@@ -442,7 +442,7 @@ body.home .features {
     border-top: none;
     background: white;
     margin-bottom: 0px; }
-    body.home .features .tab-pane .btn-primary {
+    body.home .features .tab-pane .btn-primary, body.home .features .tab-pane #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-pane input[type="submit"].primaryAction {
       font-size: 14px; }
     body.home .features .tab-pane .img-thumbnail {
       float: left;
@@ -650,7 +650,7 @@ body.single-post .widget.about {
       font-size: 14px;
       padding-left: 8px !important;
       border-color: #dadada !important; }
-    .widget.quick-quote .btn-primary {
+    .widget.quick-quote .btn-primary, .widget.quick-quote #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm .widget.quick-quote input[type="submit"].primaryAction {
       padding: 12px 20px;
       font-size: 14px; }
   .widget ul {
@@ -895,6 +895,33 @@ section {
   padding: 3em 0 6em;
   min-height: 300px; }
 
+#longQuote .wForm legend {
+  margin-top: 1em; }
+#longQuote .wForm .inline .oneField .preField {
+  font-size: 13px;
+  padding-left: 0; }
+#longQuote .wForm #tfa_11-D .reqMark {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  text-align: left; }
+#longQuote .wForm .inputWrapper .oneChoice {
+  display: block;
+  margin-bottom: 10px; }
+  #longQuote .wForm .inputWrapper .oneChoice .label {
+    font-size: 13px;
+    font-weight: normal; }
+#longQuote .wForm .actions {
+  text-align: center;
+  margin-bottom: 30px; }
+#longQuote .wForm input[type="submit"].primaryAction {
+  color: white;
+  text-transform: none;
+  box-shadow: none; }
+#longQuote .wFormContainer .supportInfo {
+  display: none; }
+
 /*#longQuote
  * background: #f4f4f4
  * div, label, input, textarea, p, b, em
@@ -1044,7 +1071,7 @@ section {
     padding: 0; }
     body p, body ul li {
       font-size: 14px; }
-    body .btn-primary {
+    body .btn-primary, body #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body input[type="submit"].primaryAction {
       font-size: 15px;
       padding: 14px 20px;
       margin-bottom: 20px; }
@@ -1176,7 +1203,7 @@ section {
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 20px; }
-      body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary {
+      body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-sm-12 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-content .tab-pane .col-sm-12 input[type="submit"].primaryAction, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-content .tab-pane .col-lg-6 input[type="submit"].primaryAction {
         padding: 16px;
         font-size: 13px;
         width: 100%; }
@@ -1194,7 +1221,7 @@ section {
     padding-bottom: 15px;
     border-bottom: 1px solid #f1f1f1;
     margin-bottom: 20px; }
-  body.home .benefits .btn-primary {
+  body.home .benefits .btn-primary, body.home .benefits #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .benefits input[type="submit"].primaryAction {
     font-size: 14px;
     width: 100%; }
   body.home .faq .panel-group {
@@ -1263,7 +1290,7 @@ section {
     margin-bottom: 1em;
     padding-bottom: 1em;
     border-bottom: 1px solid #f1f1f1; }
-    .bar .btn-primary {
+    .bar .btn-primary, .bar #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm .bar input[type="submit"].primaryAction {
       margin: 0; }
 
   .widget {
