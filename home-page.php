@@ -63,7 +63,6 @@ Template Name: Home Page
 											<input type=hidden name="LeadSource" value="Quick Quote 2">
 											<input type=hidden name="oid" value="00DE0000000IvUX">
 											<input type=hidden name="retURL" value="http://tempsitebeta.com/bauersit/thank-you">
-											<!-- More hidden fields -->
 											<input type="hidden" id="sf_SFGA2_Form_Name__c" class="w2linput hidden" name="SFGA2_Form_Name__c" value="">
 											<input type="hidden" id="sf_SFGA2_Referring_Website__c" class="w2linput hidden" name="SFGA2_Referring_Website__c" value="">
 											<input type="hidden" id="sf_SFGA2_Keyword_Search__c" class="w2linput hidden" name="SFGA2_Keyword_Search__c" value="">
