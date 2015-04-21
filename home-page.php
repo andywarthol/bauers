@@ -60,7 +60,7 @@ Template Name: Home Page
 										</div>
 										<div class="col-sm-6 right">
 											<input type="text" id="passenger_count" name="00NE0000000cE27" placeholder="# of passengers" class="form-control" required="">
-											<input type=hidden name="LeadSource" id="Quick Quote 2">
+											<input type="hidden" id="LeadSource" name="LeadSource" value="Quick Quotes 2">
 											<input type=hidden name="oid" value="00DE0000000IvUX">
 											<input type=hidden name="retURL" value="http://tempsitebeta.com/bauersit/thank-you">
 											<input type="hidden" id="sf_SFGA2_Form_Name__c" class="w2linput hidden" name="SFGA2_Form_Name__c" value="">
