@@ -895,8 +895,13 @@ section {
   padding: 3em 0 6em;
   min-height: 300px; }
 
+#longQuote .wForm .field-hint-inactive, #longQuote .wForm .hint {
+  color: #999999; }
 #longQuote .wForm legend {
-  margin-top: 1em; }
+  margin-top: 1em;
+  width: auto;
+  display: inline-block;
+  clear: both; }
 #longQuote .wForm .inline .oneField .preField {
   font-size: 13px;
   padding-left: 0; }
@@ -921,6 +926,30 @@ section {
   box-shadow: none; }
 #longQuote .wFormContainer .supportInfo {
   display: none; }
+#longQuote fieldset.section {
+  margin-bottom: 20px; }
+#longQuote .duplicateSpan {
+  float: none;
+  display: block;
+  text-align: left;
+  margin: 20px 0;
+  padding-left: 10px; }
+#longQuote .form-group br, #longQuote fieldset br {
+  display: none; }
+#longQuote .form-group .label, #longQuote fieldset .label {
+  font-size: 13px;
+  padding-left: 0;
+  display: block;
+  text-align: left; }
+  #longQuote .form-group .label#tfa_306-L, #longQuote fieldset .label#tfa_306-L {
+    padding-left: 10px; }
+#longQuote .form-group #tfa_382, #longQuote fieldset #tfa_382 {
+  margin-bottom: 30px; }
+#longQuote .form-group #tfa_34-L, #longQuote .form-group #tfa_35-L, #longQuote .form-group #tfa_101-L, #longQuote .form-group #tfa_102-L, #longQuote .form-group #tfa_47-L, #longQuote .form-group #tfa_48-L, #longQuote fieldset #tfa_34-L, #longQuote fieldset #tfa_35-L, #longQuote fieldset #tfa_101-L, #longQuote fieldset #tfa_102-L, #longQuote fieldset #tfa_47-L, #longQuote fieldset #tfa_48-L {
+  float: right; }
+#longQuote .form-group #tfa_39-L, #longQuote fieldset #tfa_39-L {
+  white-space: normal;
+  line-height: 1.5; }
 
 /*#longQuote
  * background: #f4f4f4
