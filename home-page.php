@@ -29,9 +29,9 @@ Template Name: Home Page
 									<div class="form-group">
 										<select name="00NE0000000cAF6" id="service" class="form-control" required="">
 											<option value="">Which service would you like?</option>
-											<option value="charter">Charter</option>
-											<option value="commuter">Commuter</option>
-											<option value="events">Event Logistics Management</option>
+											<option value="Charter">Charter</option>
+											<option value="Transit">Commuter</option>
+											<option value="Special Event">Event Logistics Management</option>
 										</select>
 									</div>
 									<div class="form-group" id="name_of_event" style="display: none">
