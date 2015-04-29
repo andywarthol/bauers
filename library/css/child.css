@@ -93,6 +93,9 @@ body {
   .well address {
     margin: 0; }
 
+.gallery.gallery-size-thumbnail .gallery-item img {
+  margin-bottom: 0; }
+
 form .form-control {
   border-radius: 0;
   border-color: 1px solid #dadada;
