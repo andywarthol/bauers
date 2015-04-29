@@ -783,7 +783,7 @@ section {
   .gallery.gallery-size-thumbnail .gallery-item img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 5px; }
+    margin-bottom: 0; }
 
 .testimonial-quotes blockquote {
   font-style: italic;
