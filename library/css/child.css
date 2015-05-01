@@ -1388,7 +1388,7 @@ section {
       opacity: 1;
       display: block; }
     .quick-quote legend small {
-      display: none; }
+      display: none !important; }
 
   .breadcrumb {
     display: none; }
