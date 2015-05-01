@@ -1367,6 +1367,8 @@ section {
 
   .widget {
     margin: 0 0 20px; }
+    .widget legend small {
+      display: none; }
     .widget .footer-bucket {
       overflow: auto; }
       .widget .footer-bucket li {
