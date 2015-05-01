@@ -457,13 +457,13 @@ Template Name: Home Page
 
 		// Quick Quote Form Field Functionality
 		$('#service').change(function(){
-			if ( $(this).val() == "charter" ){
+			if ( $(this).val() == "Charter" ){
 				$('#name_of_event').hide();
 				$('.supplementary').fadeIn();
-			} else if ( $(this).val() == "commuter" ){
+			} else if ( $(this).val() == "Transit" ){
 				$('.supplementary').fadeOut();
 				$('#name_of_event').fadeOut();
-			} else if ( $(this).val() == "events" ){
+			} else if ( $(this).val() == "Special Event" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
 			}
