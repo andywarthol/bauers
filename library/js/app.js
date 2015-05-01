@@ -35,4 +35,6 @@ jQuery(document).ready(function($){
 		$('#pickup_date').datepicker();
 	});
 
+	$('#pickup_date').datepicker();
+
 });
