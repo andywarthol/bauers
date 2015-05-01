@@ -152,10 +152,11 @@
 		// Quick Quote Form Functionality
 		$('#service').change(function(){
 			if ( $(this).val() == "Charter" ){
-				// $('#first_name').focus();
+				$('#name_of_event').hide();
+				$('.supplementary').fadeIn();
 			} else if ( $(this).val() == "Transit" ){
 				$('.supplementary').fadeOut();
-				// $('#first_name').focus();
+				$('#name_of_event').fadeOut();
 			} else if ( $(this).val() == "Special Event" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
