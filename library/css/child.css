@@ -1385,6 +1385,8 @@ section {
     .quick-quote.active {
       opacity: 1;
       display: block; }
+    .quick-quote legend small {
+      display: none; }
 
   .breadcrumb {
     display: none; }
