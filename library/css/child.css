@@ -1387,8 +1387,11 @@ section {
     .quick-quote.active {
       opacity: 1;
       display: block; }
-    .quick-quote legend small {
-      display: none !important; }
+    .quick-quote legend {
+      font-weight: bold;
+      font-size: 24px; }
+      .quick-quote legend small {
+        display: none !important; }
 
   .breadcrumb {
     display: none; }
