@@ -1245,6 +1245,8 @@ section {
     body.home .hero .card {
       margin: 0;
       padding: 10px; }
+      body.home .hero .card form.intake-form legend small {
+        font-size: 14px; }
       body.home .hero .card form.intake-form .form-group {
         margin-bottom: 8px; }
         body.home .hero .card form.intake-form .form-group input[type="date"] {
@@ -1263,7 +1265,7 @@ section {
     margin-bottom: 20px; }
   body.home .features .nav-tabs li a {
     height: 72px;
-    font-size: 13px; }
+    font-size: 12px; }
   body.home .features .tab-content .tab-pane {
     padding: 30px 15px; }
     body.home .features .tab-content .tab-pane .col-sm-12, body.home .features .tab-content .tab-pane .col-lg-6 {

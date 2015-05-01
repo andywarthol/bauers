@@ -10,7 +10,7 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-lg-11 col-lg-offset-1">
 				<div class="row">
-					<div class="col-sm-6 col-lg-7">
+					<div class="col-sm-6 col-lg-7 orientation">
 						<h1>Professional Transportation <br class="hidden-xs"/>for Any Occasion</h1>
 						<h2 class="hidden-xs">Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2>
 						<ul>
@@ -409,6 +409,7 @@ Template Name: Home Page
 
 			//Mobile hero CTA functionality
 			$('#toggle_intake').click(function(){
+				$('.orientation').hide();
 				$('#toggle_intake').remove();
 				$('.quick-quote').addClass('active');
 				$('.card').addClass('hot');
