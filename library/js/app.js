@@ -31,8 +31,8 @@ jQuery(document).ready(function($){
 		$('#toggle_intake').remove();
 		$('.quick-quote').addClass('active');
 		//$('#service').focus();
+		// Date Picker
+		$('#pickup_date').datepicker();
 	});
 
-	// Date Picker
-	$('#pickup_date').datepicker();
 });

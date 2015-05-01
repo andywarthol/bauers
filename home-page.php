@@ -414,6 +414,7 @@ Template Name: Home Page
 				$('.quick-quote').addClass('active');
 				$('.card').addClass('hot');
 				$('#service').addClass('hot');
+				$('#pickup_date').datepicker();
 			});
 
 			$('.signup').smoothScroll({
@@ -468,8 +469,6 @@ Template Name: Home Page
 			}
 		});
 
-		// Date Picker
-		$('#pickup_date').datepicker();
 
 		jQuery.validator.addMethod("phoneUS", function(value, element) {
 			// allow any non-whitespace characters as the host part
