@@ -1389,7 +1389,7 @@ section {
       display: block; }
     .quick-quote legend {
       font-weight: bold;
-      font-size: 32px; }
+      font-size: 24px !important; }
       .quick-quote legend small {
         display: none !important; }
 
