@@ -1388,9 +1388,8 @@ section {
       opacity: 1;
       display: block; }
     .quick-quote legend {
-      font-weight: bold;
-      font-size: 24px !important;
-      text-transform: none !important; }
+      font-weight: normal;
+      font-size: 24px !important; }
       .quick-quote legend small {
         display: none !important; }
 
