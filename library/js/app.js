@@ -32,4 +32,7 @@ jQuery(document).ready(function($){
 		$('.quick-quote').addClass('active');
 		//$('#service').focus();
 	});
+
+	// Date Picker
+	$('#pickup_date').datepicker();
 });
