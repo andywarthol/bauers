@@ -84,8 +84,8 @@ Template Name: Home Page
 											<input type="hidden" id="sf_SFGA2_Past_Visits__c" class="w2linput hidden" name="SFGA2_Past_Visits__c" value="">
 											<input type="hidden" id="sf_SFGA2_Page_Visits__c" class="w2linput hidden" name="SFGA2_Page_Visits__c" value="">
 											<input type="hidden" id="sf_SFGA2_Lead_Score__c" class="w2linput hidden" name="SFGA2_Lead_Score__c" value="">
-											<input type="hidden" name="debug" value=1>
-											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">
+											<!--<input type="hidden" name="debug" value=1>
+											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">-->
 										</div>
 									</div>
 									<div class="form-group">

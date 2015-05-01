@@ -1215,10 +1215,10 @@ section {
         float: none;
         display: block;
         text-align: center;
-        font-size: 17px; }
+        font-size: 15px; }
         header .navbar-default .telephone .navbar-nav li em {
           display: inline-block;
-          font-size: 17px; }
+          font-size: 15px; }
 
   body.home section {
     padding: 2.5em 0; }
@@ -1246,6 +1246,7 @@ section {
       margin: 0;
       padding: 10px; }
       body.home .hero .card form.intake-form legend small {
+        display: none;
         font-size: 14px; }
       body.home .hero .card form.intake-form .form-group {
         margin-bottom: 8px; }

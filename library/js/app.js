@@ -25,4 +25,11 @@ jQuery(document).ready(function($){
 		// Placeholders for dinosaur browsers
 		$('input, textarea').placeholder();
 	}
+
+	// Mobile intake form
+	$('#toggle_intake').click(function(){
+		$('#toggle_intake').remove();
+		$('.quick-quote').addClass('active');
+		$('#service').focus();
+	});
 });
