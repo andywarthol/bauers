@@ -1053,6 +1053,8 @@ section {
     padding-left: 25px; }
     body.home .hero ul li {
       font-size: 18px; }
+  body.home .hero form legend small {
+    font-size: 14px; }
   body.home .logos {
     padding-top: 10px; }
   body.home .benefits h1 {
