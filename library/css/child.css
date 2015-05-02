@@ -1409,4 +1409,7 @@ section {
     margin-bottom: 0; }
 
   body section .alignright.size-full, body section .aligncenter.size-full {
-    margin-left: 0 !important; } }
+    margin-left: 0 !important; }
+  body section .alignright.size-thumbnail {
+    float: right !important;
+    margin: 0 0 10px 20px !important; } }
