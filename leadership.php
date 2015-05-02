@@ -11,10 +11,10 @@ Template Name: Leadership
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3 ">
+					<div class="col-sm-4 col-md-3">
 						<?php get_sidebar(); ?>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-8 col-md-9 col-lg-8">
 						<div class="row">
 							<div class="col-sm-12">
 								<header>
