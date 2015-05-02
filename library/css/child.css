@@ -1403,7 +1403,5 @@ section {
     margin-bottom: 1em;
     border-bottom: 1px solid #f1f1f1; }
 
-  body.page-template-about-php .bar .visible-xs {
-    display: none !important; }
   body.page-template-about-php .bar .about {
     margin-bottom: 0; } }
