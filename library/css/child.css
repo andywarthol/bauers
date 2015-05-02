@@ -1412,4 +1412,6 @@ section {
     margin-left: 0 !important; }
   body section .alignright.size-thumbnail {
     float: right !important;
-    margin: 0 0 10px 20px !important; } }
+    margin: 0 0 10px 20px !important; }
+  body section .video-thumbnail {
+    width: 47.5%; } }
