@@ -1408,5 +1408,5 @@ section {
   body.page-template-about-php .bar .about {
     margin-bottom: 0; }
 
-  body section .alignright, body section .aligncenter {
+  body section .alignright.size-full, body section .aligncenter.size-full {
     margin-left: 0 !important; } }
