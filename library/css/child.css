@@ -938,6 +938,7 @@ section {
   text-align: center;
   margin-bottom: 30px; }
 #longQuote .wForm input[type="submit"].primaryAction {
+  background: #00973d !important;
   color: white;
   text-transform: none;
   box-shadow: none; }
