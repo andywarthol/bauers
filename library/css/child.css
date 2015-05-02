@@ -1406,4 +1406,7 @@ section {
     border-bottom: 1px solid #f1f1f1; }
 
   body.page-template-about-php .bar .about {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  body section .alignright, body section .aligncenter {
+    margin-left: 0 !important; } }
