@@ -93,9 +93,6 @@ body {
   .well address {
     margin: 0; }
 
-.gallery.gallery-size-thumbnail .gallery-item img {
-  margin-bottom: 0; }
-
 form .form-control {
   border-radius: 0;
   border-color: 1px solid #dadada;
@@ -106,8 +103,14 @@ form .form-control {
 form .placeholder {
   color: #aaaaaa; }
 form label.error {
-  font-size: 14px;
-  font-weight: normal; }
+  font-size: 13px;
+  font-weight: normal;
+  background: #0094d2;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+  border-radius: 0 0 4px 4px;
+  margin-top: -1px; }
 form input[type="date"] {
   color: #aaaaaa; }
   form input[type="date"].active {

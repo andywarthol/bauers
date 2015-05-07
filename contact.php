@@ -16,7 +16,44 @@ Template Name: Contact
 						<div class="row">
 							<div class="col-sm-6 form">
 								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-									<?php the_content(); ?>
+									<?php /*the_content(); */ ?>
+									<form action="https://www.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST" id="contact-form">
+
+									<input type=hidden name="orgid" value="00DE0000000IvUX">
+									<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/about/contact-thank-you/">
+
+									<!--  ----------------------------------------------------------------------  -->
+									<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+									<!--  these lines if you wish to test in debug mode.                          -->
+									<!--  <input type="hidden" name="debug" value=1>                              -->
+									<!--  <input type="hidden" name="debugEmail" value="ckwak@bauersit.com">      -->
+									<!--  ----------------------------------------------------------------------  -->
+
+									<div class="form-group">
+										<label for="name">Contact Name</label>
+										<input class="form-control" id="name" maxlength="80" name="name" size="20" type="text"  required=""/>
+									</div>
+
+									<div class="form-group">
+										<label for="email">Email address</label>
+										<input class="form-control" id="email" maxlength="80" name="email" size="20" type="text"  required=""/>
+									</div>
+
+									<div class="form-group">
+										<label for="phone">Phone</label>
+										<input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="tel"  required=""/>
+									</div>
+
+									<div class="form-group">
+										<label for="description">Message</label>
+										<textarea class="form-control" name="description" required=""></textarea>
+									</div>
+
+									<input type="hidden"  id="external" name="external" value="1" />
+
+									<button class="btn btn-lg btn-primary" type="submit" name="submit">Submit <i class="glyphicon glyphicon-chevron-right"></i></button>
+
+									</form>
 								<?php endwhile; endif; ?>
 							</div>
 							<div class="col-sm-6">
@@ -70,6 +107,8 @@ Template Name: Contact
 			'placeholder': " "
 		});
 		$('input[type="tel"]').inputmask("(999) 999-9999");
+
+		$('#contact-form').validate();
 	});
 </script>
 
