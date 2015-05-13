@@ -28,7 +28,7 @@
 	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 	<div class="widget quick-quote" id="intake_widget">
 		<form id="intake_form" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
-			<legend>Get a Quote<small>More details? Use the <a href="request-for-proposal">RFP Form</a>.</small></legend>
+			<legend>Get a Quote<small>More details? Use the <a href="<?php bloginfo('url'); ?>/request-for-proposal">RFP Form</a>.</small></legend>
 			<fieldset>
 				<div class="form-group">
 					<select name="00NE0000000cAF6" id="service" class="form-control" required="">
