@@ -36,7 +36,7 @@
 		<!-- all js scripts are loaded in library/bones.php -->
 
 		<!-- jQuery UI -->
-		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="<?php bloginfo('template_directory'); ?>/library/js/libs/jquery-ui.min.js"></script>
 
 		<!-- Adroll 
 		<script type="text/javascript">
