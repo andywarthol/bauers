@@ -657,15 +657,16 @@ body.single-post .widget.about {
     .widget.quick-quote legend {
       border: none;
       text-align: center;
-      letter-spacing: 1px;
       margin: 10px 0;
-      text-transform: uppercase;
-      font-size: 16px;
+      text-transform: none;
+      font-size: 20px;
+      font-weight: bold;
       line-height: 1.6; }
       .widget.quick-quote legend small {
+        font-weight: normal;
         text-transform: none;
         display: block;
-        font-size: 12px; }
+        font-size: 13px; }
     .widget.quick-quote .form-control {
       font-size: 14px;
       padding-left: 8px !important;

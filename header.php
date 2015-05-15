@@ -64,8 +64,9 @@
 
 			<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/jquery-ui.min.css">
 
-			<!-- drop Google Analytics Here -->
-			<!-- end analytics -->
+			<!-- CallRail -->
+			<script type="text/javascript" src="//cdn.callrail.com/companies/229295903/d3fb626710a255df8c4d/12/swap.js"></script>
+			<!-- end of CallRail -->
 
 		</head>
 
