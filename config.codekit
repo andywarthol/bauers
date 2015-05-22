@@ -3121,6 +3121,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/css\/jquery-ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/css\/jquery-ui.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/library\/css\/login.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3364,6 +3373,17 @@
 		"initialSize": 79184,
 		"inputAbbreviatedPath": "\/library\/images\/boarding-bus-hero.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/boarding-bus-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/box-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5294,
+		"inputAbbreviatedPath": "\/library\/images\/box-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/box-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3819,6 +3839,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/north-bay-rugby-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9274,
+		"inputAbbreviatedPath": "\/library\/images\/north-bay-rugby-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/north-bay-rugby-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/oracle-racing-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4046,6 +4077,17 @@
 		"initialSize": 91023,
 		"inputAbbreviatedPath": "\/library\/images\/wine-tour-hero.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/wine-tour-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/yelp-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4901,
+		"inputAbbreviatedPath": "\/library\/images\/yelp-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/yelp-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

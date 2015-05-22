@@ -56,7 +56,7 @@ Template Name: Home Page
 									</div>
 									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
-											<input type="text" id="pickup_date" name="00NE0000000cAFG" placeholder="Pick up date" class="form-control" required="" value="">
+											<input type="text" id="00NE0000000cAFG" name="00NE0000000cAFG" placeholder="Pick up date" class="pickup_date form-control" required="" value="">
 										</div>
 										<div class="col-sm-6 right">
 											<input type="text" id="passenger_count" name="00NE0000000cE27" placeholder="# of passengers" class="form-control" required="">
@@ -414,7 +414,7 @@ Template Name: Home Page
 				$('.quick-quote').addClass('active');
 				$('.card').addClass('hot');
 				$('#service').addClass('hot');
-				$('#pickup_date').datepicker();
+				$('.pickup_date').datepicker();
 			});
 
 			$('.signup').smoothScroll({

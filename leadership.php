@@ -18,7 +18,7 @@ Template Name: Leadership
 						<div class="row">
 							<div class="col-sm-12">
 								<header>
-									<h1 class="page-title">Executive Leadership Team</h1>
+									<h1 class="page-title">Management Team</h1>
 								</header>
 							</div>
 						</div>
