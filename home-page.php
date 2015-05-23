@@ -26,6 +26,8 @@ Template Name: Home Page
 							<form id="intake" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
 								<legend>Get a Quote<small>More details? Please use the <a href="request-for-proposal">RFP Form</a>.</small></legend>
 								<fieldset>
+									<input type="hidden" name="debug" value="1">
+									<input type="hidden" name="debugEmail" value="ckwak@bauersit.com">
 									<div class="form-group">
 										<select name="00NE0000000cAF6" id="service" class="form-control" required="">
 											<option value="">Which service would you like?</option>
@@ -56,7 +58,7 @@ Template Name: Home Page
 									</div>
 									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
-											<input type="text" id="00NE0000000cAFG" name="00NE0000000cAFG" placeholder="Pick up date" class="pickup_date form-control" required="" value="">
+											<span class="dateInput"><input type="text" id="00NE0000000cAFG" name="00NE0000000cAFG" placeholder="Pick up date" class="pickup_date form-control" required="" value=""></span>
 										</div>
 										<div class="col-sm-6 right">
 											<input type="text" id="passenger_count" name="00NE0000000cE27" placeholder="# of passengers" class="form-control" required="">
