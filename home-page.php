@@ -58,7 +58,7 @@ Template Name: Home Page
 									</div>
 									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
-											<span class="dateInput"><input type="text" id="sf_Reservation_Start_Date_Time__c" name="Reservation_Start_Date_Time__c" placeholder="Pick up date" class="pickup_date form-control" required="" value=""></span>
+											<span class="dateInput"><input type="text" id="sf_PickUpDate__c" name="PickUpDate__c" placeholder="Pick up date" class="pickup_date form-control" required="" value=""></span>
 										</div>
 										<div class="col-sm-6 right">
 											<input type="text" id="passenger_count" name="00NE0000000cE27" placeholder="# of passengers" class="form-control" required="">
