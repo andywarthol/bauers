@@ -20,7 +20,7 @@ Template Name: Contact
 									<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="contact-form">
 
 									<input type=hidden name="oid" value="00DE0000000IvUX">
-									<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/about/contact-thank-you/">
+									<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/about-us/contact-thank-you/">
 
 									<div class="form-group">
 										<label for="name">Contact Name</label>
