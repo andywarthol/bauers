@@ -31,9 +31,9 @@ Template Name: Home Page
 									<div class="form-group">
 										<select name="00NE0000000cAF6" id="service" class="form-control" required="">
 											<option value="">Which service would you like?</option>
-											<option value="Charter">Charter</option>
-											<option value="Transit">Commuter</option>
-											<option value="Special Event">Event Logistics Management</option>
+											<option value="Charter">Charter (4 or More Passengers)</option>
+											<option value="Transit">Company Commuter Shuttles</option>
+											<option value="Special Event">Event Transportation (5,000+)</option>
 										</select>
 									</div>
 									<div class="form-group" id="name_of_event" style="display: none">

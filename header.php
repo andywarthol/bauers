@@ -98,10 +98,10 @@
 								<nav class="telephone">
 									<ul class="nav navbar-nav">
 										<li class="hidden-xs">
-											Get a Free Quote: <em>1-800-546-6688</em>
+											Get a Free Quote: <em>1-877-486-6688</em>
 										</li>
 										<li class="visible-xs">
-											Get a Free Quote: <em><a href="tel:1-800-546-6688">1-800-546-6688</a></em>
+											Get a Free Quote: <em><a href="tel:1-877-486-6688">1-877-486-6688</a></em>
 										</li>
 									</ul>
 								</nav>

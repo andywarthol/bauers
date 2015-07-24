@@ -17,9 +17,9 @@ Template Name: Contact
 							<div class="col-sm-6 form">
 								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 									<?php /*the_content(); */ ?>
-									<form action="https://www.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST" id="contact-form">
+									<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="contact-form">
 
-									<input type=hidden name="orgid" value="00DE0000000IvUX">
+									<input type=hidden name="oid" value="00DE0000000IvUX">
 									<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/about/contact-thank-you/">
 
 									<div class="form-group">
@@ -63,7 +63,7 @@ Template Name: Contact
 									</address>
 								</div>
 								<div class="google-map">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12614.742836221516!2d-122.38716!3d37.773967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43f71d878b4ae770!2sBauer&#39;s+Intelligent+Transportation!5e0!3m2!1sen!2sus!4v1424976017685" width="600" height="500" frameborder="0" style="border:0"></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25230.982017202507!2d-122.40132253110352!3d37.769581768436964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fdb3f3fd373%3A0x4c7943276e39cb1d!2sPier+50%2C+San+Francisco%2C+CA+94158!5e0!3m2!1sen!2sus!4v1437177652214" width="600" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 								</div>
 							</div>
 						</div>
