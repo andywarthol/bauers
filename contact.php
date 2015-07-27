@@ -41,6 +41,10 @@ Template Name: Contact
 									</div>
 
 									<div class="form-group">
+										<input type="text" class="form-control" id="company" name="company" placeholder="Company name" required="" aria-required="true">
+									</div>
+
+									<div class="form-group">
 										<label for="description">Message</label>
 										<textarea class="form-control" name="description"></textarea>
 									</div>
