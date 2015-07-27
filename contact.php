@@ -21,6 +21,7 @@ Template Name: Contact
 
 									<input type=hidden name="oid" value="00DE0000000IvUX">
 									<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/about-us/contact-thank-you/">
+									<input type="hidden" id="00NE0000000cAF6" name="00NE0000000cAF6" value="Charter">
 
 									<div class="form-group">
 										<label for="name">Contact Name</label>
