@@ -892,6 +892,10 @@ section {
     left: 0;
     width: 100% !important;
     height: 100% !important; }
+.contact .form .form-group .first {
+  padding: 0 5px 0 15px; }
+.contact .form .form-group .last {
+  padding: 0 15px 0 5px; }
 .contact .form .frm_form_fields {
   margin: 0; }
 .contact .form .form-control {

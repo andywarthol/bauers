@@ -25,29 +25,28 @@ Template Name: Contact
 									<input type="hidden" name="debugEmail" value="andy@roiworks.com">
 									<input type="hidden" id="00NE0000000cAF6" name="00NE0000000cAF6" value="Charter">
 
+									<div class="form-group row">
+										<div class="col-sm-6 first">
+											<input class="form-control" id="first_name" maxlength="80" name="first_name" size="20" type="text"  required="" placeholder="First name"/>
+										</div>
+										<div class="col-sm-6 last">
+											<input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text"  required="" placeholder="Last name"/>
+										</div>
+									</div>
 									<div class="form-group">
-										<label for="name">Contact Name</label>
-										<input class="form-control" id="name" maxlength="80" name="name" size="20" type="text"  required=""/>
+										<input class="form-control" id="email" maxlength="80" name="email" size="20" type="text"  placeholder="Email address" required=""/>
 									</div>
 
 									<div class="form-group">
-										<label for="email">Email Address</label>
-										<input class="form-control" id="email" maxlength="80" name="email" size="20" type="text"  required=""/>
+										<input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="tel"  required="" placeholder="Phone number"/>
 									</div>
 
 									<div class="form-group">
-										<label for="phone">Phone</label>
-										<input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="tel"  required=""/>
+										<input type="text" class="form-control" id="company" name="company" required="" placeholder="Company name">
 									</div>
 
 									<div class="form-group">
-										<label for="phone">Company name</label>
-										<input type="text" class="form-control" id="company" name="company" required="">
-									</div>
-
-									<div class="form-group">
-										<label for="description">Message</label>
-										<textarea class="form-control" name="description"></textarea>
+										<textarea class="form-control" name="description" placeholder="Type your message here"></textarea>
 									</div>
 
 									<input type="hidden"  id="external" name="external" value="1" />
