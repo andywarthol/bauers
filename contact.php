@@ -42,7 +42,7 @@ Template Name: Contact
 									</div>
 
 									<div class="form-group">
-										<input type="text" class="form-control" id="company" name="company" required="" placeholder="Company name">
+										<input type="text" class="form-control" id="company" name="company" placeholder="Company name (optional)">
 									</div>
 
 									<div class="form-group">
