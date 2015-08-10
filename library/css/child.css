@@ -1374,9 +1374,8 @@ section {
     border-bottom: 1px solid #f1f1f1; }
 
   .contact .form .form-group .first {
-    padding: 0 15px; }
-    .contact .form .form-group .first input {
-      margin-bottom: 15px; }
+    padding: 0 15px;
+    margin-bottom: 15px; }
   .contact .form .form-group .last {
     padding: 0 15px; }
 
