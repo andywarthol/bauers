@@ -21,9 +21,10 @@ Template Name: Contact
 
 									<input type=hidden name="oid" value="00DE0000000IvUX">
 									<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/about-us/contact-thank-you/">
-									<input type="hidden" name="debug" value="1">
-									<input type="hidden" name="debugEmail" value="andy@roiworks.com">
+									<!-- <input type="hidden" name="debug" value="1"> -->
+									<!-- <input type="hidden" name="debugEmail" value="andy@roiworks.com"> -->
 									<input type="hidden" id="00NE0000000cAF6" name="00NE0000000cAF6" value="Charter">
+									<input type="text" id="bots" value="" style="display: none">
 
 									<div class="form-group row">
 										<div class="col-sm-6 first">
@@ -108,7 +109,13 @@ Template Name: Contact
 		});
 		$('input[type="tel"]').inputmask("(999) 999-9999");
 
-		$('#contact-form').validate();
+		$('#contact-form').submit(function(e){
+			if ( $('#bots').val() == ""){
+				$('#contact-form').validate();
+			} else {
+				e.preventDefault();
+			}
+		});
 	});
 </script>
 

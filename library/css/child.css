@@ -268,7 +268,7 @@ body.home section {
 body.home .hero {
   position: relative;
   padding: 2em 0 2em;
-  background: #333 url("../images/bauers-hero-coach.jpg") 50% 100% no-repeat;
+  background: #333 url("../images/bauers-vehicles-hero-bg.jpg") 50% 100% no-repeat;
   background-size: cover;
   height: auto; }
   body.home .hero h1 {
