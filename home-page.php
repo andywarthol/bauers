@@ -54,7 +54,7 @@ Template Name: Home Page
 										<input type="tel" class="form-control phoneUS" id="phone" name="phone" placeholder="Phone number" required="" minlength="14">
 									</div>
 									<div class="form-group">
-										<input type="text" class="form-control" id="company" name="company" placeholder="Company name" required="">
+										<input type="text" class="form-control" id="company" name="company" placeholder="Company name">
 									</div>
 									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
@@ -462,12 +462,15 @@ Template Name: Home Page
 			if ( $(this).val() == "Charter" ){
 				$('#name_of_event').hide();
 				$('.supplementary').fadeIn();
+				$('#company').removeAttr('required');
 			} else if ( $(this).val() == "Transit" ){
 				$('.supplementary').fadeOut();
 				$('#name_of_event').fadeOut();
+				$('#company').attr('required', '');
 			} else if ( $(this).val() == "Special Event" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
+				$('#company').attr('required', '');
 			}
 		});
 
