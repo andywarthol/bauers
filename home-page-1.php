@@ -1,10 +1,11 @@
 <?php
 /*
-Template Name: Home Page
+Template Name: Home Page v1
 */
 ?>
 
-<?php get_header(); ?>	
+<?php get_header(); ?>
+
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
@@ -99,6 +100,42 @@ Template Name: Home Page
 			</div>
 		</div>
 		<!-- <a class="down-arrow scroll" href="#services"></a> -->
+	</div>
+</section>
+<section class="services">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Our Services</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="bucket">
+				<h3>
+					<a href="our-services/charters/">Charters - Special Events <br>(4+ people)</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="our-services/charters/corporate-rentals/">Meetings - Events <br>Shuttle Service</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="our-services/corporate-commuter/">Corporate Commuter Program (6 weeks+) </a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="our-services/event-transportation/">Major Event <br/>Transportation &amp; Logistics</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="our-services/charters/airport-transfers/">Airport <br>Car Service</a>
+				</h3>
+			</div>
+		</div>
 	</div>
 </section>
 <section class="logos lightGrey">
