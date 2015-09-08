@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home Page v1
+Template Name: Home Page v2
 */
 ?>
 
@@ -102,38 +102,40 @@ Template Name: Home Page v1
 		<!-- <a class="down-arrow scroll" href="#services"></a> -->
 	</div>
 </section>
-<section class="services">
+<section class="services2 blue">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2>Our Services</h2>
+				<h1>Our Services</h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="bucket">
-				<h3>
-					<a href="our-services/charters/">Charters &amp; Special Events <br>(4+ people)</a>
-				</h3>
-			</div>
-			<div class="bucket">
-				<h3>
-					<a href="our-services/charters/corporate-rentals/">Meetings &amp; Events <br>Shuttle Service</a>
-				</h3>
-			</div>
-			<div class="bucket">
-				<h3>
-					<a href="our-services/corporate-commuter/">Corporate Commuter Program (6 weeks+)</a>
-				</h3>
-			</div>
-			<div class="bucket">
-				<h3>
-					<a href="our-services/event-transportation/">Major Event <br/>Transportation &amp; Logistics</a>
-				</h3>
-			</div>
-			<div class="bucket">
-				<h3>
-					<a href="our-services/charters/airport-transfers/">Airport <br>Car Service</a>
-				</h3>
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-4 bucket">
+						<a href="#"><i class="icon ppc"></i></a>
+						<h2><a href="#">Charters &amp; Special Events <br>(4+ people)</a></h2>
+					</div>
+					<div class="col-sm-4 bucket">
+						<a href="#"><i class="icon seo"></i></a>
+						<h2><a href="#">Meetings &amp; Events <br>Shuttle Service</a></h2>
+					</div>
+					<div class="col-sm-4 bucket">
+						<a href="#"><i class="icon cro"></i></a>
+						<h2><a href="#">Corporate Commuter Program (6 weeks+)</a></h2>
+					</div>
+				</div>
+				<br class="hidden-xs"/><br class="hidden-xs"/>
+				<div class="row two">
+					<div class="col-sm-4 col-lg-4 col-sm-offset-2 bucket">
+						<a href="#"><i class="icon analytics"></i></a>
+						<h2><a href="#">Major Event <br/>Transportation &amp; Logistics</a></h2>
+					</div>
+					<div class="col-sm-4 bucket last">
+						<a href="#"><i class="icon rwd"></i></a>
+						<h2><a href="#">Airport <br>Car Service</a></h2>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -526,6 +528,17 @@ Template Name: Home Page v1
 
 		// Form Validation
 		$('#intake').validate();
+
+		$('.services2').bind('inview', function (event, visible) {
+      if (visible == true) {
+        // element is now visible in the viewport
+       $('.icon').addClass('shown');
+          
+      } else {
+      	// element is no longer visible in the viewport
+        $('.icon').removeClass('shown');
+      }
+    });
 
 	});
 </script>

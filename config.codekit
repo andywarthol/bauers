@@ -3040,6 +3040,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/home-page-2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/home-page-2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/home-page.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3474,6 +3483,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/beaker-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10658,
+		"inputAbbreviatedPath": "\/library\/images\/beaker-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/beaker-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/beautiful-road-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3716,6 +3736,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/devices-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6641,
+		"inputAbbreviatedPath": "\/library\/images\/devices-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/devices-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/down-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3789,6 +3820,17 @@
 		"initialSize": 6716,
 		"inputAbbreviatedPath": "\/library\/images\/flat.png",
 		"outputAbbreviatedPath": "\/library\/images\/flat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/funnel-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10754,
+		"inputAbbreviatedPath": "\/library\/images\/funnel-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/funnel-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4035,6 +4077,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/metrics-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18364,
+		"inputAbbreviatedPath": "\/library\/images\/metrics-icon2.png",
+		"outputAbbreviatedPath": "\/library\/images\/metrics-icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/music-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4134,6 +4187,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/search-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11674,
+		"inputAbbreviatedPath": "\/library\/images\/search-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/search-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/sf-business-times-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4207,6 +4271,17 @@
 		"initialSize": 75624,
 		"inputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/targeting-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14171,
+		"inputAbbreviatedPath": "\/library\/images\/targeting-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/targeting-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

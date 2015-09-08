@@ -407,6 +407,70 @@ body.home .services {
     text-align: center;
     line-height: 1.5;
     margin: 0; }
+body.home .services2 .row.two {
+  margin-bottom: 20px; }
+body.home .services2 h2 {
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 10px; }
+  body.home .services2 h2 a {
+    color: #0094d2; }
+body.home .services2 .bucket {
+  text-align: center; }
+body.home .services2 .icon {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 80px;
+  background-position: center center;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  -webkit-transform: translateY(88px);
+  -moz-transform: translateY(88px);
+  -o-transform: translateY(88px);
+  -ms-transform: translateY(88px);
+  transform: translateY(88px);
+  margin: 0 0 10px; }
+  body.home .services2 .icon.shown {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none; }
+  body.home .services2 .icon.seo {
+    background-image: url("../images/search-icon.png");
+    transition-delay: 0.2s; }
+  body.home .services2 .icon.rwd {
+    background-image: url("../images/devices-icon.png");
+    transition-delay: 0.65s; }
+  body.home .services2 .icon.ppc {
+    background-image: url("../images/targeting-icon.png"); }
+  body.home .services2 .icon.cro {
+    background-image: url("../images/funnel-icon.png");
+    transition-delay: 0.35s; }
+  body.home .services2 .icon.ux {
+    background-image: url("../images/beaker-icon.png"); }
+  body.home .services2 .icon.analytics {
+    background-image: url("../images/metrics-icon2.png");
+    transition-delay: 0.5s; }
+body.home .services2 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  body.home .services2 ul li {
+    margin-bottom: 5px;
+    color: #efefef;
+    color: rgba(255, 255, 255, 0.9); }
+    body.home .services2 ul li a {
+      font-size: 17px;
+      color: #efefef;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
 body.home .logos {
   padding: 1.5em 0;
   border-bottom: 1px solid #dadada;
