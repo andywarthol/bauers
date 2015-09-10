@@ -72,12 +72,12 @@ Template Name: Services
 			$("#service option[id='commuter']").attr("selected", "selected");
 		} else if ( service == "corporateRentals" ) {
 			$("#service option[id='corporate']").attr("selected", "selected");
-		} else if ( service == "teamEvents" ) {
+		} else if ( service == "teamEvent" ) {
 			$("#service option[id='team']").attr("selected", "selected");
 		} else if ( service == "majorEvent" ) {
 			$("#service option[id='major']").attr("selected", "selected");
 		}
-		
+
 	});
 </script>
 <?php get_footer(); ?>
