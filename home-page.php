@@ -5,6 +5,7 @@ Template Name: Home Page
 ?>
 
 <?php get_header(); ?>	
+
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
@@ -394,6 +395,7 @@ Template Name: Home Page
 </section>
 <script>
 	jQuery(document).ready(function($){
+
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 

@@ -3483,6 +3483,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/bauers-vehicles-hero-bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97966,
+		"inputAbbreviatedPath": "\/library\/images\/bauers-vehicles-hero-bg2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bauers-vehicles-hero-bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/bauers-vehicles-hero-bg3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110130,
+		"inputAbbreviatedPath": "\/library\/images\/bauers-vehicles-hero-bg3.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/bauers-vehicles-hero-bg3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/beaker-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,

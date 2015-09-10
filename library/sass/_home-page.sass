@@ -13,7 +13,8 @@ body.home
 	.hero
 		position: relative
 		padding: 2em 0 2em
-		background: #333 url('../images/bauers-vehicles-hero-bg.jpg') 50% 100% no-repeat
+		//background: #333 url('../images/bauers-vehicles-hero-bg.jpg') 50% 100% no-repeat
+		background: #333 url('../images/bauers-vehicles-hero-bg2.jpg') 50% 100% no-repeat
 		//background: #333 url('../images/bauers-hero-coach.jpg') 50% 100% no-repeat
 		//background: #333 url('../images/blue-bridge-hero.jpg') 50% 100% no-repeat
 		//background: url('../images/buses-hero-bg.jpg') 50% 100% no-repeat
@@ -57,6 +58,9 @@ body.home
 					color: white
 					font-weight: bold
 					text-decoration: underline
+		select.active
+			border-color: $blue
+			box-shadow: 0 0 10px $blue
 		.down-arrow
 			display: inline-block
 			background: url('../images/down-arrow.png') center center no-repeat
@@ -146,14 +150,22 @@ body.home
 
 	.services
 		padding: 1.5em 0 2.5em
+		background: #f0f0f0
+		border-bottom: 1px solid #dadada
 		h2
 			font-size: 24px
 			margin-bottom: 20px
+			color: white
 		.bucket
 			width: 20%
 			float: left
 			overflow: auto
 			padding: 0 10px
+			// border-right: 1px solid #dadada
+			// box-shadow: 1px 0 0 white
+			&:last-child
+				border: none
+				box-shadow: none
 		h3
 			font-size: 15px
 			font-weight: bold

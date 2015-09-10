@@ -114,7 +114,7 @@ Template Name: Home Page v2
 				<div class="row">
 					<div class="col-sm-4 bucket">
 						<a href="#"><i class="icon ppc"></i></a>
-						<h2><a href="#">Charters &amp; Special Events <br>(4+ people)</a></h2>
+						<h2><a href="#">Charters &amp; Special Events</a></h2>
 					</div>
 					<div class="col-sm-4 bucket">
 						<a href="#"><i class="icon seo"></i></a>
@@ -122,7 +122,7 @@ Template Name: Home Page v2
 					</div>
 					<div class="col-sm-4 bucket">
 						<a href="#"><i class="icon cro"></i></a>
-						<h2><a href="#">Corporate Commuter Program (6 weeks+)</a></h2>
+						<h2><a href="#">Corporate Commuter <br>Program</a></h2>
 					</div>
 				</div>
 				<br class="hidden-xs"/><br class="hidden-xs"/>
@@ -433,6 +433,9 @@ Template Name: Home Page v2
 </section>
 <script>
 	jQuery(document).ready(function($){
+
+		$('body').addClass('home');
+		
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 

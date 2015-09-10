@@ -14,9 +14,7 @@ Template Name: Home Page v1
 					<div class="col-sm-6 col-lg-7 orientation">
 						<h1><?php the_field('hero_headline'); ?></h1>
 						<h2 class="hidden-xs"><?php the_field('hero_subhead'); ?></h2>
-						<ul>
-							<?php the_field('hero_bullets'); ?>
-						</ul>
+						
 						<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 					<div class="col-sm-6 col-lg-5">
@@ -28,11 +26,18 @@ Template Name: Home Page v1
 									<input type="hidden" name="debug" value="1">
 									<input type="hidden" name="debugEmail" value="ckwak@bauersit.com">
 									<div class="form-group">
-										<select name="00NE0000000cAF6" id="service" class="form-control" required="">
+										<select name="00NE0000000cAF6" id="service" class="form-control active" required="" aria-required="true">
 											<option value="">Which service would you like?</option>
-											<option value="Charter">Charter (4 or More Passengers)</option>
+											<option value="">----------------</option>
+											<option value="Charter">Airport Car Service</option>
+											<option value="Charter">Bus Charters</option>
+											<option value="Charter">Corporate Rentals</option>
+											<option value="Charter">Team Building Events</option>
+											<option value="">----------------</option>
+											<option value="Transit">Shuttle Service</option>
 											<option value="Transit">Company Commuter Shuttles</option>
-											<option value="Special Event">Event Transportation (5,000+)</option>
+											<option value="">----------------</option>
+											<option value="Special Event">Major Event Transportation (1,000+)</option>
 										</select>
 									</div>
 									<div class="form-group" id="name_of_event" style="display: none">
@@ -104,53 +109,36 @@ Template Name: Home Page v1
 </section>
 <section class="services">
 	<div class="container">
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm-12">
 				<h2>Our Services</h2>
 			</div>
-		</div>
+		</div> -->
 		<div class="row">
 			<div class="bucket">
 				<h3>
-					<a href="our-services/charters/">Charters &amp; Special Events <br>(4+ people)</a>
+					<a href="bus-charters?service=busCharters">Bus Charters &amp; <br/>Group Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/charters/corporate-rentals/">Meetings &amp; Events <br>Shuttle Service</a>
+					<a href="our-services/corporate-commuter/?service=shuttleService">Shuttle Service</a> <br><a href="our-services/corporate-commuter/?service=companyCommuter">Company Commuters</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/corporate-commuter/">Corporate Commuter Program (6 weeks+)</a>
+					<a href="our-services/bus-charters/corporate-rentals/?service=corporateRentals">Corporate Rentals</a> <br><a href="our-services/bus-charters/?service=teamEvent">Team Building Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/event-transportation/">Major Event <br/>Transportation &amp; Logistics</a>
+					<a href="our-services/bus-charters/airport-transfers/?service=airport">Airport <br>Car Service</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/charters/airport-transfers/">Airport <br>Car Service</a>
+					<a href="our-services/event-transportation/?service=majorEvent">Major Event <br/>Transportation &amp; Logistics</a>
 				</h3>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="logos lightGrey">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-2 col-lg-offset-1 clients text-center">Our Clients:</div>
-			<div class="col-lg-8">
-				<div class="row">
-					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -293,6 +281,23 @@ Template Name: Home Page v1
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="logos lightGrey">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-1 clients text-center">Our Clients:</div>
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
 				</div>
 			</div>
 		</div>
@@ -509,6 +514,13 @@ Template Name: Home Page v1
 			}
 		});
 
+		$('#service').change(function(){
+			if ( $(this).val() == "" ){
+				$(this).addClass('active');
+			} else {
+				$(this).removeClass('active');
+			}
+		});
 
 		jQuery.validator.addMethod("phoneUS", function(value, element) {
 			// allow any non-whitespace characters as the host part
