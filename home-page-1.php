@@ -29,15 +29,15 @@ Template Name: Home Page v1
 										<select name="00NE0000000cAF6" id="service" class="form-control active" required="" aria-required="true">
 											<option value="">Which service would you like?</option>
 											<option value="">----------------</option>
-											<option value="Charter">Airport Car Service</option>
-											<option value="Charter">Bus Charters</option>
-											<option value="Charter">Corporate Rentals</option>
-											<option value="Charter">Team Building Events</option>
+											<option id="airport" value="Charter">Airport Car Service</option>
+											<option id="charter" value="Charter">Bus Charters</option>
+											<option id="corporate" value="Charter">Corporate Rentals</option>
+											<option id="team" value="Charter">Team Building Events</option>
 											<option value="">----------------</option>
-											<option value="Transit">Shuttle Service</option>
-											<option value="Transit">Company Commuter Shuttles</option>
+											<option id="shuttle" value="Transit">Shuttle Service</option>
+											<option id="commuter" value="Transit">Company Commuter Shuttles</option>
 											<option value="">----------------</option>
-											<option value="Special Event">Major Event Transportation (1,000+)</option>
+											<option id="major" value="Special Event">Major Event Transportation (1,000+)</option>
 										</select>
 									</div>
 									<div class="form-group" id="name_of_event" style="display: none">

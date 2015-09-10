@@ -33,9 +33,16 @@
 				<div class="form-group">
 					<select name="00NE0000000cAF6" id="service" class="form-control" required="">
 						<option value="">Which service would you like?</option>
-						<option value="Charter">Charter (4+ Passengers)</option>
-						<option value="Transit">Company Commuter Shuttles</option>
-						<option value="Special Event">Event Transport (5,000+)</option>
+						<option value="">----------------</option>
+						<option id="airport" value="Charter">Airport Car Service</option>
+						<option id="charter" value="Charter">Bus Charters</option>
+						<option id="corporate" value="Charter">Corporate Rentals</option>
+						<option id="team" value="Charter">Team Building Events</option>
+						<option value="">----------------</option>
+						<option id="shuttle" value="Transit">Shuttle Service</option>
+						<option id="commuter" value="Transit">Company Commuter Shuttles</option>
+						<option value="">----------------</option>
+						<option id="major" value="Special Event">Major Event Transportation (1,000+)</option>
 					</select>
 				</div>
 				<div class="form-group" id="name_of_event" style="display: none">
