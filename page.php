@@ -48,7 +48,7 @@
 
 		var service = getUrlParameter('service');
 		
-		if ( service == "busCharters" ) {
+		/*if ( service == "busCharters" ) {
 			$("#service option[id='charter']").attr("selected", "selected");
 		} else if ( service == "airport" ) {
 			$("#service option[id='airport']").attr("selected", "selected");
@@ -62,7 +62,7 @@
 			$("#service option[id='team']").attr("selected", "selected");
 		} else if ( service == "majorEvent" ) {
 			$("#service option[id='major']").attr("selected", "selected");
-		}
+		}*/
 
 	}); 
 </script>

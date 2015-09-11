@@ -117,27 +117,27 @@ Template Name: Home Page v1
 		<div class="row">
 			<div class="bucket">
 				<h3>
-					<a href="bus-charters?service=busCharters">Bus Charters &amp; <br/>Group Events</a>
+					<a href="bus-charters/">Bus Charters &amp; <br/>Group Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/corporate-commuter/?service=shuttleService">Shuttle Service</a> <br><a href="our-services/corporate-commuter/?service=companyCommuter">Company Commuters</a>
+					<a href="our-services/corporate-commuter/">Shuttle Service <br>Company Commuters</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/bus-charters/corporate-rentals/?service=corporateRentals">Corporate Rentals</a> <br><a href="our-services/bus-charters/?service=teamEvent">Team Building Events</a>
+					<a href="our-services/bus-charters/">Company Trips &amp;<br>Team Building Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/bus-charters/airport-transfers/?service=airport">Airport <br>Car Service</a>
+					<a href="our-services/bus-charters/airport-transfers/">Airport <br>Car Service</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/event-transportation/?service=majorEvent">Major Event <br/>Transportation &amp; Logistics</a>
+					<a href="our-services/event-transportation/">Major Event <br/>Transportation &amp; Logistics</a>
 				</h3>
 			</div>
 		</div>
