@@ -511,7 +511,7 @@ Template Name: Home Page v1
 			} else if ( $(this).val() == "Special Event" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
-				$('#company').attr('required', '');
+				$('#company').removeAttr('required');
 			}
 		});
 
