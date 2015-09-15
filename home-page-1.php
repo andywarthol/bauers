@@ -11,17 +11,17 @@ Template Name: Home Page v1
 		<div class="row">
 			<div class="col-lg-11 col-lg-offset-1">
 				<div class="row">
-					<div class="col-sm-6 col-lg-7 orientation">
+					<div class="col-sm-6 col-md-7 col-lg-7 orientation">
 						<h1><?php the_field('hero_headline'); ?></h1>
-						<h2 class="hidden-xs"><?php the_field('hero_subhead'); ?></h2>
+						<h2 class=""><?php the_field('hero_subhead'); ?></h2>
 						
 						<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
-					<div class="col-sm-6 col-lg-5">
+					<div class="col-sm-6 col-md-5 col-lg-5">
 						<div class="card quick-quote">
 							<?php /*echo do_shortcode('[salesforce form="1"]'); */?>
 							<form id="intake" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
-								<legend>Get a Quote<small>More details? Please use the <a href="request-for-proposal">RFP Form</a>.</small></legend>
+								<legend>Get a Quote<small class="hidden-sm hidden-xs">More details? Please use the <a href="request-for-proposal">RFP Form</a>.</small></legend>
 								<fieldset>
 									<input type="hidden" name="debug" value="1">
 									<input type="hidden" name="debugEmail" value="ckwak@bauersit.com">
@@ -29,15 +29,16 @@ Template Name: Home Page v1
 										<select name="00NE0000000cAF6" id="service" class="form-control active" required="" aria-required="true">
 											<option value="">Which service would you like?</option>
 											<option value="">----------------</option>
-											<option id="airport" value="Charter">Airport Car Service</option>
-											<option id="charter" value="Charter">Bus Charters</option>
-											<option id="corporate" value="Charter">Corporate Rentals</option>
-											<option id="team" value="Charter">Team Building Events</option>
+											<option value="Charter">Airport &amp; Black Car Service</option>
+											<option value="Charter">Bus Charters</option>
+											<option value="Charter">Group Events</option>
+											<option value="Charter">Corporate Rentals</option>
+											<option value="Charter">Team Building Events</option>
 											<option value="">----------------</option>
-											<option id="shuttle" value="Transit">Shuttle Service</option>
-											<option id="commuter" value="Transit">Company Commuter Shuttles</option>
+											<option value="Transit">Shuttle Program</option>
+											<option value="Transit">Company Commuter Shuttles</option>
 											<option value="">----------------</option>
-											<option id="major" value="Special Event">Major Event Transportation (1,000+)</option>
+											<option value="Special Event">Major Event Transportation (1,000+)</option>
 										</select>
 									</div>
 									<div class="form-group" id="name_of_event" style="display: none">
@@ -122,22 +123,22 @@ Template Name: Home Page v1
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/corporate-commuter/">Shuttle Service &amp;<br>Company Commuters</a>
+					<a href="our-services/corporate-commuter/">Shuttle Service &amp;<br>Commuter Programs</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/bus-charters/">Company Trips &amp;<br>Team Building Events</a>
+					<a href="our-services/bus-charters/">Corporate Rentals &amp;<br>Team Building Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/bus-charters/airport-transfers/">Airport <br>Car Service</a>
+					<a href="our-services/bus-charters/airport-transfers/">Airport &amp; Black <br>Car Service</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/event-transportation/">Major Event <br/>Transportation &amp; Logistics</a>
+					<a href="our-services/event-transportation/"><span class="hidden-sm">Major</span> Event <br class="hidden-sm hidden-xs"/>Logistics &amp; Transportation</a>
 				</h3>
 			</div>
 		</div>
