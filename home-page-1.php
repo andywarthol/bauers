@@ -138,7 +138,7 @@ Template Name: Home Page v1
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/event-transportation/"><span class="hidden-sm">Major</span> Event <br class="hidden-sm hidden-xs"/>Logistics &amp; Transportation</a>
+					<a href="our-services/event-transportation/"><span class="hide-sm">Major</span> Event <br class="hidden-sm hidden-xs"/>Logistics &amp; Transportation</a>
 				</h3>
 			</div>
 		</div>

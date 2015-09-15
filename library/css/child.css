@@ -1180,6 +1180,8 @@ section {
     font-size: 13px; }
   body.home .services h3 a {
     font-size: 12px; }
+    body.home .services h3 a .hide-sm {
+      display: none; }
   body.home .logos {
     padding-top: 10px; }
   body.home .benefits h1 {
