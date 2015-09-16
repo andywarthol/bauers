@@ -31,18 +31,19 @@
 			<legend>Get a Quote<small>More details? Use the <a href="<?php bloginfo('url'); ?>/request-for-proposal">RFP Form</a>.</small></legend>
 			<fieldset>
 				<div class="form-group">
-					<select name="00NE0000000cAF6" id="service" class="form-control" required="">
+					<select name="00NE0000000cAF6" id="service" class="form-control active" required="" aria-required="true">
 						<option value="">Which service would you like?</option>
 						<option value="">----------------</option>
-						<option id="airport" value="Charter">Airport Car Service</option>
-						<option id="charter" value="Charter">Bus Charters</option>
-						<option id="corporate" value="Charter">Corporate Rentals</option>
-						<option id="team" value="Charter">Team Building Events</option>
+						<option value="Charter">Airport &amp; Black Car Service</option>
+						<option value="Charter">Bus Charters</option>
+						<option value="Charter">Group Events</option>
+						<option value="Charter">Corporate Rentals</option>
+						<option value="Charter">Team Building Events</option>
 						<option value="">----------------</option>
-						<option id="shuttle" value="Transit">Shuttle Service</option>
-						<option id="commuter" value="Transit">Company Commuter Shuttles</option>
+						<option value="Transit">Shuttle Program</option>
+						<option value="Transit">Company Commuter Shuttles</option>
 						<option value="">----------------</option>
-						<option id="major" value="Special Event">Major Event Transportation (1,000+)</option>
+						<option value="Special Event">Major Event Transportation (1,000+)</option>
 					</select>
 				</div>
 				<div class="form-group" id="name_of_event" style="display: none">
@@ -156,7 +157,7 @@
 	    }
 		});
 
-		// Quick Quote Form Functionality
+		// Quick Quote Form Field Functionality
 		$('#service').change(function(){
 			if ( $(this).val() == "Charter" ){
 				$('#name_of_event').hide();
@@ -169,7 +170,7 @@
 			} else if ( $(this).val() == "Special Event" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
-				$('#company').attr('required', '');
+				$('#company').removeAttr('required');
 			}
 		});
 
