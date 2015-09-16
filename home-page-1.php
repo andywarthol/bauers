@@ -128,7 +128,7 @@ Template Name: Home Page v1
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/bus-charters/">Corporate Rentals &amp;<br>Team Building Events</a>
+					<a href="our-services/bus-charters/corporate-rentals/">Corporate Rentals &amp;<br>Team Building Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
