@@ -93,55 +93,12 @@
 					<input type="hidden" id="sf_SFGA2_Past_Visits__c" class="w2linput hidden" name="SFGA2_Past_Visits__c" value="">
 					<input type="hidden" id="sf_SFGA2_Page_Visits__c" class="w2linput hidden" name="SFGA2_Page_Visits__c" value="">
 					<input type="hidden" id="sf_SFGA2_Lead_Score__c" class="w2linput hidden" name="SFGA2_Lead_Score__c" value="">
-					<!--<input type="hidden" name="debug" value=1>
-					<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">-->
 				</div>
 				<div class="form-group">
 					<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 				</div>
 			</fieldset>
 		</form>
-		<?php /*
-		<form class="intake-form" action="" id="intake_form">
-			<legend>Get a Quote <small>More details? Use the <a href="<?php bloginfo('url'); ?>/request-for-proposal" title="">RFP Form</a>.</small></legend>
-			<fieldset>
-				<div class="form-group">
-					<select name="service" id="service" class="form-control" required="">
-						<option value="">- Pick a service -</option>
-						<option value="charter">Charter</option>
-						<option value="commuter">Commuter</option>
-						<option value="events">Event Logistics Management</option>
-					</select>
-				</div>
-				<div class="form-group" id="name_of_event" style="display: none">
-					<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
-				</div>
-				<div class="form-group">
-					<input type="text" name="first_name" id="first_name" placeholder="First name" class="form-control" required="">
-				</div>
-				<div class="form-group">
-					<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
-				</div>
-				<div class="form-group">
-					<input type="email" class="form-control" name="email_address" placeholder="Email address" required="">
-				</div>
-				<div class="form-group">
-					<input type="tel" class="form-control" name="phone_number" placeholder="Phone number" required="">
-				</div>
-				<div class="form-group">
-					<input type="text" class="form-control" name="company_name" placeholder="Company name" required="">
-				</div>
-				<div class="form-group supplementary">
-					<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
-				</div>
-				<div class="form-group supplementary">
-					<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
-				</div>
-				<div class="form-group">
-					<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
-				</div>
-			</fieldset>
-		</form> */ ?>
 	</div>
 </div>
 <?php endif; ?>
