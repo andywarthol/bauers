@@ -155,7 +155,7 @@ form.intake-form .form-group {
       right: 15px; }
 
 .bootstrap-select .dropdown-toggle:active, .bootstrap-select .dropdown-toggle.focus {
-  background: transparent;
+  background: white;
   border: none;
   line-height: 2; }
 
