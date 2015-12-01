@@ -1,4 +1,5 @@
 
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/bootstrap-select.css">
 <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
 
 	<?php dynamic_sidebar( 'sidebar1' ); ?>
@@ -31,18 +32,18 @@
 			<legend>Get a Quote<small>More details? Use the <a href="<?php bloginfo('url'); ?>/request-for-proposal">RFP Form</a>.</small></legend>
 			<fieldset>
 				<div class="form-group">
-					<select name="00NE0000000cAF6" id="service" class="form-control active" required="" aria-required="true">
+					<select name="00NE0000000cAF6" id="service" class="form-control selectpicker" required="" aria-required="true">
 						<option value="">Which service would you like?</option>
-						<option value="">----------------</option>
-						<option value="Charter">Airport &amp; Black Car Service</option>
-						<option value="Charter">Bus Charters</option>
-						<option value="Charter">Group Events</option>
-						<option value="Charter">Corporate Rentals</option>
-						<option value="Charter">Team Building Events</option>
-						<option value="">----------------</option>
-						<option value="Transit">Shuttle Program</option>
-						<option value="Transit">Company Commuter Shuttles</option>
-						<option value="">----------------</option>
+						<optgroup label="Single &amp; Group Rentals">
+				     <option value="Charter">Airport &amp; Black Car Service</option>
+							<option value="Charter">Private Group Rentals</option>
+							<option value="Charter">Company Group Rentals</option>
+							<option value="Charter">Team Building Events</option>
+				    </optgroup>
+				    <optgroup label="Scheduled Shuttle Programs">
+				      <option value="Transit">Last Mile Shuttle</option>
+							<option value="Transit">Company Commuter Bus</option>
+				    </optgroup>
 						<option value="Special Event">Major Event Transportation (1,000+)</option>
 					</select>
 				</div>
@@ -139,6 +140,8 @@
 
 		// Form Validation
 		$('#intake_form').validate();
+
+		$('#service').selectpicker();
 	
 	});
 </script>

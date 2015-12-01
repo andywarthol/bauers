@@ -41,8 +41,45 @@ body.single-post
 				font-size: 13px
 		.form-control
 			font-size: 14px
-			padding-left: 8px!important
+			padding-left: 8px
 			border-color: #dadada!important
+		.bootstrap-select
+			padding-left: 0
+			border: 1px solid #dadada
+			color: $black
+			.dropdown-toggle
+				color: $black
+				padding-left: 8px
+			&.active, &:hover, &:focus
+				.dropdown-menu
+					background: white
+					line-height: 2
+					outline: none
+			.dropdown-menu
+				li
+					text-shadow: none
+					padding: 0
+					margin: 0
+					display: block
+					&.divider
+						margin: 9px 0 0
+					&.dropdown-header
+						padding: 15px 15px 5px
+						font-weight: bold
+						color: $black
+					&:last-child
+						margin-top: 5px
+					a
+						display: block
+						text-shadow: none
+						padding: 5px 15px
+						font-size: 15px
+			&.active
+				border-color: $blue
+				box-shadow: 0 0 10px $blue
+				.filter-option
+					font-weight: bold
+					padding-top: 2px
 		.btn-primary
 			padding: 12px 20px
 			font-size: 14px

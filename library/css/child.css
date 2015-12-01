@@ -154,17 +154,6 @@ form.intake-form .form-group {
     form.intake-form .form-group .col-sm-6.right label.error {
       right: 15px; }
 
-.bootstrap-select.active .dropdown-toggle {
-  background: white;
-  border: none;
-  line-height: 2;
-  outline: none; }
-.bootstrap-select .dropdown-toggle:active, .bootstrap-select .dropdown-toggle.focus {
-  background: white;
-  border: none;
-  line-height: 2;
-  outline: none; }
-
 .img-thumbnail {
   border-radius: 2px;
   border-color: #efefef; }
@@ -830,8 +819,43 @@ body.single-post .widget.about {
         font-size: 13px; }
     .widget.quick-quote .form-control {
       font-size: 14px;
-      padding-left: 8px !important;
+      padding-left: 8px;
       border-color: #dadada !important; }
+    .widget.quick-quote .bootstrap-select {
+      padding-left: 0;
+      border: 1px solid #dadada;
+      color: #212121; }
+      .widget.quick-quote .bootstrap-select .dropdown-toggle {
+        color: #212121;
+        padding-left: 8px; }
+      .widget.quick-quote .bootstrap-select.active .dropdown-menu, .widget.quick-quote .bootstrap-select:hover .dropdown-menu, .widget.quick-quote .bootstrap-select:focus .dropdown-menu {
+        background: white;
+        line-height: 2;
+        outline: none; }
+      .widget.quick-quote .bootstrap-select .dropdown-menu li {
+        text-shadow: none;
+        padding: 0;
+        margin: 0;
+        display: block; }
+        .widget.quick-quote .bootstrap-select .dropdown-menu li.divider {
+          margin: 9px 0 0; }
+        .widget.quick-quote .bootstrap-select .dropdown-menu li.dropdown-header {
+          padding: 15px 15px 5px;
+          font-weight: bold;
+          color: #212121; }
+        .widget.quick-quote .bootstrap-select .dropdown-menu li:last-child {
+          margin-top: 5px; }
+        .widget.quick-quote .bootstrap-select .dropdown-menu li a {
+          display: block;
+          text-shadow: none;
+          padding: 5px 15px;
+          font-size: 15px; }
+      .widget.quick-quote .bootstrap-select.active {
+        border-color: #0094d2;
+        box-shadow: 0 0 10px #0094d2; }
+        .widget.quick-quote .bootstrap-select.active .filter-option {
+          font-weight: bold;
+          padding-top: 2px; }
     .widget.quick-quote .btn-primary, .widget.quick-quote #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm .widget.quick-quote input[type="submit"].primaryAction {
       padding: 12px 20px;
       font-size: 14px; }
