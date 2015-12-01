@@ -6,11 +6,11 @@
 <?php else : ?>
 <div class="bar">
 	
-		<?php if ( is_page (array( 225, 181, 287, 250, 228 )) ) { ?>
+		<?php if ( is_page (array( 225, 181, 287, 250, 228, 403, 710, 718 )) ) { ?>
 			<div class="widget about">
 				<?php footer_bucket_1(); ?>
 			</div>
-		<?php } elseif ( $post->post_parent == 225 || $post->post_parent == 181 || $post->post_parent == 228 || $post->post_parent == 250 || $post->post_parent == 287 ) { ?>
+		<?php } elseif ( $post->post_parent == 225 || $post->post_parent == 181 || $post->post_parent == 228 || $post->post_parent == 250 || $post->post_parent == 287 || $post->post_parent == 710 || $post->post_parent == 403 ) { ?>
 			<div class="widget about">
 				<?php footer_bucket_1(); ?>
 			</div>
@@ -47,7 +47,7 @@
 					</select>
 				</div>
 				<div class="form-group" id="name_of_event" style="display: none">
-					<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
+					<input type="text" class="form-control" name="event_name" placeholder="Name of the event">
 				</div>
 				<div class="form-group">
 					<input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control" required="">

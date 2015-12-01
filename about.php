@@ -35,13 +35,7 @@ Template Name: About
 </section>
 <script>
 	jQuery(document).ready(function($){
-		// Accordion
-		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
-
-		$('.scroll, .scroll a').smoothScroll({
-			offset: -60,
-			easing: 'swing'
-		});
+		
 	});
 </script>
 

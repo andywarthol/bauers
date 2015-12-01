@@ -1,0 +1,1 @@
+$.validator.addMethod("dateNL",function(t,d){return this.optional(d)||/^(0?[1-9]|[12]\d|3[01])[\.\/\-](0?[1-9]|1[012])[\.\/\-]([12]\d)?(\d\d)$/.test(t)},"Please enter a correct date");

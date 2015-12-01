@@ -1,0 +1,1 @@
+$.validator.addMethod("dateITA",function(t,e){var a=!1,r=/^\d{1,2}\/\d{1,2}\/\d{4}$/,n,d,o,s,l;return r.test(t)?(n=t.split("/"),d=parseInt(n[0],10),o=parseInt(n[1],10),s=parseInt(n[2],10),l=new Date(s,o-1,d,12,0,0,0),a=l.getUTCFullYear()===s&&l.getUTCMonth()===o-1&&l.getUTCDate()===d?!0:!1):a=!1,this.optional(e)||a},"Please enter a correct date");

@@ -1,4 +1,4 @@
-body.home
+body.home, body.page-template-home-page-b-nov-11, body.page-template-home-page-b-nov-17
 	.pricing
 		background: #efefef
 		text-align: center
@@ -31,12 +31,13 @@ body.home
 		position: relative
 		padding: 2em 0 2em
 		//background: #333 url('../images/bauers-vehicles-hero-bg.jpg') 50% 100% no-repeat
-		background: #333 url('../images/bauers-vehicles-hero-bg2.jpg') 50% 100% no-repeat
+		background: #333 url('../images/bauers-vehicles-hero-bg4.jpg') 50% 100% no-repeat
 		//background: #333 url('../images/bauers-hero-coach.jpg') 50% 100% no-repeat
 		//background: #333 url('../images/blue-bridge-hero.jpg') 50% 100% no-repeat
 		//background: url('../images/buses-hero-bg.jpg') 50% 100% no-repeat
 		background-size: cover
-		height: auto
+		height: 520px
+		max-height: 520px
 		h1
 			text-align: left
 			font-weight: bold
@@ -47,15 +48,42 @@ body.home
 			font-weight: normal
 			font-size: 21px
 			line-height: 1.4
-		ul
+		.bootstrap-select
+			.dropdown-menu
+				li
+					text-shadow: none
+					padding: 0
+					margin: 0
+					&.divider
+						margin: 9px 0 0
+					&.dropdown-header
+						padding: 15px 15px 5px
+						font-weight: bold
+						color: $black
+					&:last-child
+						margin-top: 5px
+					a
+						text-shadow: none
+						padding: 5px 15px
+			&.active
+				border-color: $blue
+				box-shadow: 0 0 10px $blue
+				.filter-option
+					font-weight: bold
+					padding-top: 2px
+		.filter-option
+			color: $black
+		ul.features
 			li
 				font-size: 24px
 				margin-bottom: 15px
 		.card
 			margin: 0 0 0 40px
-			background: rgba(0, 0, 0, .35)
+			background: rgba(0, 0, 0, .65)
 			padding: 10px 20px
-			transition: background .5s ease-in-out
+			transition: all .5s ease-in-out
+			&.collapsed
+				margin-top: 40px
 			&.hot
 				background: rgba(0, 0, 0, .6)
 			.btn-primary
@@ -75,6 +103,9 @@ body.home
 					color: white
 					font-weight: bold
 					text-decoration: underline
+		select
+			color: black
+			font-weight: bold
 		select.active
 			border-color: $blue
 			box-shadow: 0 0 10px $blue
@@ -174,7 +205,7 @@ body.home
 			margin-bottom: 20px
 			color: white
 		.bucket
-			width: 20%
+			width: 16.5%
 			float: left
 			overflow: auto
 			padding: 0 10px
@@ -184,10 +215,11 @@ body.home
 				border: none
 				box-shadow: none
 		h3
-			font-size: 15px
+			font-size: 14px
 			font-weight: bold
 			text-align: center
 			line-height: 1.5
+			white-space: nowrap
 			margin: 0
 	.services2
 		.row

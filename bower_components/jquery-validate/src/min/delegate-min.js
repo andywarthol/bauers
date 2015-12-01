@@ -1,0 +1,1 @@
+$.extend($.fn,{validateDelegate:function(t,e,n){return this.bind(e,function(e){var a=$(e.target);return a.is(t)?n.apply(a,arguments):void 0})}});

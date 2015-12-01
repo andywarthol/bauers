@@ -93,6 +93,14 @@ body {
   .well address {
     margin: 0; }
 
+.carousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-left: 60px;
+  padding-right: 60px; }
+
 form .form-control {
   border-radius: 0;
   border-color: 1px solid #dadada;
@@ -145,6 +153,11 @@ form.intake-form .form-group {
     position: relative; }
     form.intake-form .form-group .col-sm-6.right label.error {
       right: 15px; }
+
+.bootstrap-select .dropdown-toggle:active, .bootstrap-select .dropdown-toggle.focus {
+  background: transparent;
+  border: none;
+  line-height: 2; }
 
 .img-thumbnail {
   border-radius: 2px;
@@ -244,7 +257,7 @@ form.intake-form .form-group {
           font-weight: bold;
           color: #00973d;
           display: block;
-          font-size: 19px; }
+          font-size: 24px; }
 
 body.page-template-home-page-old-logo-php .navbar-default .navbar-header .navbar-brand, body.page-template-home-page-new-hero-old-logo-php .navbar-default .navbar-header .navbar-brand {
   margin-left: 0;
@@ -254,79 +267,108 @@ body.page-template-home-page-old-logo-php .navbar-default .navbar-header .navbar
   background: url("../images/bauers-it-logo-2x.jpg") center 7px no-repeat;
   background-size: 140px auto; }
 
-body.home .pricing {
+body.home .pricing, body.page-template-home-page-b-nov-11 .pricing, body.page-template-home-page-b-nov-17 .pricing {
   background: #efefef;
   text-align: center; }
-  body.home .pricing h2 {
+  body.home .pricing h2, body.page-template-home-page-b-nov-11 .pricing h2, body.page-template-home-page-b-nov-17 .pricing h2 {
     text-align: center;
     font-size: 48px;
     margin-bottom: 40px; }
-  body.home .pricing .card {
+  body.home .pricing .card, body.page-template-home-page-b-nov-11 .pricing .card, body.page-template-home-page-b-nov-17 .pricing .card {
     padding: 30px;
     background: white;
     text-align: center; }
-    body.home .pricing .card h2 {
+    body.home .pricing .card h2, body.page-template-home-page-b-nov-11 .pricing .card h2, body.page-template-home-page-b-nov-17 .pricing .card h2 {
       margin-top: 60px; }
-    body.home .pricing .card h3 {
+    body.home .pricing .card h3, body.page-template-home-page-b-nov-11 .pricing .card h3, body.page-template-home-page-b-nov-17 .pricing .card h3 {
       margin-bottom: 60px; }
-body.home section {
+body.home section, body.page-template-home-page-b-nov-11 section, body.page-template-home-page-b-nov-17 section {
   padding: 4em 0; }
-  body.home section h1, body.home section h2 {
+  body.home section h1, body.home section h2, body.page-template-home-page-b-nov-11 section h1, body.page-template-home-page-b-nov-11 section h2, body.page-template-home-page-b-nov-17 section h1, body.page-template-home-page-b-nov-17 section h2 {
     text-align: center; }
-  body.home section h1 {
+  body.home section h1, body.page-template-home-page-b-nov-11 section h1, body.page-template-home-page-b-nov-17 section h1 {
     margin-bottom: 2em; }
-  body.home section.light {
+  body.home section.light, body.page-template-home-page-b-nov-11 section.light, body.page-template-home-page-b-nov-17 section.light {
     color: white;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
-  body.home section.lightGrey {
+  body.home section.lightGrey, body.page-template-home-page-b-nov-11 section.lightGrey, body.page-template-home-page-b-nov-17 section.lightGrey {
     background: #f1f1f1; }
-body.home .hero {
+body.home .hero, body.page-template-home-page-b-nov-11 .hero, body.page-template-home-page-b-nov-17 .hero {
   position: relative;
   padding: 2em 0 2em;
-  background: #333 url("../images/bauers-vehicles-hero-bg2.jpg") 50% 100% no-repeat;
+  background: #333 url("../images/bauers-vehicles-hero-bg4.jpg") 50% 100% no-repeat;
   background-size: cover;
-  height: auto; }
-  body.home .hero h1 {
+  height: 520px;
+  max-height: 520px; }
+  body.home .hero h1, body.page-template-home-page-b-nov-11 .hero h1, body.page-template-home-page-b-nov-17 .hero h1 {
     text-align: left;
     font-weight: bold;
     font-size: 42px;
     margin: 20px 0 20px; }
-  body.home .hero h2 {
+  body.home .hero h2, body.page-template-home-page-b-nov-11 .hero h2, body.page-template-home-page-b-nov-17 .hero h2 {
     text-align: left;
     font-weight: normal;
     font-size: 21px;
     line-height: 1.4; }
-  body.home .hero ul li {
+  body.home .hero .bootstrap-select .dropdown-menu li, body.page-template-home-page-b-nov-11 .hero .bootstrap-select .dropdown-menu li, body.page-template-home-page-b-nov-17 .hero .bootstrap-select .dropdown-menu li {
+    text-shadow: none;
+    padding: 0;
+    margin: 0; }
+    body.home .hero .bootstrap-select .dropdown-menu li.divider, body.page-template-home-page-b-nov-11 .hero .bootstrap-select .dropdown-menu li.divider, body.page-template-home-page-b-nov-17 .hero .bootstrap-select .dropdown-menu li.divider {
+      margin: 9px 0 0; }
+    body.home .hero .bootstrap-select .dropdown-menu li.dropdown-header, body.page-template-home-page-b-nov-11 .hero .bootstrap-select .dropdown-menu li.dropdown-header, body.page-template-home-page-b-nov-17 .hero .bootstrap-select .dropdown-menu li.dropdown-header {
+      padding: 15px 15px 5px;
+      font-weight: bold;
+      color: #212121; }
+    body.home .hero .bootstrap-select .dropdown-menu li:last-child, body.page-template-home-page-b-nov-11 .hero .bootstrap-select .dropdown-menu li:last-child, body.page-template-home-page-b-nov-17 .hero .bootstrap-select .dropdown-menu li:last-child {
+      margin-top: 5px; }
+    body.home .hero .bootstrap-select .dropdown-menu li a, body.page-template-home-page-b-nov-11 .hero .bootstrap-select .dropdown-menu li a, body.page-template-home-page-b-nov-17 .hero .bootstrap-select .dropdown-menu li a {
+      text-shadow: none;
+      padding: 5px 15px; }
+  body.home .hero .bootstrap-select.active, body.page-template-home-page-b-nov-11 .hero .bootstrap-select.active, body.page-template-home-page-b-nov-17 .hero .bootstrap-select.active {
+    border-color: #0094d2;
+    box-shadow: 0 0 10px #0094d2; }
+    body.home .hero .bootstrap-select.active .filter-option, body.page-template-home-page-b-nov-11 .hero .bootstrap-select.active .filter-option, body.page-template-home-page-b-nov-17 .hero .bootstrap-select.active .filter-option {
+      font-weight: bold;
+      padding-top: 2px; }
+  body.home .hero .filter-option, body.page-template-home-page-b-nov-11 .hero .filter-option, body.page-template-home-page-b-nov-17 .hero .filter-option {
+    color: #212121; }
+  body.home .hero ul.features li, body.page-template-home-page-b-nov-11 .hero ul.features li, body.page-template-home-page-b-nov-17 .hero ul.features li {
     font-size: 24px;
     margin-bottom: 15px; }
-  body.home .hero .card {
+  body.home .hero .card, body.page-template-home-page-b-nov-11 .hero .card, body.page-template-home-page-b-nov-17 .hero .card {
     margin: 0 0 0 40px;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.65);
     padding: 10px 20px;
-    transition: background 0.5s ease-in-out; }
-    body.home .hero .card.hot {
+    transition: all 0.5s ease-in-out; }
+    body.home .hero .card.collapsed, body.page-template-home-page-b-nov-11 .hero .card.collapsed, body.page-template-home-page-b-nov-17 .hero .card.collapsed {
+      margin-top: 40px; }
+    body.home .hero .card.hot, body.page-template-home-page-b-nov-11 .hero .card.hot, body.page-template-home-page-b-nov-17 .hero .card.hot {
       background: rgba(0, 0, 0, 0.6); }
-    body.home .hero .card .btn-primary, body.home .hero .card #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .hero .card input[type="submit"].primaryAction {
+    body.home .hero .card .btn-primary, body.home .hero .card #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .hero .card input[type="submit"].primaryAction, body.page-template-home-page-b-nov-11 .hero .card .btn-primary, body.page-template-home-page-b-nov-11 .hero .card #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-11 .hero .card input[type="submit"].primaryAction, body.page-template-home-page-b-nov-17 .hero .card .btn-primary, body.page-template-home-page-b-nov-17 .hero .card #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-17 .hero .card input[type="submit"].primaryAction {
       padding: 12px; }
-  body.home .hero legend {
+  body.home .hero legend, body.page-template-home-page-b-nov-11 .hero legend, body.page-template-home-page-b-nov-17 .hero legend {
     color: white;
     border: none;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     margin: 10px 0 15px; }
-    body.home .hero legend small {
+    body.home .hero legend small, body.page-template-home-page-b-nov-11 .hero legend small, body.page-template-home-page-b-nov-17 .hero legend small {
       font-size: 15px;
       font-weight: normal;
       display: block; }
-      body.home .hero legend small a {
+      body.home .hero legend small a, body.page-template-home-page-b-nov-11 .hero legend small a, body.page-template-home-page-b-nov-17 .hero legend small a {
         color: white;
         font-weight: bold;
         text-decoration: underline; }
-  body.home .hero select.active {
+  body.home .hero select, body.page-template-home-page-b-nov-11 .hero select, body.page-template-home-page-b-nov-17 .hero select {
+    color: black;
+    font-weight: bold; }
+  body.home .hero select.active, body.page-template-home-page-b-nov-11 .hero select.active, body.page-template-home-page-b-nov-17 .hero select.active {
     border-color: #0094d2;
     box-shadow: 0 0 10px #0094d2; }
-  body.home .hero .down-arrow {
+  body.home .hero .down-arrow, body.page-template-home-page-b-nov-11 .hero .down-arrow, body.page-template-home-page-b-nov-17 .hero .down-arrow {
     display: inline-block;
     background: url("../images/down-arrow.png") center center no-repeat;
     background-size: 30px 15px;
@@ -337,9 +379,9 @@ body.home .hero {
     bottom: 20px;
     left: 50%;
     margin-left: -15px; }
-    body.home .hero .down-arrow:hover {
+    body.home .hero .down-arrow:hover, body.page-template-home-page-b-nov-11 .hero .down-arrow:hover, body.page-template-home-page-b-nov-17 .hero .down-arrow:hover {
       opacity: 1; }
-  body.home .hero label.error {
+  body.home .hero label.error, body.page-template-home-page-b-nov-11 .hero label.error, body.page-template-home-page-b-nov-17 .hero label.error {
     position: absolute;
     top: -30px;
     right: 0;
@@ -351,7 +393,7 @@ body.home .hero {
     font-weight: normal;
     white-space: nowrap;
     -webkit-font-smoothing: antialiased; }
-    body.home .hero label.error:after {
+    body.home .hero label.error:after, body.page-template-home-page-b-nov-11 .hero label.error:after, body.page-template-home-page-b-nov-17 .hero label.error:after {
       content: "";
       position: absolute;
       width: 0;
@@ -361,89 +403,90 @@ body.home .hero {
       display: block;
       top: 28px;
       right: 15px; }
-body.home .hero-modal {
+body.home .hero-modal, body.page-template-home-page-b-nov-11 .hero-modal, body.page-template-home-page-b-nov-17 .hero-modal {
   box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.15);
   padding: 2em 0 2em;
   background: url("../images/beautiful-road-2.jpg") 50% 100% no-repeat;
   background-size: cover;
   height: 500px; }
-  body.home .hero-modal h1 {
+  body.home .hero-modal h1, body.page-template-home-page-b-nov-11 .hero-modal h1, body.page-template-home-page-b-nov-17 .hero-modal h1 {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
     margin: 100px 0 20px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
-  body.home .hero-modal h2 {
+  body.home .hero-modal h2, body.page-template-home-page-b-nov-11 .hero-modal h2, body.page-template-home-page-b-nov-17 .hero-modal h2 {
     text-align: center;
     font-weight: normal;
     font-size: 20px;
     line-height: 1.4;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     margin-bottom: 40px; }
-  body.home .hero-modal .btn-primary, body.home .hero-modal #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .hero-modal input[type="submit"].primaryAction {
+  body.home .hero-modal .btn-primary, body.home .hero-modal #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .hero-modal input[type="submit"].primaryAction, body.page-template-home-page-b-nov-11 .hero-modal .btn-primary, body.page-template-home-page-b-nov-11 .hero-modal #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-11 .hero-modal input[type="submit"].primaryAction, body.page-template-home-page-b-nov-17 .hero-modal .btn-primary, body.page-template-home-page-b-nov-17 .hero-modal #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-17 .hero-modal input[type="submit"].primaryAction {
     font-size: 18px;
     padding: 15px 40px;
     background: #e85d00;
     border-color: #e85d00; }
-  body.home .hero-modal .card {
+  body.home .hero-modal .card, body.page-template-home-page-b-nov-11 .hero-modal .card, body.page-template-home-page-b-nov-17 .hero-modal .card {
     margin: 0 0 0 40px;
     background: rgba(0, 0, 0, 0.25);
     padding: 10px 20px; }
-  body.home .hero-modal legend {
+  body.home .hero-modal legend, body.page-template-home-page-b-nov-11 .hero-modal legend, body.page-template-home-page-b-nov-17 .hero-modal legend {
     color: white;
     border: none;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     margin: 10px 0 15px; }
-    body.home .hero-modal legend small {
+    body.home .hero-modal legend small, body.page-template-home-page-b-nov-11 .hero-modal legend small, body.page-template-home-page-b-nov-17 .hero-modal legend small {
       font-size: 15px;
       font-weight: normal;
       display: block; }
-  body.home .hero-modal .form-group {
+  body.home .hero-modal .form-group, body.page-template-home-page-b-nov-11 .hero-modal .form-group, body.page-template-home-page-b-nov-17 .hero-modal .form-group {
     margin-bottom: 6px; }
-    body.home .hero-modal .form-group .form-control {
+    body.home .hero-modal .form-group .form-control, body.page-template-home-page-b-nov-11 .hero-modal .form-group .form-control, body.page-template-home-page-b-nov-17 .hero-modal .form-group .form-control {
       border-color: #333;
       height: 40px; }
-    body.home .hero-modal .form-group .col-sm-6.left {
+    body.home .hero-modal .form-group .col-sm-6.left, body.page-template-home-page-b-nov-11 .hero-modal .form-group .col-sm-6.left, body.page-template-home-page-b-nov-17 .hero-modal .form-group .col-sm-6.left {
       padding-right: 3px; }
-    body.home .hero-modal .form-group .col-sm-6.right {
+    body.home .hero-modal .form-group .col-sm-6.right, body.page-template-home-page-b-nov-11 .hero-modal .form-group .col-sm-6.right, body.page-template-home-page-b-nov-17 .hero-modal .form-group .col-sm-6.right {
       padding-left: 3px; }
-body.home .services {
+body.home .services, body.page-template-home-page-b-nov-11 .services, body.page-template-home-page-b-nov-17 .services {
   padding: 1.5em 0 2.5em;
   background: #f0f0f0;
   border-bottom: 1px solid #dadada; }
-  body.home .services h2 {
+  body.home .services h2, body.page-template-home-page-b-nov-11 .services h2, body.page-template-home-page-b-nov-17 .services h2 {
     font-size: 24px;
     margin-bottom: 20px;
     color: white; }
-  body.home .services .bucket {
-    width: 20%;
+  body.home .services .bucket, body.page-template-home-page-b-nov-11 .services .bucket, body.page-template-home-page-b-nov-17 .services .bucket {
+    width: 16.5%;
     float: left;
     overflow: auto;
     padding: 0 10px; }
-    body.home .services .bucket:last-child {
+    body.home .services .bucket:last-child, body.page-template-home-page-b-nov-11 .services .bucket:last-child, body.page-template-home-page-b-nov-17 .services .bucket:last-child {
       border: none;
       box-shadow: none; }
-  body.home .services h3 {
-    font-size: 15px;
+  body.home .services h3, body.page-template-home-page-b-nov-11 .services h3, body.page-template-home-page-b-nov-17 .services h3 {
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
     line-height: 1.5;
+    white-space: nowrap;
     margin: 0; }
-body.home .services2 .row.two {
+body.home .services2 .row.two, body.page-template-home-page-b-nov-11 .services2 .row.two, body.page-template-home-page-b-nov-17 .services2 .row.two {
   margin-bottom: 20px; }
-body.home .services2 h2 {
+body.home .services2 h2, body.page-template-home-page-b-nov-11 .services2 h2, body.page-template-home-page-b-nov-17 .services2 h2 {
   border: none;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
   margin: 0 0 10px; }
-  body.home .services2 h2 a {
+  body.home .services2 h2 a, body.page-template-home-page-b-nov-11 .services2 h2 a, body.page-template-home-page-b-nov-17 .services2 h2 a {
     color: #0094d2; }
-body.home .services2 .bucket {
+body.home .services2 .bucket, body.page-template-home-page-b-nov-11 .services2 .bucket, body.page-template-home-page-b-nov-17 .services2 .bucket {
   text-align: center; }
-body.home .services2 .icon {
+body.home .services2 .icon, body.page-template-home-page-b-nov-11 .services2 .icon, body.page-template-home-page-b-nov-17 .services2 .icon {
   width: 80px;
   height: 80px;
   display: inline-block;
@@ -460,72 +503,72 @@ body.home .services2 .icon {
   -ms-transform: translateY(88px);
   transform: translateY(88px);
   margin: 0 0 10px; }
-  body.home .services2 .icon.shown {
+  body.home .services2 .icon.shown, body.page-template-home-page-b-nov-11 .services2 .icon.shown, body.page-template-home-page-b-nov-17 .services2 .icon.shown {
     opacity: 1;
     -webkit-transform: none;
     -moz-transform: none;
     -o-transform: none;
     -ms-transform: none;
     transform: none; }
-  body.home .services2 .icon.seo {
+  body.home .services2 .icon.seo, body.page-template-home-page-b-nov-11 .services2 .icon.seo, body.page-template-home-page-b-nov-17 .services2 .icon.seo {
     background-image: url("../images/search-icon.png");
     transition-delay: 0.2s; }
-  body.home .services2 .icon.rwd {
+  body.home .services2 .icon.rwd, body.page-template-home-page-b-nov-11 .services2 .icon.rwd, body.page-template-home-page-b-nov-17 .services2 .icon.rwd {
     background-image: url("../images/devices-icon.png");
     transition-delay: 0.65s; }
-  body.home .services2 .icon.ppc {
+  body.home .services2 .icon.ppc, body.page-template-home-page-b-nov-11 .services2 .icon.ppc, body.page-template-home-page-b-nov-17 .services2 .icon.ppc {
     background-image: url("../images/targeting-icon.png"); }
-  body.home .services2 .icon.cro {
+  body.home .services2 .icon.cro, body.page-template-home-page-b-nov-11 .services2 .icon.cro, body.page-template-home-page-b-nov-17 .services2 .icon.cro {
     background-image: url("../images/funnel-icon.png");
     transition-delay: 0.35s; }
-  body.home .services2 .icon.ux {
+  body.home .services2 .icon.ux, body.page-template-home-page-b-nov-11 .services2 .icon.ux, body.page-template-home-page-b-nov-17 .services2 .icon.ux {
     background-image: url("../images/beaker-icon.png"); }
-  body.home .services2 .icon.analytics {
+  body.home .services2 .icon.analytics, body.page-template-home-page-b-nov-11 .services2 .icon.analytics, body.page-template-home-page-b-nov-17 .services2 .icon.analytics {
     background-image: url("../images/metrics-icon2.png");
     transition-delay: 0.5s; }
-body.home .services2 ul {
+body.home .services2 ul, body.page-template-home-page-b-nov-11 .services2 ul, body.page-template-home-page-b-nov-17 .services2 ul {
   list-style-type: none;
   padding: 0;
   margin: 0; }
-  body.home .services2 ul li {
+  body.home .services2 ul li, body.page-template-home-page-b-nov-11 .services2 ul li, body.page-template-home-page-b-nov-17 .services2 ul li {
     margin-bottom: 5px;
     color: #efefef;
     color: rgba(255, 255, 255, 0.9); }
-    body.home .services2 ul li a {
+    body.home .services2 ul li a, body.page-template-home-page-b-nov-11 .services2 ul li a, body.page-template-home-page-b-nov-17 .services2 ul li a {
       font-size: 17px;
       color: #efefef;
       text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
-body.home .logos {
+body.home .logos, body.page-template-home-page-b-nov-11 .logos, body.page-template-home-page-b-nov-17 .logos {
   padding: 1.5em 0;
   border-bottom: 1px solid #dadada;
   border-top: 1px solid #e0e0e0; }
-  body.home .logos .col-sm-2 {
+  body.home .logos .col-sm-2, body.page-template-home-page-b-nov-11 .logos .col-sm-2, body.page-template-home-page-b-nov-17 .logos .col-sm-2 {
     text-align: center;
     float: none;
     display: inline-block;
     vertical-align: middle;
     width: 16.1%; }
-  body.home .logos img {
+  body.home .logos img, body.page-template-home-page-b-nov-11 .logos img, body.page-template-home-page-b-nov-17 .logos img {
     display: inline-block;
     vertical-align: middle;
     width: 80px;
     height: auto; }
-  body.home .logos .ea img {
+  body.home .logos .ea img, body.page-template-home-page-b-nov-11 .logos .ea img, body.page-template-home-page-b-nov-17 .logos .ea img {
     width: 50px; }
-  body.home .logos .pge img {
+  body.home .logos .pge img, body.page-template-home-page-b-nov-11 .logos .pge img, body.page-template-home-page-b-nov-17 .logos .pge img {
     width: 36px; }
-  body.home .logos .levis img {
+  body.home .logos .levis img, body.page-template-home-page-b-nov-11 .logos .levis img, body.page-template-home-page-b-nov-17 .logos .levis img {
     width: 50px; }
-  body.home .logos .livenation img {
+  body.home .logos .livenation img, body.page-template-home-page-b-nov-11 .logos .livenation img, body.page-template-home-page-b-nov-17 .logos .livenation img {
     width: 100px; }
-  body.home .logos .clients {
+  body.home .logos .clients, body.page-template-home-page-b-nov-11 .logos .clients, body.page-template-home-page-b-nov-17 .logos .clients {
     text-transform: uppercase;
     color: #777;
     line-height: 42px;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 100; }
-body.home .features {
+body.home .features, body.page-template-home-page-b-nov-11 .features, body.page-template-home-page-b-nov-17 .features {
   background: #efefef url("../images/grey-gradient.jpg") center center no-repeat;
   background-size: cover;
   background-image: -webkit--webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit--webkit-linear-gradient(342deg, #efefef, #f5f5f5 90%);
@@ -545,14 +588,14 @@ body.home .features {
   background-image: -ms-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -ms-linear-gradient(108deg, #efefef, #f5f5f5 90%);
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%);
   background-image: -webkit-radial-gradient(closest-corner, #f7f7f7 60%, #dadada), -webkit-linear-gradient(108deg, #f5f5f5, #efefef 10%, #f5f5f5 90%); }
-  body.home .features h1 {
+  body.home .features h1, body.page-template-home-page-b-nov-11 .features h1, body.page-template-home-page-b-nov-17 .features h1 {
     margin-bottom: 1em; }
-  body.home .features .nav-tabs li {
+  body.home .features .nav-tabs li, body.page-template-home-page-b-nov-11 .features .nav-tabs li, body.page-template-home-page-b-nov-17 .features .nav-tabs li {
     width: 33%;
     margin: 0 0 -1px 0; }
-    body.home .features .nav-tabs li.two, body.home .features .nav-tabs li.three {
+    body.home .features .nav-tabs li.two, body.home .features .nav-tabs li.three, body.page-template-home-page-b-nov-11 .features .nav-tabs li.two, body.page-template-home-page-b-nov-11 .features .nav-tabs li.three, body.page-template-home-page-b-nov-17 .features .nav-tabs li.two, body.page-template-home-page-b-nov-17 .features .nav-tabs li.three {
       margin-left: -1px; }
-    body.home .features .nav-tabs li a {
+    body.home .features .nav-tabs li a, body.page-template-home-page-b-nov-11 .features .nav-tabs li a, body.page-template-home-page-b-nov-17 .features .nav-tabs li a {
       border: 1px solid #dadada;
       border-bottom: none;
       border-radius: 0;
@@ -561,21 +604,21 @@ body.home .features {
       text-align: center;
       font-size: 14px;
       color: #212121; }
-  body.home .features .tab-pane {
+  body.home .features .tab-pane, body.page-template-home-page-b-nov-11 .features .tab-pane, body.page-template-home-page-b-nov-17 .features .tab-pane {
     padding: 40px 30px 30px;
     border: 1px solid #dadada;
     border-top: none;
     background: white;
     margin-bottom: 0px; }
-    body.home .features .tab-pane .btn-primary, body.home .features .tab-pane #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-pane input[type="submit"].primaryAction {
+    body.home .features .tab-pane .btn-primary, body.home .features .tab-pane #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-pane input[type="submit"].primaryAction, body.page-template-home-page-b-nov-11 .features .tab-pane .btn-primary, body.page-template-home-page-b-nov-11 .features .tab-pane #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-11 .features .tab-pane input[type="submit"].primaryAction, body.page-template-home-page-b-nov-17 .features .tab-pane .btn-primary, body.page-template-home-page-b-nov-17 .features .tab-pane #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-17 .features .tab-pane input[type="submit"].primaryAction {
       font-size: 14px; }
-    body.home .features .tab-pane .img-thumbnail {
+    body.home .features .tab-pane .img-thumbnail, body.page-template-home-page-b-nov-11 .features .tab-pane .img-thumbnail, body.page-template-home-page-b-nov-17 .features .tab-pane .img-thumbnail {
       float: left;
       margin: 0 10px 10px 0;
       width: 220px; }
-    body.home .features .tab-pane .col-lg-6, body.home .features .tab-pane .col-sm-12 {
+    body.home .features .tab-pane .col-lg-6, body.home .features .tab-pane .col-sm-12, body.page-template-home-page-b-nov-11 .features .tab-pane .col-lg-6, body.page-template-home-page-b-nov-11 .features .tab-pane .col-sm-12, body.page-template-home-page-b-nov-17 .features .tab-pane .col-lg-6, body.page-template-home-page-b-nov-17 .features .tab-pane .col-sm-12 {
       padding: 0 40px; }
-    body.home .features .tab-pane .icon {
+    body.home .features .tab-pane .icon, body.page-template-home-page-b-nov-11 .features .tab-pane .icon, body.page-template-home-page-b-nov-17 .features .tab-pane .icon {
       display: inline-block;
       width: 22px;
       height: 14px;
@@ -584,64 +627,64 @@ body.home .features {
       background-size: auto 14px;
       background-repeat: no-repeat;
       background-position: center center; }
-      body.home .features .tab-pane .icon.airplane {
+      body.home .features .tab-pane .icon.airplane, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.airplane, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.airplane {
         background-image: url("../images/airplane-icon.jpg"); }
-      body.home .features .tab-pane .icon.car {
+      body.home .features .tab-pane .icon.car, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.car, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.car {
         background-image: url("../images/car-icon.jpg"); }
-      body.home .features .tab-pane .icon.binoculars {
+      body.home .features .tab-pane .icon.binoculars, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.binoculars, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.binoculars {
         background-image: url("../images/binoculars-icon.jpg"); }
-      body.home .features .tab-pane .icon.snow {
+      body.home .features .tab-pane .icon.snow, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.snow, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.snow {
         background-image: url("../images/snow-icon.jpg"); }
-      body.home .features .tab-pane .icon.group {
+      body.home .features .tab-pane .icon.group, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.group, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.group {
         background-image: url("../images/cake-icon.jpg"); }
-      body.home .features .tab-pane .icon.wine {
+      body.home .features .tab-pane .icon.wine, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.wine, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.wine {
         background-image: url("../images/wine-glass-icon.jpg"); }
-      body.home .features .tab-pane .icon.earth {
+      body.home .features .tab-pane .icon.earth, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.earth, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.earth {
         background-image: url("../images/earth-icon.jpg"); }
-      body.home .features .tab-pane .icon.retention {
+      body.home .features .tab-pane .icon.retention, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.retention, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.retention {
         background-image: url("../images/retention-icon.jpg"); }
-      body.home .features .tab-pane .icon.up {
+      body.home .features .tab-pane .icon.up, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.up, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.up {
         background-image: url("../images/up-arrow-icon.jpg"); }
-      body.home .features .tab-pane .icon.like {
+      body.home .features .tab-pane .icon.like, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.like, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.like {
         background-image: url("../images/like-icon.jpg"); }
-      body.home .features .tab-pane .icon.cars {
+      body.home .features .tab-pane .icon.cars, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.cars, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.cars {
         background-image: url("../images/cars-icon.jpg"); }
-      body.home .features .tab-pane .icon.music {
+      body.home .features .tab-pane .icon.music, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.music, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.music {
         background-image: url("../images/music-icon.jpg"); }
-      body.home .features .tab-pane .icon.conference {
+      body.home .features .tab-pane .icon.conference, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.conference, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.conference {
         background-image: url("../images/conference-icon.jpg"); }
-      body.home .features .tab-pane .icon.sports {
+      body.home .features .tab-pane .icon.sports, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.sports, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.sports {
         background-image: url("../images/sports-icon.jpg"); }
-      body.home .features .tab-pane .icon.travel {
+      body.home .features .tab-pane .icon.travel, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.travel, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.travel {
         background-image: url("../images/travel-icon.jpg"); }
-      body.home .features .tab-pane .icon.wine {
+      body.home .features .tab-pane .icon.wine, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.wine, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.wine {
         background-image: url("../images/wine-glass-icon.jpg"); }
-      body.home .features .tab-pane .icon.earth {
+      body.home .features .tab-pane .icon.earth, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.earth, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.earth {
         background-image: url("../images/earth-icon.jpg"); }
-      body.home .features .tab-pane .icon.crown {
+      body.home .features .tab-pane .icon.crown, body.page-template-home-page-b-nov-11 .features .tab-pane .icon.crown, body.page-template-home-page-b-nov-17 .features .tab-pane .icon.crown {
         background-image: url("../images/crown-icon.jpg"); }
-  body.home .features h3 {
+  body.home .features h3, body.page-template-home-page-b-nov-11 .features h3, body.page-template-home-page-b-nov-17 .features h3 {
     text-align: left;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 0px; }
-  body.home .features p {
+  body.home .features p, body.page-template-home-page-b-nov-11 .features p, body.page-template-home-page-b-nov-17 .features p {
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 40px; }
-    body.home .features p small {
+    body.home .features p small, body.page-template-home-page-b-nov-11 .features p small, body.page-template-home-page-b-nov-17 .features p small {
       font-size: 13px; }
-body.home .benefits h2 {
+body.home .benefits h2, body.page-template-home-page-b-nov-11 .benefits h2, body.page-template-home-page-b-nov-17 .benefits h2 {
   text-align: left;
   font-weight: bold;
   font-size: 15px;
   margin-top: 10px; }
-body.home .benefits p {
+body.home .benefits p, body.page-template-home-page-b-nov-11 .benefits p, body.page-template-home-page-b-nov-17 .benefits p {
   font-size: 14px; }
-body.home .benefits hr {
+body.home .benefits hr, body.page-template-home-page-b-nov-11 .benefits hr, body.page-template-home-page-b-nov-17 .benefits hr {
   border: none;
   margin: 50px 0; }
-body.home .faq {
+body.home .faq, body.page-template-home-page-b-nov-11 .faq, body.page-template-home-page-b-nov-17 .faq {
   background: url("../images/blue-gradient.jpg") center center no-repeat;
   background-size: cover;
   background-image: -webkit--webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit--webkit-linear-gradient(342deg, #00abba, #006b98 90%);
@@ -660,11 +703,11 @@ body.home .faq {
   background-image: -ms--ms-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -ms--ms-linear-gradient(342deg, #00abba, #006b98 90%);
   background-image: -ms-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -ms-linear-gradient(108deg, #00abba, #006b98 90%);
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
-  body.home .faq h1 {
+  body.home .faq h1, body.page-template-home-page-b-nov-11 .faq h1, body.page-template-home-page-b-nov-17 .faq h1 {
     margin-bottom: 1em; }
-  body.home .faq .panel-group {
+  body.home .faq .panel-group, body.page-template-home-page-b-nov-11 .faq .panel-group, body.page-template-home-page-b-nov-17 .faq .panel-group {
     margin-bottom: 3em; }
-body.home .testimonials {
+body.home .testimonials, body.page-template-home-page-b-nov-11 .testimonials, body.page-template-home-page-b-nov-17 .testimonials {
   background: url("../images/blue-gradient.jpg") center center no-repeat;
   background-size: cover;
   background-image: -webkit--webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit--webkit-linear-gradient(342deg, #00abba, #006b98 90%);
@@ -683,7 +726,7 @@ body.home .testimonials {
   background-image: -ms--ms-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -ms--ms-linear-gradient(342deg, #00abba, #006b98 90%);
   background-image: -ms-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -ms-linear-gradient(108deg, #00abba, #006b98 90%);
   background-image: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #00abba, #006b98 90%); }
-  body.home .testimonials .thumbnail {
+  body.home .testimonials .thumbnail, body.page-template-home-page-b-nov-11 .testimonials .thumbnail, body.page-template-home-page-b-nov-17 .testimonials .thumbnail {
     position: relative;
     height: 130px;
     width: auto;
@@ -691,16 +734,16 @@ body.home .testimonials {
     border-radius: 100px;
     border-color: white;
     border-width: 2px; }
-  body.home .testimonials h1 {
+  body.home .testimonials h1, body.page-template-home-page-b-nov-11 .testimonials h1, body.page-template-home-page-b-nov-17 .testimonials h1 {
     margin-bottom: 40px; }
-    body.home .testimonials h1 i {
+    body.home .testimonials h1 i, body.page-template-home-page-b-nov-11 .testimonials h1 i, body.page-template-home-page-b-nov-17 .testimonials h1 i {
       font-size: 0.8em;
       margin: 0 8px 0 4px; }
-  body.home .testimonials h2 {
+  body.home .testimonials h2, body.page-template-home-page-b-nov-11 .testimonials h2, body.page-template-home-page-b-nov-17 .testimonials h2 {
     font-weight: normal;
     font-size: 18px;
     margin: 0 0 20px; }
-  body.home .testimonials blockquote {
+  body.home .testimonials blockquote, body.page-template-home-page-b-nov-11 .testimonials blockquote, body.page-template-home-page-b-nov-17 .testimonials blockquote {
     display: inline-block;
     position: relative;
     border-radius: 2px;
@@ -713,14 +756,14 @@ body.home .testimonials {
     line-height: 1.5;
     margin: 0 0 30px;
     clear: both; }
-    body.home .testimonials blockquote:before {
+    body.home .testimonials blockquote:before, body.page-template-home-page-b-nov-11 .testimonials blockquote:before, body.page-template-home-page-b-nov-17 .testimonials blockquote:before {
       content: "“";
       display: inline-block;
       position: relative;
       font-size: 60px;
       color: rgba(255, 255, 255, 0.2);
       line-height: 1; }
-    body.home .testimonials blockquote small {
+    body.home .testimonials blockquote small, body.page-template-home-page-b-nov-11 .testimonials blockquote small, body.page-template-home-page-b-nov-17 .testimonials blockquote small {
       margin-top: 10px;
       font-size: 14px;
       white-space: nowrap;
@@ -728,11 +771,11 @@ body.home .testimonials {
       font-weight: bold;
       font-family: "Open Sans", sans-serif;
       color: white; }
-      body.home .testimonials blockquote small strong {
+      body.home .testimonials blockquote small strong, body.page-template-home-page-b-nov-11 .testimonials blockquote small strong, body.page-template-home-page-b-nov-17 .testimonials blockquote small strong {
         display: block;
         white-space: normal;
         color: #212121; }
-    body.home .testimonials blockquote img {
+    body.home .testimonials blockquote img, body.page-template-home-page-b-nov-11 .testimonials blockquote img, body.page-template-home-page-b-nov-17 .testimonials blockquote img {
       height: 20px;
       width: auto; }
 
@@ -805,12 +848,14 @@ body.single-post .widget.about {
         display: none; }
       .widget ul li.current_page_item > a {
         font-weight: bold; }
-      .widget ul li.current_page_ancestor .glyphicon-minus {
+      .widget ul li.current-page-ancestor .sub-menu {
+        display: block; }
+      .widget ul li.current-page-ancestor .glyphicon-minus {
         display: inline-block; }
-      .widget ul li.current_page_ancestor .glyphicon-plus {
+      .widget ul li.current-page-ancestor .glyphicon-plus {
         display: none; }
-      .widget ul li.current_page_ancestor > a {
-        font-weight: normal; }
+      .widget ul li.current-page-ancestor > a {
+        font-weight: bold; }
       .widget ul li .sub-menu {
         margin: 0 0 10px;
         padding: 0 0 0 10px;
@@ -1104,6 +1149,39 @@ section {
 #longQuote #tfa_1-L {
   display: none; }
 
+.gallery {
+  padding: 0 0 2em 0; }
+  .gallery .stage {
+    text-align: center;
+    height: 407px; }
+    .gallery .stage img {
+      display: inline-block;
+      width: 80%;
+      height: auto;
+      margin-bottom: 20px; }
+  .gallery .thumbs {
+    padding: 10px; }
+    .gallery .thumbs .col-sm-3 {
+      cursor: pointer; }
+      .gallery .thumbs .col-sm-3:hover {
+        cursor: pointer; }
+        .gallery .thumbs .col-sm-3:hover img {
+          opacity: 0.8;
+          border-color: #dadada; }
+        .gallery .thumbs .col-sm-3:hover h3 {
+          color: #0094d2; }
+    .gallery .thumbs img {
+      margin: 0 0 10px;
+      cursor: pointer; }
+    .gallery .thumbs h3 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 14px;
+      margin: 0;
+      padding: 0; }
+    .gallery .thumbs br, .gallery .thumbs p {
+      display: none; }
+
 .footer {
   margin-top: 0;
   background: #313131;
@@ -1131,6 +1209,9 @@ section {
       color: #999; }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar-default .navbar-collapse .navbar-nav li a {
+    padding: 15px; }
+
   article .gallery br {
     display: none; }
 
@@ -1307,108 +1388,110 @@ section {
           display: inline-block;
           font-size: 15px; }
 
-  body.home section {
+  body.home section, body.page-template-home-page-b-nov-11 section {
     padding: 2.5em 0; }
-    body.home section h1 {
+    body.home section h1, body.page-template-home-page-b-nov-11 section h1 {
       font-size: 24px;
       margin-bottom: 1em; }
-  body.home .hero {
-    background-position: 0% 50%; }
-    body.home .hero h1 {
-      margin-top: 0;
+  body.home .hero, body.page-template-home-page-b-nov-11 .hero {
+    background-position: 0% 50%;
+    min-height: 480px;
+    height: auto; }
+    body.home .hero h1, body.page-template-home-page-b-nov-11 .hero h1 {
+      margin-top: 40px;
       font-size: 24px;
       text-align: center; }
-    body.home .hero h2 {
+    body.home .hero h2, body.page-template-home-page-b-nov-11 .hero h2 {
       font-size: 18px;
       text-align: center;
       margin-bottom: 30px; }
-    body.home .hero ul {
+    body.home .hero ul, body.page-template-home-page-b-nov-11 .hero ul {
       margin: 0 0 0 20px;
       padding: 0; }
-      body.home .hero ul li {
+      body.home .hero ul li, body.page-template-home-page-b-nov-11 .hero ul li {
         font-size: 18px; }
-    body.home .hero .quick-quote {
+    body.home .hero .quick-quote, body.page-template-home-page-b-nov-11 .hero .quick-quote {
       opacity: 0;
       transition: opacity 0.5s ease-in-out;
       display: none; }
-      body.home .hero .quick-quote.active {
+      body.home .hero .quick-quote.active, body.page-template-home-page-b-nov-11 .hero .quick-quote.active {
         opacity: 1;
         display: block; }
-    body.home .hero .card {
+    body.home .hero .card, body.page-template-home-page-b-nov-11 .hero .card {
       margin: 0;
       padding: 10px; }
-      body.home .hero .card form.intake-form legend small {
+      body.home .hero .card form.intake-form legend small, body.page-template-home-page-b-nov-11 .hero .card form.intake-form legend small {
         display: none;
         font-size: 14px; }
-      body.home .hero .card form.intake-form .form-group {
+      body.home .hero .card form.intake-form .form-group, body.page-template-home-page-b-nov-11 .hero .card form.intake-form .form-group {
         margin-bottom: 8px; }
-        body.home .hero .card form.intake-form .form-group input[type="date"] {
+        body.home .hero .card form.intake-form .form-group input[type="date"], body.page-template-home-page-b-nov-11 .hero .card form.intake-form .form-group input[type="date"] {
           color: #212121; }
-        body.home .hero .card form.intake-form .form-group.row {
+        body.home .hero .card form.intake-form .form-group.row, body.page-template-home-page-b-nov-11 .hero .card form.intake-form .form-group.row {
           margin: 0; }
-        body.home .hero .card form.intake-form .form-group .col-sm-6.left, body.home .hero .card form.intake-form .form-group .col-sm-6.right {
+        body.home .hero .card form.intake-form .form-group .col-sm-6.left, body.home .hero .card form.intake-form .form-group .col-sm-6.right, body.page-template-home-page-b-nov-11 .hero .card form.intake-form .form-group .col-sm-6.left, body.page-template-home-page-b-nov-11 .hero .card form.intake-form .form-group .col-sm-6.right {
           padding: 0; }
-          body.home .hero .card form.intake-form .form-group .col-sm-6.left .form-control, body.home .hero .card form.intake-form .form-group .col-sm-6.right .form-control {
+          body.home .hero .card form.intake-form .form-group .col-sm-6.left .form-control, body.home .hero .card form.intake-form .form-group .col-sm-6.right .form-control, body.page-template-home-page-b-nov-11 .hero .card form.intake-form .form-group .col-sm-6.left .form-control, body.page-template-home-page-b-nov-11 .hero .card form.intake-form .form-group .col-sm-6.right .form-control {
             margin-bottom: 8px; }
-  body.home .services .bucket {
+  body.home .services .bucket, body.page-template-home-page-b-nov-11 .services .bucket {
     width: 100%;
     padding-bottom: 15px;
     margin-bottom: 15px; }
-    body.home .services .bucket h3 a {
+    body.home .services .bucket h3 a, body.page-template-home-page-b-nov-11 .services .bucket h3 a {
       font-size: 20px; }
-      body.home .services .bucket h3 a .hidden-sm {
+      body.home .services .bucket h3 a .hidden-sm, body.page-template-home-page-b-nov-11 .services .bucket h3 a .hidden-sm {
         display: inline-block !important; }
-  body.home .logos .col-sm-2 {
+  body.home .logos .col-sm-2, body.page-template-home-page-b-nov-11 .logos .col-sm-2 {
     width: 49%; }
-    body.home .logos .col-sm-2 img {
+    body.home .logos .col-sm-2 img, body.page-template-home-page-b-nov-11 .logos .col-sm-2 img {
       margin-bottom: 20px; }
-  body.home .logos .clients {
+  body.home .logos .clients, body.page-template-home-page-b-nov-11 .logos .clients {
     margin-bottom: 20px; }
-  body.home .features .nav-tabs li a {
+  body.home .features .nav-tabs li a, body.page-template-home-page-b-nov-11 .features .nav-tabs li a {
     height: 72px;
     font-size: 12px; }
-  body.home .features .tab-content .tab-pane {
+  body.home .features .tab-content .tab-pane, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane {
     padding: 30px 15px; }
-    body.home .features .tab-content .tab-pane .col-sm-12, body.home .features .tab-content .tab-pane .col-lg-6 {
+    body.home .features .tab-content .tab-pane .col-sm-12, body.home .features .tab-content .tab-pane .col-lg-6, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-sm-12, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-lg-6 {
       padding: 0 15px; }
-      body.home .features .tab-content .tab-pane .col-sm-12 h2, body.home .features .tab-content .tab-pane .col-lg-6 h2 {
+      body.home .features .tab-content .tab-pane .col-sm-12 h2, body.home .features .tab-content .tab-pane .col-lg-6 h2, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-sm-12 h2, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-lg-6 h2 {
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 20px; }
-      body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-sm-12 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-content .tab-pane .col-sm-12 input[type="submit"].primaryAction, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-content .tab-pane .col-lg-6 input[type="submit"].primaryAction {
+      body.home .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.home .features .tab-content .tab-pane .col-sm-12 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-content .tab-pane .col-sm-12 input[type="submit"].primaryAction, body.home .features .tab-content .tab-pane .col-lg-6 .btn-primary, body.home .features .tab-content .tab-pane .col-lg-6 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .features .tab-content .tab-pane .col-lg-6 input[type="submit"].primaryAction, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-sm-12 .btn-primary, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-sm-12 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-sm-12 input[type="submit"].primaryAction, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-lg-6 .btn-primary, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-lg-6 #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-lg-6 input[type="submit"].primaryAction {
         padding: 16px;
         font-size: 13px;
         width: 100%; }
-      body.home .features .tab-content .tab-pane .col-sm-12 p, body.home .features .tab-content .tab-pane .col-lg-6 p {
+      body.home .features .tab-content .tab-pane .col-sm-12 p, body.home .features .tab-content .tab-pane .col-lg-6 p, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-sm-12 p, body.page-template-home-page-b-nov-11 .features .tab-content .tab-pane .col-lg-6 p {
         margin-bottom: 20px; }
-  body.home .testimonials .btn-default {
+  body.home .testimonials .btn-default, body.page-template-home-page-b-nov-11 .testimonials .btn-default {
     font-size: 14px; }
-  body.home .testimonials blockquote {
+  body.home .testimonials blockquote, body.page-template-home-page-b-nov-11 .testimonials blockquote {
     padding: 0 0 15px; }
-    body.home .testimonials blockquote small {
+    body.home .testimonials blockquote small, body.page-template-home-page-b-nov-11 .testimonials blockquote small {
       white-space: normal; }
-  body.home .benefits h2 {
+  body.home .benefits h2, body.page-template-home-page-b-nov-11 .benefits h2 {
     font-size: 17px; }
-  body.home .benefits p {
+  body.home .benefits p, body.page-template-home-page-b-nov-11 .benefits p {
     padding-bottom: 15px;
     border-bottom: 1px solid #f1f1f1;
     margin-bottom: 20px; }
-  body.home .benefits .btn-primary, body.home .benefits #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .benefits input[type="submit"].primaryAction {
+  body.home .benefits .btn-primary, body.home .benefits #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.home .benefits input[type="submit"].primaryAction, body.page-template-home-page-b-nov-11 .benefits .btn-primary, body.page-template-home-page-b-nov-11 .benefits #longQuote .wForm input[type="submit"].primaryAction, #longQuote .wForm body.page-template-home-page-b-nov-11 .benefits input[type="submit"].primaryAction {
     font-size: 14px;
     width: 100%; }
-  body.home .faq .panel-group {
+  body.home .faq .panel-group, body.page-template-home-page-b-nov-11 .faq .panel-group {
     margin-bottom: 1em; }
-    body.home .faq .panel-group .panel {
+    body.home .faq .panel-group .panel, body.page-template-home-page-b-nov-11 .faq .panel-group .panel {
       margin-bottom: 0.65em; }
-      body.home .faq .panel-group .panel .panel-heading {
+      body.home .faq .panel-group .panel .panel-heading, body.page-template-home-page-b-nov-11 .faq .panel-group .panel .panel-heading {
         padding: 4px 8px; }
-        body.home .faq .panel-group .panel .panel-heading .panel-title a {
+        body.home .faq .panel-group .panel .panel-heading .panel-title a, body.page-template-home-page-b-nov-11 .faq .panel-group .panel .panel-heading .panel-title a {
           font-size: 14px; }
-          body.home .faq .panel-group .panel .panel-heading .panel-title a .glyphicon {
+          body.home .faq .panel-group .panel .panel-heading .panel-title a .glyphicon, body.page-template-home-page-b-nov-11 .faq .panel-group .panel .panel-heading .panel-title a .glyphicon {
             margin-right: 0;
             font-size: 9px;
             top: -1px; }
-  body.home .faq .btn-default {
+  body.home .faq .btn-default, body.page-template-home-page-b-nov-11 .faq .btn-default {
     font-size: 14px;
     width: 100%; }
 

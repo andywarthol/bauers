@@ -110,10 +110,10 @@
 								<nav class="telephone">
 									<ul class="nav navbar-nav">
 										<li class="hidden-xs">
-											Get a Free Quote: <em>1-877-486-6688</em>
+											Receive a Free Quote: <em>(877) 486-6688</em>
 										</li>
 										<li class="visible-xs">
-											Get a Free Quote: <em><a href="tel:1-877-486-6688">1-877-486-6688</a></em>
+											Receive a Free Quote: <em><a href="tel:1-877-486-6688">(877) 486-6688</a></em>
 										</li>
 									</ul>
 								</nav>

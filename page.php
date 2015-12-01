@@ -64,6 +64,11 @@
 			$("#service option[id='major']").attr("selected", "selected");
 		}*/
 
+		$('.gallery .toggle').click(function(){
+			var url = $(this).attr('src');
+			$('.gallery .stage img').attr('src', url).hide().fadeIn();
+		});
+
 	}); 
 </script>
 

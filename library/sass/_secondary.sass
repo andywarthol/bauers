@@ -74,13 +74,15 @@ body.single-post
 					display: none
 				> a
 					font-weight: bold
-			&.current_page_ancestor
+			&.current-page-ancestor
+				.sub-menu
+					display: block
 				.glyphicon-minus
 					display: inline-block
 				.glyphicon-plus
 					display: none
 				> a
-					font-weight: normal
+					font-weight: bold
 			// Grand children menu items
 			.sub-menu
 				margin: 0 0 10px
@@ -411,3 +413,37 @@ section
 #longQuote
 	#tfa_1-L
 		display: none
+
+// Full-width img gallery
+.gallery
+	padding: 0 0 2em 0
+	.stage
+		text-align: center
+		height: 407px
+		img
+			display: inline-block
+			width: 80%
+			height: auto
+			margin-bottom: 20px
+	.thumbs
+		padding: 10px
+		.col-sm-3
+			cursor: pointer
+			&:hover
+				cursor: pointer
+				img
+					opacity: .8
+					border-color: #dadada
+				h3
+					color: $blue
+		img
+			margin: 0 0 10px
+			cursor: pointer
+		h3
+			font-weight: bold
+			text-align: center
+			font-size: 14px
+			margin: 0
+			padding: 0
+		br, p
+			display: none

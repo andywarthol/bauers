@@ -35,10 +35,10 @@ Template Name: Home Page
 											<option value="Special Event">Event Transportation (5,000+)</option>
 										</select>
 									</div>
-									<div class="form-group" id="name_of_event" style="display: none">
+									<div class="form-group reveal" id="name_of_event" style="display: none">
 										<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
 									</div>
-									<div class="form-group row">
+									<div class="form-group reveal row" style="display: none">
 										<div class="col-sm-6 left">
 											<input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control" required="">
 										</div>
@@ -46,16 +46,16 @@ Template Name: Home Page
 											<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
 										</div>
 									</div>
-									<div class="form-group">
+									<div class="form-group reveal" style="display: none">
 										<input type="email" class="form-control" id="email" name="email" placeholder="Email address" required="">
 									</div>
-									<div class="form-group">
+									<div class="form-group reveal" style="display: none">
 										<input type="tel" class="form-control phoneUS" id="phone" name="phone" placeholder="Phone number" required="" minlength="14">
 									</div>
-									<div class="form-group">
+									<div class="form-group reveal" style="display: none">
 										<input type="text" class="form-control" id="company" name="company" placeholder="Company name">
 									</div>
-									<div class="form-group row supplementary">
+									<div class="form-group reveal row supplementary" style="display: none">
 										<div class="col-sm-6 left">
 											<span class="dateInput"><input type="text" id="sf_PickUpDate__c" name="PickUpDate__c" placeholder="Pick up date" class="pickup_date form-control" required="" value=""></span>
 										</div>
@@ -89,7 +89,7 @@ Template Name: Home Page
 											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">-->
 										</div>
 									</div>
-									<div class="form-group">
+									<div class="form-group reveal" style="display: none">
 										<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 									</div>
 								</fieldset>
@@ -398,6 +398,9 @@ Template Name: Home Page
 
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
+
+		// Datepicker functionlality
+		$('.pickup_date').datepicker();
 
 		// Smooth Scroll Functionality
 		$('.scroll, .scroll a').smoothScroll({

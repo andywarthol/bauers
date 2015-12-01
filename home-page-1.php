@@ -5,46 +5,44 @@ Template Name: Home Page v1
 ?>
 
 <?php get_header(); ?>
-
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-11 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-6 col-md-7 col-lg-7 orientation">
-						<h1><?php the_field('hero_headline'); ?></h1>
-						<h2 class=""><?php the_field('hero_subhead'); ?></h2>
+						<?php /*<h1><?php the_field('hero_headline'); ?></h1>
+						<h2 class=""><?php the_field('hero_subhead'); ?></h2>*/ ?>
+						<h1>Professional Transportation <br class="hidden-xs"> for Any Occasion</h1>
+						<h2 class="hidden-xs">With over 26 years experience, Bauer’s IT delivers impeccable ground transportation solutions &amp; service - for every occasion, of any size or scope. Moving 6 Million passengers a year, learn more about the most trusted name in ground transportation.</h2>
 						
 						<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 					<div class="col-sm-6 col-md-5 col-lg-5">
-						<div class="card quick-quote">
+						<div class="card quick-quote collapsed">
 							<?php /*echo do_shortcode('[salesforce form="1"]'); */?>
 							<form id="intake" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
-								<legend>Get a Quote<small class="hidden-sm hidden-xs">More details? Please use the <a href="request-for-proposal">RFP Form</a>.</small></legend>
+								<legend>Get a Quote<small class="hidden-sm hidden-xs">As low as $2.38 per person / hour.</small></legend>
 								<fieldset>
-									<input type="hidden" name="debug" value="1">
-									<input type="hidden" name="debugEmail" value="ckwak@bauersit.com">
+									<!--<input type="hidden" name="debug" value="1">-->
+									<!--<input type="hidden" name="debugEmail" value="ckwak@bauersit.com">-->
 									<div class="form-group">
 										<select name="00NE0000000cAF6" id="service" class="form-control active" required="" aria-required="true">
-											<option value="">Which service would you like?</option>
-											<option value="">----------------</option>
+											<option value="">Click Here to Select a Bauer's Service</option>
 											<option value="Charter">Airport &amp; Black Car Service</option>
 											<option value="Charter">Bus Charters</option>
 											<option value="Charter">Group Events</option>
 											<option value="Charter">Corporate Rentals</option>
 											<option value="Charter">Team Building Events</option>
-											<option value="">----------------</option>
 											<option value="Transit">Shuttle Program</option>
 											<option value="Transit">Company Commuter Shuttles</option>
-											<option value="">----------------</option>
 											<option value="Special Event">Major Event Transportation (1,000+)</option>
 										</select>
 									</div>
-									<div class="form-group" id="name_of_event" style="display: none">
+									<div class="form-group event" id="name_of_event" style="display: none">
 										<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
 									</div>
-									<div class="form-group row">
+									<div class="form-group row charter shuttle event" style="display: none">
 										<div class="col-sm-6 left">
 											<input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control" required="">
 										</div>
@@ -52,16 +50,16 @@ Template Name: Home Page v1
 											<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
 										</div>
 									</div>
-									<div class="form-group">
+									<div class="form-group charter shuttle event" style="display: none">
 										<input type="email" class="form-control" id="email" name="email" placeholder="Email address" required="">
 									</div>
-									<div class="form-group">
+									<div class="form-group charter shuttle event" style="display: none">
 										<input type="tel" class="form-control phoneUS" id="phone" name="phone" placeholder="Phone number" required="" minlength="14">
 									</div>
-									<div class="form-group">
+									<div class="form-group charter shuttle event" style="display: none">
 										<input type="text" class="form-control" id="company" name="company" placeholder="Company name">
 									</div>
-									<div class="form-group row supplementary">
+									<div class="form-group charter event row supplementary" style="display: none">
 										<div class="col-sm-6 left">
 											<span class="dateInput"><input type="text" id="sf_PickUpDate__c" name="PickUpDate__c" placeholder="Pick up date" class="pickup_date form-control" required="" value=""></span>
 										</div>
@@ -95,7 +93,7 @@ Template Name: Home Page v1
 											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">-->
 										</div>
 									</div>
-									<div class="form-group">
+									<div class="form-group charter shuttle event" style="display: none">
 										<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 									</div>
 								</fieldset>
@@ -118,27 +116,32 @@ Template Name: Home Page v1
 		<div class="row">
 			<div class="bucket">
 				<h3>
-					<a href="bus-charters/">Bus Charters &amp; <br/>Group Events</a>
+					<a href="<?php bloginfo('url'); ?>/bus-charters/">Bus Charters &amp; <br/>Group Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/corporate-commuter/">Shuttle Service &amp;<br>Commuter Programs</a>
+					<a href="<?php bloginfo('url'); ?>/commuter-bus-programs">Shuttle Service &amp;<br>Commuter Programs</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/bus-charters/corporate-rentals/">Corporate Rentals &amp;<br>Team Building Events</a>
+					<a href="<?php bloginfo('url'); ?>/bus-charters/corporate-bus-rentals">Corporate Rentals &amp;<br>Team Building Events</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/bus-charters/airport-transfers/">Airport &amp; Black <br>Car Service</a>
+					<a href="<?php bloginfo('url'); ?>/bus-charters/airport-transfers/">Airport &amp; Black <br>Car Service</a>
 				</h3>
 			</div>
 			<div class="bucket">
 				<h3>
-					<a href="our-services/event-transportation/"><span class="hide-sm">Major</span> Event <br class="hidden-sm hidden-xs"/>Logistics &amp; Transportation</a>
+					<a href="<?php bloginfo('url'); ?>/our-services/event-transportation/"><span class="hide-sm">Major</span> Event <br class="hidden-sm hidden-xs"/>Logistics &amp; Transportation</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="http://eventlm.com" target="_blank">Get2theEvent.com <br>Fan Transportation</a>
 				</h3>
 			</div>
 		</div>
@@ -490,38 +493,46 @@ Template Name: Home Page v1
 		}
 		
 
-		$('#service').bind('change', function(){
-			if( $(this).val() !== "" ){
-				$(this).addClass('valid').removeClass('hot');
-			} else {
-				$(this).removeClass('valid');
-			}
-		});
+		// $('#service').bind('change', function(){
+		// 	if( $(this).val() !== "" ){
+		// 		$(this).addClass('valid').removeClass('hot');
+		// 	} else {
+		// 		$(this).removeClass('valid');
+		// 	}
+		// });
+
+		// Date picker functionality
+		$('.pickup_date').datepicker();
 
 		// Quick Quote Form Field Functionality
-		$('#service').change(function(){
+		$('#service').bind('change', function(){
 			if ( $(this).val() == "Charter" ){
-				$('#name_of_event').hide();
-				$('.supplementary').fadeIn();
+				$('.hero .card').removeClass('collapsed');
+				$('.form-group.charter').show();
+				$('.pickup_date').datepicker();
 				$('#company').removeAttr('required');
 			} else if ( $(this).val() == "Transit" ){
+				$('.form-group.shuttle').show();
 				$('.supplementary').fadeOut();
 				$('#name_of_event').fadeOut();
 				$('#company').attr('required', '');
 			} else if ( $(this).val() == "Special Event" ){
+				$('.form-group.event').show();
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
 				$('#company').removeAttr('required');
 			}
 		});
 
-		$('#service').change(function(){
-			if ( $(this).val() == "" ){
-				$(this).addClass('active');
-			} else {
-				$(this).removeClass('active');
-			}
-		});
+		// $('#service').change(function(){
+		// 	if ( $(this).val() == "" ){
+		// 		$(this).addClass('active');
+		// 	} else {
+		// 		$('.card').removeClass('collapsed');
+		// 		$('.reveal').show();
+		// 		$(this).removeClass('active');
+		// 	}
+		// });
 
 		jQuery.validator.addMethod("phoneUS", function(value, element) {
 			// allow any non-whitespace characters as the host part
