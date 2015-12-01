@@ -154,10 +154,16 @@ form.intake-form .form-group {
     form.intake-form .form-group .col-sm-6.right label.error {
       right: 15px; }
 
+.bootstrap-select.active .dropdown-toggle {
+  background: white;
+  border: none;
+  line-height: 2;
+  outline: none; }
 .bootstrap-select .dropdown-toggle:active, .bootstrap-select .dropdown-toggle.focus {
   background: white;
   border: none;
-  line-height: 2; }
+  line-height: 2;
+  outline: none; }
 
 .img-thumbnail {
   border-radius: 2px;
