@@ -316,6 +316,11 @@ body.home .hero, body.page-template-home-page-b-nov-11 .hero, body.page-template
     font-weight: normal;
     font-size: 21px;
     line-height: 1.4; }
+  body.home .hero .bootstrap-select.active .dropdown-menu, body.home .hero .bootstrap-select:hover .dropdown-menu, body.home .hero .bootstrap-select:focus .dropdown-menu, body.page-template-home-page-b-nov-11 .hero .bootstrap-select.active .dropdown-menu, body.page-template-home-page-b-nov-11 .hero .bootstrap-select:hover .dropdown-menu, body.page-template-home-page-b-nov-11 .hero .bootstrap-select:focus .dropdown-menu, body.page-template-home-page-b-nov-17 .hero .bootstrap-select.active .dropdown-menu, body.page-template-home-page-b-nov-17 .hero .bootstrap-select:hover .dropdown-menu, body.page-template-home-page-b-nov-17 .hero .bootstrap-select:focus .dropdown-menu {
+    background: white;
+    border: none;
+    line-height: 2;
+    outline: none; }
   body.home .hero .bootstrap-select .dropdown-menu li, body.page-template-home-page-b-nov-11 .hero .bootstrap-select .dropdown-menu li, body.page-template-home-page-b-nov-17 .hero .bootstrap-select .dropdown-menu li {
     text-shadow: none;
     padding: 0;
