@@ -306,6 +306,8 @@ body.home .hero, body.page-template-home-page-b-nov-11 .hero, body.page-template
   background-size: cover;
   height: 520px;
   max-height: 520px; }
+  body.home .hero form select, body.page-template-home-page-b-nov-11 .hero form select, body.page-template-home-page-b-nov-17 .hero form select {
+    -moz-appearance: none; }
   body.home .hero h1, body.page-template-home-page-b-nov-11 .hero h1, body.page-template-home-page-b-nov-17 .hero h1 {
     text-align: left;
     font-weight: bold;
