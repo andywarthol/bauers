@@ -103,7 +103,7 @@
 	</div>
 </div>
 <?php endif; ?>
-
+<script src="<?php bloginfo('template_directory'); ?>/library/js/bootstrap-select.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
 		
@@ -142,6 +142,8 @@
 		$('#intake_form').validate();
 
 		$('#service').selectpicker();
+
+		$('#00NE0000000cAFG').datepicker();
 	
 	});
 </script>

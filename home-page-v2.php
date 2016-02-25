@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Home Page B - Nov 17
+Template Name: Home Page v2
 */
 ?>
 
@@ -13,17 +13,19 @@ Template Name: Home Page B - Nov 17
 				<div class="row">
 					<div class="col-sm-6 col-md-7 col-lg-7 orientation">
 						<h1>Professional Transportation <br class="hidden-xs"> for Any Occasion</h1>
-						<h2 class="hidden-xs">With over 26 years experience, Bauer’s IT delivers impeccable ground transportation solutions &amp; service - for every occasion, of any size or scope. Moving 6 Million passengers a year, learn more about the most trusted name in ground transportation.</h2>
-						<?php /*<h1><?php the_field('hero_headline'); ?></h1>
-						<h2 class=""><?php the_field('hero_subhead'); ?></h2>*/ ?>
-						
+						<!-- <h2 class="hidden-xs">With over 26 years experience, Bauer’s IT delivers impeccable ground transportation solutions &amp; service - for every occasion, of any size or scope. Moving 6 Million passengers a year, learn more about the most trusted name in ground transportation.</h2> -->
+						<?php /*<h1><?php the_field('hero_headline'); ?></h1>*/ ?>
+						<h2 class="hidden-xs"><?php the_field('hero_subhead'); ?></h2>
+						<ul class="features">
+							<?php the_field('hero_bullets'); ?>
+						</ul>
 						<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 					<div class="col-sm-6 col-md-5 col-lg-5">
 						<div class="card quick-quote">
 							<?php /*echo do_shortcode('[salesforce form="1"]'); */?>
 							<form id="intake" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
-								<legend>Get a Quote<small class="hidden-sm hidden-xs">More details? Visit our <a href="request-for-proposal">RFP Form</a>.</small></legend>
+								<legend>Get a Quote</legend>
 								<fieldset>
 									<!--<input type="hidden" name="debug" value="1">-->
 									<!--<input type="hidden" name="debugEmail" value="marketing@bauersit.com">-->
@@ -118,32 +120,32 @@ Template Name: Home Page B - Nov 17
 			</div>
 		</div> -->
 		<div class="row">
-			<div class="bucket">
+			<div class="bucket col-xs-6">
 				<h3>
 					<a href="<?php bloginfo('url'); ?>/bus-charters/">Bus Charters &amp; <br/>Group Events</a>
 				</h3>
 			</div>
-			<div class="bucket">
+			<div class="bucket col-xs-6">
 				<h3>
 					<a href="<?php bloginfo('url'); ?>/commuter-bus-programs">Shuttle Service &amp;<br>Commuter Programs</a>
 				</h3>
 			</div>
-			<div class="bucket">
+			<div class="bucket col-xs-6">
 				<h3>
 					<a href="<?php bloginfo('url'); ?>/bus-charters/corporate-bus-rentals">Corporate Rentals &amp;<br>Team Building Events</a>
 				</h3>
 			</div>
-			<div class="bucket">
+			<div class="bucket col-xs-6">
 				<h3>
 					<a href="<?php bloginfo('url'); ?>/bus-charters/airport-transfers/">Airport &amp; Black <br>Car Service</a>
 				</h3>
 			</div>
-			<div class="bucket">
+			<div class="bucket col-xs-6">
 				<h3>
 					<a href="<?php bloginfo('url'); ?>/our-services/event-transportation/"><span class="hide-sm">Major</span> Event <br class="hidden-sm hidden-xs"/>Transportation</a>
 				</h3>
 			</div>
-			<div class="bucket">
+			<div class="bucket col-xs-6">
 				<h3>
 					<a href="http://eventlm.com" target="_blank">Get2theEvent.com <br>Fan Transportation</a>
 				</h3>
@@ -311,6 +313,66 @@ Template Name: Home Page B - Nov 17
 		</div>
 	</div>
 </section>
+<section class="vehicles">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Explore Our Luxury Vehicles</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 text-center">
+						
+							<a href="?p=403"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-motor-coach.jpg" alt=""></a>
+							
+								<h2>Executive Motor Coaches</h2>
+								<p>Perfect for large, private and corporate groups. <br class="hidden-xs"/>Seats 52 to 56 people. <a href="?p=902">Learn more &raquo;</a></p>
+							
+						
+					</div>
+					<div class="col-sm-6 text-center">
+						
+							<img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-shuttle.jpg" alt="">
+							
+								<h2>Executive Shuttles</h2>
+								<p>A commuter favorite for executive travel. <br class="hidden-xs"/>Perfect for 22 to 44 people. <a href="?p=926">Learn more &raquo;</a></p>
+							
+						
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-sm-6 text-center">
+						
+							<img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-van.jpg" alt="">
+							
+								<h2>Executive Vans</h2>
+								<p>Great for extra storage and extra leg room.  <br class="hidden-xs"/>Seats up to 14 passengers. <a href="?p=1112">Learn more &raquo;</a></p>
+							
+						
+					</div>
+					<div class="col-sm-6 text-center">
+						
+							<img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-sedan.jpg" alt="">
+							
+								<h2>Executive Sedans</h2>
+								<p>Get across town in one of our premium luxury sedans. <br class="hidden-xs"/>Perfect for 4 to 6 passengers. <a href="?p=930">Learn more &raquo;</a></p>
+							
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="testimonials light" id="testimonials">
 	<div class="container">
 		<div class="row">
@@ -337,67 +399,7 @@ Template Name: Home Page B - Nov 17
 		</div>
 	</div>
 </section>
-<section class="benefits">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1>We take care of everything</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/ride-in-style.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Ride in Style</h2>
-								<p>Bauer’s offers an impressive fleet of sustainable luxury vehicles equipped with all the latest features and amenities for private or corporate events.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/get-comfortable.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Get Comfortable</h2>
-								<p>Sit back and relax into leatherette seating and enjoy our customized first-class interiors.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<hr class="hidden-xs hidden-sm"/>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/stay-connected.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Stay Connected</h2>
-								<p>With WI-FI on board and power ports throughout the vehicles, you can keep up with your deadlines (or stock quotes).</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/go-green.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Go Green</h2>
-								<p>Stay comfortable and comply with anti-idling laws with our green bus rentals and hybrids.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
-		<div class="row">
-			<div class="col-sm-12 text-center">
-				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="faq light">
+<section class="faq">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -437,7 +439,7 @@ Template Name: Home Page B - Nov 17
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center"><a href="#hero" class="btn btn-lg btn-default signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+				<p class="text-center"><a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 			</div>
 		</div>
 	</div>
@@ -544,10 +546,15 @@ Template Name: Home Page B - Nov 17
 		$.extend($.inputmask.defaults, {
 			'placeholder': " "
 		});
-		$('input[type="tel"]').inputmask("(999) 999-9999");
+		
+		$('input[type="tel"]').focus(function(){
+			$('input[type="tel"]').inputmask("(999) 999-9999");
+		});
 
 		// Restrict input to numbers only
-		$('#passenger_count').inputmask("9999");
+		$('#passenger_count').focus(function(){
+			$('#passenger_count').inputmask("9999");
+		});
 
 		// Form Validation
 		$('#intake').validate();

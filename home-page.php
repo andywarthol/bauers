@@ -4,41 +4,51 @@ Template Name: Home Page
 */
 ?>
 
-<?php get_header(); ?>	
-
+<?php get_header(); ?>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/bootstrap-select.css">
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-11 col-lg-offset-1">
 				<div class="row">
-					<div class="col-sm-6 col-lg-7 orientation">
-						<h1><?php the_field('hero_headline'); ?></h1>
+					<div class="col-sm-6 col-md-7 col-lg-7 orientation">
+						<h1>Professional Transportation <br class="hidden-xs"> for Any Occasion</h1>
+						<!-- <h2 class="hidden-xs">With over 26 years experience, Bauer’s IT delivers impeccable ground transportation solutions &amp; service - for every occasion, of any size or scope. Moving 6 Million passengers a year, learn more about the most trusted name in ground transportation.</h2> -->
+						<?php /*<h1><?php the_field('hero_headline'); ?></h1>*/ ?>
 						<h2 class="hidden-xs"><?php the_field('hero_subhead'); ?></h2>
-						<ul>
+						<ul class="features">
 							<?php the_field('hero_bullets'); ?>
 						</ul>
 						<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
-					<div class="col-sm-6 col-lg-5">
+					<div class="col-sm-6 col-md-5 col-lg-5">
 						<div class="card quick-quote">
 							<?php /*echo do_shortcode('[salesforce form="1"]'); */?>
 							<form id="intake" class="intake-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
-								<legend>Get a Quote<small>More details? Please use the <a href="request-for-proposal">RFP Form</a>.</small></legend>
+								<legend>Get a Quote</legend>
 								<fieldset>
-									<input type="hidden" name="debug" value="1">
-									<input type="hidden" name="debugEmail" value="ckwak@bauersit.com">
+									<!--<input type="hidden" name="debug" value="1">-->
+									<!--<input type="hidden" name="debugEmail" value="marketing@bauersit.com">-->
 									<div class="form-group">
-										<select name="00NE0000000cAF6" id="service" class="form-control" required="">
+										<select name="00NE0000000cAF6" id="service" class="form-control selectpicker active" required="" aria-required="true">
 											<option value="">Which service would you like?</option>
-											<option value="Charter">Charter (4 or More Passengers)</option>
-											<option value="Transit">Company Commuter Shuttles</option>
-											<option value="Special Event">Event Transportation (5,000+)</option>
+											<optgroup label="Single &amp; Group Rentals">
+									     <option value="Charter">Airport &amp; Black Car Service</option>
+												<option value="Charter">Private Group Rentals</option>
+												<option value="Charter">Company Group Rentals</option>
+												<option value="Charter">Team Building Events</option>
+									    </optgroup>
+									    <optgroup label="Scheduled Shuttle Programs">
+									      <option value="Transit">Last Mile Shuttle</option>
+												<option value="Transit">Company Commuter Bus</option>
+									    </optgroup>
+											<option value="Special Event">Major Event Transportation (1,000+)</option>
 										</select>
 									</div>
-									<div class="form-group reveal" id="name_of_event" style="display: none">
+									<div class="form-group" id="name_of_event" style="display: none">
 										<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
 									</div>
-									<div class="form-group reveal row" style="display: none">
+									<div class="form-group row">
 										<div class="col-sm-6 left">
 											<input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control" required="">
 										</div>
@@ -46,16 +56,16 @@ Template Name: Home Page
 											<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
 										</div>
 									</div>
-									<div class="form-group reveal" style="display: none">
+									<div class="form-group">
 										<input type="email" class="form-control" id="email" name="email" placeholder="Email address" required="">
 									</div>
-									<div class="form-group reveal" style="display: none">
+									<div class="form-group">
 										<input type="tel" class="form-control phoneUS" id="phone" name="phone" placeholder="Phone number" required="" minlength="14">
 									</div>
-									<div class="form-group reveal" style="display: none">
+									<div class="form-group">
 										<input type="text" class="form-control" id="company" name="company" placeholder="Company name">
 									</div>
-									<div class="form-group reveal row supplementary" style="display: none">
+									<div class="form-group row supplementary">
 										<div class="col-sm-6 left">
 											<span class="dateInput"><input type="text" id="sf_PickUpDate__c" name="PickUpDate__c" placeholder="Pick up date" class="pickup_date form-control" required="" value=""></span>
 										</div>
@@ -89,7 +99,7 @@ Template Name: Home Page
 											<input type="hidden" name="debugEmail" value="andy.roiworks@gmail.com">-->
 										</div>
 									</div>
-									<div class="form-group reveal" style="display: none">
+									<div class="form-group">
 										<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 									</div>
 								</fieldset>
@@ -102,19 +112,43 @@ Template Name: Home Page
 		<!-- <a class="down-arrow scroll" href="#services"></a> -->
 	</div>
 </section>
-<section class="logos lightGrey">
+<section class="services">
 	<div class="container">
+		<!-- <div class="row">
+			<div class="col-sm-12">
+				<h2>Our Services</h2>
+			</div>
+		</div> -->
 		<div class="row">
-			<div class="col-lg-2 col-lg-offset-1 clients text-center">Our Clients:</div>
-			<div class="col-lg-8">
-				<div class="row">
-					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
-				</div>
+			<div class="bucket">
+				<h3>
+					<a href="<?php bloginfo('url'); ?>/bus-charters/">Bus Charters &amp; <br/>Group Events</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="<?php bloginfo('url'); ?>/commuter-bus-programs">Shuttle Service &amp;<br>Commuter Programs</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="<?php bloginfo('url'); ?>/bus-charters/corporate-bus-rentals">Corporate Rentals &amp;<br>Team Building Events</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="<?php bloginfo('url'); ?>/bus-charters/airport-transfers/">Airport &amp; Black <br>Car Service</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="<?php bloginfo('url'); ?>/our-services/event-transportation/"><span class="hide-sm">Major</span> Event <br class="hidden-sm hidden-xs"/>Transportation</a>
+				</h3>
+			</div>
+			<div class="bucket">
+				<h3>
+					<a href="http://eventlm.com" target="_blank">Get2theEvent.com <br>Fan Transportation</a>
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -262,6 +296,83 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
+<section class="logos lightGrey">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-1 clients text-center">Our Clients:</div>
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="vehicles">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Explore Our Luxury Vehicles</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 text-center">
+						
+							<a href="?p=403"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-motor-coach.jpg" alt=""></a>
+							
+								<h2>Executive Motor Coaches</h2>
+								<p>Perfect for big groups and over the road travel. <br class="hidden-xs"/>Seats 52 to 56 people. <?php /*<a href="?p=403">Learn more &raquo;</a></p> */ ?>
+							
+						
+					</div>
+					<div class="col-sm-6 text-center">
+						
+							<img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-shuttle.jpg" alt="">
+							
+								<h2>Executive Shuttles</h2>
+								<p>A commuter favorite for executive travel. <br class="hidden-xs"/>Perfect for 22 to 44 people. <?php /*<a href="?p=710">Learn more &raquo;</a></p> */ ?>
+							
+						
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-sm-6 text-center">
+						
+							<img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-van.jpg" alt="">
+							
+								<h2>Executive Vans</h2>
+								<p>Great for extra storage and extra leg room.  <br class="hidden-xs"/>Seats up to 14 passengers. <?php /*<a href="?p=754">Learn more &raquo;</a></p> */ ?>
+							
+						
+					</div>
+					<div class="col-sm-6 text-center">
+						
+							<img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/executive-sedan.jpg" alt="">
+							
+								<h2>Executive Sedans</h2>
+								<p>Get across town in one of our premium luxury sedans. <br class="hidden-xs"/>Perfect for 4 to 6 passengers. <?php /*<a href="?p=718">Learn more &raquo;</a></p> */ ?>
+							
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="testimonials light" id="testimonials">
 	<div class="container">
 		<div class="row">
@@ -288,67 +399,7 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-<section class="benefits">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1>We take care of everything</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/ride-in-style.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Ride in Style</h2>
-								<p>Bauer’s offers an impressive fleet of sustainable luxury vehicles equipped with all the latest features and amenities for private or corporate events.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/get-comfortable.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Get Comfortable</h2>
-								<p>Sit back and relax into leatherette seating and enjoy our customized first-class interiors.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<hr class="hidden-xs hidden-sm"/>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/stay-connected.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Stay Connected</h2>
-								<p>With WI-FI on board and power ports throughout the vehicles, you can keep up with your deadlines (or stock quotes).</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/go-green.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
-								<h2>Go Green</h2>
-								<p>Stay comfortable and comply with anti-idling laws with our green bus rentals and hybrids.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
-		<div class="row">
-			<div class="col-sm-12 text-center">
-				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="faq light">
+<section class="faq">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -388,19 +439,16 @@ Template Name: Home Page
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center"><a href="#hero" class="btn btn-lg btn-default signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+				<p class="text-center"><a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 			</div>
 		</div>
 	</div>
 </section>
+<script src="<?php bloginfo('template_directory'); ?>/library/js/bootstrap-select.min.js"></script>
 <script>
 	jQuery(document).ready(function($){
-
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
-
-		// Datepicker functionlality
-		$('.pickup_date').datepicker();
 
 		// Smooth Scroll Functionality
 		$('.scroll, .scroll a').smoothScroll({
@@ -450,6 +498,9 @@ Template Name: Home Page
 			});
 
 		}
+
+		// Date picker functionality
+		$('.pickup_date').datepicker();
 		
 
 		$('#service').bind('change', function(){
@@ -466,6 +517,7 @@ Template Name: Home Page
 				$('#name_of_event').hide();
 				$('.supplementary').fadeIn();
 				$('#company').removeAttr('required');
+				$('.pickup_date').datepicker();
 			} else if ( $(this).val() == "Transit" ){
 				$('.supplementary').fadeOut();
 				$('#name_of_event').fadeOut();
@@ -473,10 +525,17 @@ Template Name: Home Page
 			} else if ( $(this).val() == "Special Event" ){
 				$('.supplementary').hide();
 				$('#name_of_event').fadeIn();
-				$('#company').attr('required', '');
+				$('#company').removeAttr('required');
 			}
 		});
 
+		$('#service').change(function(){
+			if ( $(this).val() == "" ){
+				$(this).addClass('active');
+			} else {
+				$(this).removeClass('active');
+			}
+		});
 
 		jQuery.validator.addMethod("phoneUS", function(value, element) {
 			// allow any non-whitespace characters as the host part
@@ -494,6 +553,8 @@ Template Name: Home Page
 
 		// Form Validation
 		$('#intake').validate();
+
+		$('#intake select').selectpicker();
 
 	});
 </script>

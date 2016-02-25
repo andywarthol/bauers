@@ -5,7 +5,7 @@ Template Name: Our Fleet
 ?>
 <?php get_header(); ?>
 
-<section class="standard">
+<section class="standard vehicles">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -25,7 +25,7 @@ Template Name: Our Fleet
 									</header>
 									<?php /*the_content();*/ ?>
 									<h2>Select Your Perfect Bauer’s IT Vehicle</h2>
-									<p>Bauer’s Intelligent Transportation offers an impressive fleet of sustainable luxury vehicles equipped with all the latest features and amenities for private or corporate events.  Choose from our selection of premier limousines, luxury sedans, shuttle buses, and motor coaches to travel to your destination in style. Impeccably maintained and thoroughly detailed, our vehicle fleet represents only the finest in San Francisco transportation.</p>
+									
 									<div id="slider" class="carousel slide" data-ride="carousel" data-interval="false">
 										<ol class="carousel-indicators">
 											<li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -39,7 +39,7 @@ Template Name: Our Fleet
 												<div class="container">
 													<div class="carousel-caption">
 														<h1>Executive Motor Coaches</h1>
-														<p>Perfect for big groups and seats from 41 to 61 people.<br/><a href="#">View motor coach gallery &raquo;</a></p>
+														<p>Perfect for big groups and over the road travel- seats 52 to 56 people.<br/><a href="?p=403">View motor coach gallery &raquo;</a></p>
 													</div>
 												</div>
 											</div>
@@ -47,8 +47,8 @@ Template Name: Our Fleet
 												<img src="<?php bloginfo('template_directory'); ?>/library/images/shuttle-lg.jpg">
 												<div class="container">
 													<div class="carousel-caption">
-														<h1>Shuttle Busses</h1>
-														<p>Our luxury shuttles accommodate smaller groups – around 22 to 32 people.<br/><a href="#">View shuttle bus gallery &raquo;</a></p>
+														<h1>Executive Shuttles</h1>
+														<p>A commuter favorite for executive travel, accommodates 22 to 44 people.<br/><a href="?p=710">View shuttle bus gallery &raquo;</a></p>
 													</div>
 												</div>
 											</div>
@@ -56,8 +56,8 @@ Template Name: Our Fleet
 												<img src="<?php bloginfo('template_directory'); ?>/library/images/sprinter-lg.jpg">
 												<div class="container">
 													<div class="carousel-caption">
-														<h1>Sprinters</h1>
-														<p>Our executive sprinter vans accommodate groups of up to 14 passengers.<br/><a href="#">View sprinter allery &raquo;</a></p>
+														<h1>Executive Vans</h1>
+														<p>For extra storage and extra leg room, select one of Bauer's sleek vans.<br/><a href="?p=754">View sprinter allery &raquo;</a></p>
 													</div>
 												</div>
 											</div>
@@ -65,8 +65,8 @@ Template Name: Our Fleet
 												<img src="<?php bloginfo('template_directory'); ?>/library/images/sedan-lg.jpg">
 												<div class="container">
 													<div class="carousel-caption">
-														<h1>Luxury Sedans</h1>
-														<p>From limousines to SUVs to classic sedans, great for groups 4 or less.<br/><a href="#">View luxury sedan gallery &raquo;</a></p>
+														<h1>Executive Sedans</h1>
+														<p>Get across town or to downtown in our premium electric &amp; hybrid vehicles.<br/><a href="?p=718">View luxury sedan gallery &raquo;</a></p>
 													</div>
 												</div>
 											</div>
@@ -74,6 +74,24 @@ Template Name: Our Fleet
 										<a class="left carousel-control" href="#slider" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 										<a class="right carousel-control" href="#slider" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 									</div>
+
+									<p>Bauer’s Intelligent Transportation offers an impressive fleet of sustainable luxury vehicles equipped with all the latest features and amenities for private or corporate events.  Choose from our selection of premier limousines, luxury sedans, shuttle buses, and motor coaches to travel to your destination in style. Impeccably maintained and thoroughly detailed, our vehicle fleet represents only the finest in San Francisco transportation.</p>
+
+									<h2>Eco-Friendly Rentals</h2>
+									<p>As part of our selection of executive charter vehicles, we also provide clients with the option of alternative fuel, bus rentals and the option of selecting a hybrid vehicle for your next trip. Passengers now have the choice to enjoy their journey comfortably while supporting the reduction of on-the-road emissions to create a more eco-friendly ride.</p>
+									<h2>Luxury Amenities</h2>
+									<p>Our select vehicles features a variety of luxury amenities for you to ride in style &amp; comfort.</p>
+									<p>We offer a wide range of premium amenities, including, but not limited to, Wi-Fi networks, entertainment systems and power outlets.  The amenities depicted are not necessarily standard features provided for your charter vehicle.  Provide any additional requests for amenities to your Bauer's representative (including Wi-Fi).</p>
+									<ul>
+										<li><strong>State-of-the-art clean air vehicles</strong></li>
+										<li><strong>Signature "Bauer's IT" finish with first-class interiors</strong></li>
+										<li><strong>CD and DVD high-end stereo media system</strong></li>
+										<li><strong>WI-FI on-board</strong></li>
+										<li><strong>Leatherette seating</strong></li>
+										<li><strong>Multiple flat screen LCD monitors</strong></li>
+										<li><strong>Power ports throughout the vehicles</strong></li>
+										<li><strong>Tables and airline tray tables</strong></li>
+									</ul>
 								</article> <!-- end article -->
 							</div>
 						</div>
